@@ -1,0 +1,297 @@
+/* ==========================================================================
+   Typography dir= scss/base/typography
+   ========================================================================== */
+
+/* ============
+   Variables
+   ============= */
+
+   $baseline: 1em;
+
+
+@font-face {
+    font-family: 'GoudyItalic';
+    src: url('webfonts/oflgoudystm-italic-webfont.eot');
+    src: url('webfonts/oflgoudystm-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/oflgoudystm-italic-webfont.woff') format('woff'),
+         url('webfonts/oflgoudystm-italic-webfont.ttf') format('truetype'),
+         url('webfonts/oflgoudystm-italic-webfont.svg#ofl_sorts_mill_goudyitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GoudyRegular';
+    src: url('webfonts/oflgoudystm-webfont.eot');
+    src: url('webfonts/oflgoudystm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/oflgoudystm-webfont.woff') format('woff'),
+         url('webfonts/oflgoudystm-webfont.ttf') format('truetype'),
+         url('webfonts/oflgoudystm-webfont.svg#ofl_sorts_mill_goudyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_grotesque_bolditalic';
+    src: url('webfonts/brandon_bld_it-webfont.eot');
+    src: url('webfonts/brandon_bld_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/brandon_bld_it-webfont.woff') format('woff'),
+         url('webfonts/brandon_bld_it-webfont.ttf') format('truetype'),
+         url('webfonts/brandon_bld_it-webfont.svg#brandon_grotesque_bolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'brandon_grotesque_boldregular';
+    src: url('webfonts/brandon_bld-webfont.eot');
+    src: url('webfonts/brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/brandon_bld-webfont.woff') format('woff'),
+         url('webfonts/brandon_bld-webfont.ttf') format('truetype'),
+         url('webfonts/brandon_bld-webfont.svg#brandon_grotesque_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'brandon_grotesque_blackitalic';
+    src: url('webfonts/brandon_blk_it-webfont.eot');
+    src: url('webfonts/brandon_blk_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/brandon_blk_it-webfont.woff') format('woff'),
+         url('webfonts/brandon_blk_it-webfont.ttf') format('truetype'),
+         url('webfonts/brandon_blk_it-webfont.svg#brandon_grotesque_blackitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'brandon_grotesque_blackRg';
+    src: url('webfonts/brandon_blk-webfont.eot');
+    src: url('webfonts/brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/brandon_blk-webfont.woff') format('woff'),
+         url('webfonts/brandon_blk-webfont.ttf') format('truetype'),
+         url('webfonts/brandon_blk-webfont.svg#brandon_grotesque_blackRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'brandon_grotesque_lightitalic';
+    src: url('webfonts/brandon_light_it-webfont.eot');
+    src: url('webfonts/brandon_light_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/brandon_light_it-webfont.woff') format('woff'),
+         url('webfonts/brandon_light_it-webfont.ttf') format('truetype'),
+         url('webfonts/brandon_light_it-webfont.svg#brandon_grotesque_lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'brandon_grotesque_lightRg';
+    src: url('webfonts/brandon_light-webfont.eot');
+    src: url('webfonts/brandon_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/brandon_light-webfont.woff') format('woff'),
+         url('webfonts/brandon_light-webfont.ttf') format('truetype'),
+         url('webfonts/brandon_light-webfont.svg#brandon_grotesque_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html {
+    font-size: 1em;
+}
+
+html,
+input,
+button,
+textarea {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+      font: {
+    size: 1.6rem;
+    family: 'brandon_grotesque_lightRg';
+  }
+  color: $color-1;
+  line-height: $baseline;
+}
+
+p {
+	margin: 0 0 $baseline;
+	font-family:  'brandon_grotesque_lightRg';
+	font-size: 1.6em;
+	line-height: $baseline;
+  color: #797e83;
+}
+
+a {
+	color: $dark-grey;
+    font-family:  'brandon_grotesque_lightRg';
+	text-decoration: none;
+	font-weight: $font-weight--medium;
+	&:hover {
+		color:$color-primary;
+	}
+}
+
+
+
+/* Testimonial ----------- */
+
+
+blockquote {
+  font-size: $h2-size;
+  line-height: 1.2em;
+  font-weight: $font-weight--light;
+  margin: 4% 0;
+  border-left: 10px solid #e3e3e3;
+  padding-left: 4%;
+  color: #474747;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+cite {
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 1.25em;
+  line-height: 1em;
+  color: #474747;
+  margin: 0 0 6% 4%;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+li {
+	list-style-type: none;
+}
+
+
+h1, h2 {
+ 	margin: 0;
+ 	}
+
+h1 {
+    font-family: 'brandon_grotesque_lightRg';
+    color:lighten(#474747, 10%);
+    font-size: 3em;
+    margin: 3% 0;
+	 	text-align: center;
+	 	letter-spacing: -1px;
+    line-height: 1em;
+ 	}
+h1 a {
+    color: #474747;
+}
+
+h2 {
+ 	color: darken(#ccc, 10%);
+ 	font-family: 'GoudyItalic', serif; /* 1 */
+ 	font-weight: normal;
+ 	font-size: 1.25em;
+ 	line-height: 1em;
+ 	text-align: center;
+ 	}
+
+ h3 {
+ 	font-family: 'brandon_grotesque_lightRg';
+ 	text-transform: uppercase;
+ 	font-size: 3.5em;
+ 	line-height: 1.25em;
+    letter-spacing: -2px;
+ 	margin: 1% 0;
+ 	color: #000;
+ }
+ h4 {
+ 	font-family: 'brandon_grotesque_lightRg';
+ 	font-size: 2em;
+ 	line-height: 1.25em;
+ 	margin: 2% 0;
+ 	color: $text-color;
+ }
+ h5 {
+ 	font-family: 'brandon_grotesque_lightRg';
+    text-transform: uppercase;
+ 	font-size: .75em;
+ 	line-height: 1em;
+ 	color: #474747;
+ 	padding: 0 0 2% 0;
+ 	border-bottom: 1px solid #e6e6e6;
+ }
+ h6 {
+    color: #474747;
+    font-family: 'brandon_grotesque_boldregular';
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 1em 0;
+    }
+ img {
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
+ul li {
+    font-size: 1.15em;
+}
+a:hover {
+    color: inherit;
+}
+
+.pink {
+     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+    background-color: #ee5356;
+}
+.blue {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+    background-color: #88e1d8;
+}
+.dropshadow {
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.35);
+}
+.fade {
+   opacity: 0.5;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+      opacity: 1;
+      }
+
+hr {
+    border: none;
+    background-color: #e6e6e6;
+    color: #e6e6e6;
+    height: 1px;
+}
+
+
+
+
+
+

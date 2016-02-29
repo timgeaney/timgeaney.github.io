@@ -1,0 +1,209 @@
+.modal {
+  $base-border-color: #dcdcdc !default;
+  $base-border-radius: 3px !default;
+  $base-background-color: #fff !default;
+  $base-font-size: 1em !default;
+  $base-line-height: 1.5em !default;
+  $action-color: #477dca !default;
+  $dark-gray: #333 !default;
+  $light-gray: #ddd !default;
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default;
+  $modal-padding: 2em;
+  $modal-background: $base-background-color;
+  $modal-close-color: $light-gray;
+  $modal-image-height: 135px;
+  $modal-image-width: $modal-image-height;
+  $modal-trigger-image-width: 300px;
+
+  label {
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+
+  label img {
+    border-radius: $modal-trigger-image-width / 2;
+    display: block;
+    max-width: $modal-trigger-image-width;
+  }
+
+  .modal-state {
+    display: none;
+  }
+
+
+
+  .modal-fade-screen { // overlay
+    @include transition(opacity 0.25s ease);
+    @include position(fixed, 0);
+    background-color: rgba(#000, 0.85);
+    opacity: 0;
+    padding-top: 0.6em;
+    text-align: left;
+    visibility: hidden;
+    z-index: 99999999999;
+
+    @include media($large-screen) {
+      padding-top: 10em;
+    }
+
+    .modal-bg {
+      @include position(absolute, 0);
+      cursor: pointer;
+    }
+  }
+
+  .modal-close {
+    @include position(absolute, ($modal-padding /2) ($modal-padding /2) null null);
+    @include size(em);
+    background: #fff;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+      @include position(absolute, 3px 3px 0 50%);
+      @include transform(rotate(45deg));
+      @include size(0.15em 1.5em);
+      background: $modal-close-color;
+      content: '';
+      display: block;
+      margin: -3px 0 0 -1px;
+    }
+
+    &:hover:after,
+    &:hover:before {
+      background: darken($modal-close-color, 10%);
+    }
+
+    &:before {
+      @include transform(rotate(-45deg));
+    }
+  }
+
+
+
+  .modal-inner {
+    @include transition(opacity 0.25s ease);
+    background: #fff !important;
+    border-radius: $base-border-radius;
+    margin-top: 0;
+    margin: auto;
+    max-height: 95%;
+    overflow: auto;
+    padding: $modal-padding / 2;
+    position: relative;
+    width: 95%;
+
+    @include media($medium-screen) {
+      max-height: 70%;
+      padding: $modal-padding;
+      width: 60%;
+    }
+
+    @include media($large-screen) {
+      width: 50%;
+    }
+
+    i:first-child {
+      padding-right: 1em;
+    }
+
+    i {
+      color: #02aedc;
+      padding-right: 0.5em;
+    }
+
+    h1 {
+      margin-top: 0;
+      padding-bottom: 0.5em;
+      text-align: left;
+      text-transform: capitalize;
+      animation: none;
+    }
+
+    img {
+      margin: 0;
+      padding: 0;
+      max-width: 100px;
+    }
+
+    p {
+      
+      line-height: $base-line-height;
+    }
+
+    .modal-intro {
+      margin-bottom: 1em;
+    }
+
+    .modal-content {
+      
+
+      @include media($medium-screen) {
+        @include columns(2 8em);
+      }
+    }
+
+    ul {
+     padding: 0;
+     li {
+      padding-top: 1em;
+      font-size: 2em;
+     }
+    }
+
+
+
+    a.cta {
+      color: $base-background-color;
+      display: inline-block;
+      margin-right: 0.5em;
+      margin-top: 1em;
+
+      &:last-child {
+        padding: 0 2em;
+      }
+    }
+  }
+
+  .modal-state:checked + .modal-fade-screen {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-state:checked + .modal-fade-screen .modal-inner {
+    top: 0.5em;
+  }
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+
+// Based on code by Kasper Mikiewicz
+
+
+
+// modal button
+
+
+.btn-modal {
+  position: fixed;
+  z-index: 4;
+  top: 34px;
+  right: 110px;
+  width: 150px;
+
+  // img replace
+
+  cursor: pointer;
+
+  &:hover {
+    width: 170px;
+  }
+
+
+
+
+}

@@ -1,0 +1,7 @@
+#works {
+	@include outer-container (100%);
+
+
+	background-color: lighten(#171B1E, 10%);
+	text-align: center;
+}

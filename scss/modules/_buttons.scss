@@ -1,0 +1,145 @@
+/* ==========================================================================
+   buttons dir= scss/modules/buttons.scss
+   ========================================================================== */
+
+
+//variables
+$greeny: #82DACA;
+$gold: #a18e5c;
+$blue: #53CFE9;
+
+// colors
+
+$color-1: #2b3e51; // Pickled Bluewood
+$color-2: #02aedc; // Curious Blue
+$color-3: $x-light-grey ; // Porcelain
+$color-4: #f7f7f7; // White
+$color-5: #02aedc; // Cinnabar
+
+
+
+
+@mixin btn($color, $text-color) {
+	display: inline-block;
+	text-align: center;
+	padding: 1em 2em;
+	border-radius: 5em;
+	border: 2px solid $text-color;
+	font-weight: $font-weight--bold;
+	text-transform: uppercase;
+	transition: all 0.2s;
+	position: relative;
+	color: $text-color;
+
+	&:hover {
+		padding-right: 3em;
+    background: $color;
+    color: #fff;
+
+	}
+}
+
+.btn::after {
+	font-family: FontAwesome;
+	content: "\f138";
+	display: inline-block;
+	position: absolute;
+	right: 1.2em;
+	opacity: 0;
+
+}
+
+
+.no-touch .btn:hover::after {
+    opacity: 1
+}
+
+.btn-phone {
+	font-family: FontAwesome;
+	content: "\f095";
+}
+
+.btn-blue { @include btn(#02aedc, #fff); }
+.btn-darkblue { @include btn(#1b49be, #fff); }
+.btn-dark { @include btn(#252525, #fff); }
+.btn-purple { @include btn(#8861aa, #fff); }
+.btn-red { @include btn(#d62323, #fff); }
+.btn-white { @include btn(#fff, #000); }
+.btn-orange { @include btn(#d4522d, #fff); }
+.btn-purple-nurple { @include btn(#aa87ff, #fff); }
+
+
+// Ghost buttons
+
+// Ghost Button Mixin! 
+@mixin ghost-button($ghost-button-color, $ghost-button-height, $ghost-button-width, $ghost-button-border, $ghost-button-display) {
+  border: $ghost-button-border;
+  border-color: $ghost-button-color;
+  color: $ghost-button-color;
+	display: $ghost-button-display;
+	height: $ghost-button-height;
+	line-height: $ghost-button-height;
+	margin-top: $ghost-button-height / 3;
+	border-radius: 5em;
+	font-weight: $font-weight--bold;
+	text-transform: uppercase;
+	text-align: center;
+  text-decoration: none;
+	width: $ghost-button-width;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -o-transition: .2s;
+   transition: .2s;
+
+	&:hover {
+		background: $ghost-button-color;
+    
+     		@if $ghost-button-color == #FFFFFF {
+      			color: #000000;
+      		}
+
+      	@else {
+      			color: #FFFFFF;
+      		}
+  	}
+}
+
+.ghost-button-blue {
+	@include ghost-button(#02aedc, 40px, 175px, 2px solid,  inline-block)
+}
+
+.ghost-button-white {
+	@include ghost-button(#ffffff, 60px, 200px, 2px solid,  inline-block)
+}
+
+.scale-btn {
+		border: none;
+    background: #02aedc;
+    border-radius: 5em;
+    padding: 16px 20px;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    width: 200px;
+    cursor: pointer;
+    @include font-smoothing;
+    @include appearance(none);
+
+    .no-touch &:hover {
+      background: lighten(#02aedc, 5%);
+    }
+
+    &:focus {
+      outline: none;
+      background: #2b3e51;
+    }
+
+    &:active {
+      @include transform(scale(.9));
+    }
+}
+
+
+
+
+

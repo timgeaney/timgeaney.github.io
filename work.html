@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+
+           <link rel="stylesheet" type="text/css" href="bower_components/ResponsiveSlides/responsiveslides.css"/>
+
+        <link rel="stylesheet" href="css/app.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <header>     
+          <div class="container">
+            <div class="logo">
+              <h1 id="logo"><a href="index.html">beach_<span>hut</span></a></h1>
+              <h2>Design and Development for Web & Mobile</h2>
+            </div> <!-- end logo -->
+            <nav>
+            <ul>
+                <li><a class="active" href="services.html">Services</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="blog.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>  <!-- end nav -->
+          </div> <!-- end container -->
+        </header> <!-- end header -->
+
+        <section id="grid">
+            <div class="column-1">
+                <div class="box-1"></div>
+                <div class="box-2"></div>
+
+            </div>
+            <div class="column-2">
+                <div class="box-3"></div>
+                <div class="box-4"></div>
+                
+            </div>
+            <div class="column-3">
+                <div class="box-5"></div>
+                <div class="box-6"></div>
+                <div class="box-7"></div>
+            </div>
+        </section>
+
+        
+        <!-- footer -->
+
+
+        <section id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                  <hr>
+                <div id="copyright">
+                  <p>&copy; Copyright 2015 <a href="#">Beachhut</a>. All Rights Reserved.</p>
+                </div>
+                <div class="social-icons">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-envelope-o"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </section> <!-- end footer -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script type="text/javascript" src="bower_components/ResponsiveSlides/responsiveslides.min.js"></script>
+      
+
+        <script src="js/main.js"></script>
+
+      
+      
+
+        <!-- js -->
+        <script src="js/classie.js"></script>
+        <script>
+            function init() {
+                window.addEventListener('scroll', function(e){
+                    var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                        shrinkOn = 300,
+                        header = document.querySelector("header");
+                    if (distanceY > shrinkOn) {
+                        classie.add(header,"smaller");
+                    } else {
+                        if (classie.has(header,"smaller")) {
+                            classie.remove(header,"smaller");
+                        }
+                    }
+                });
+            }
+            window.onload = init();
+        </script>
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

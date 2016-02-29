@@ -1,0 +1,13 @@
+#index-services {
+
+	@include outer-container($site-width);
+	text-align: center;
+	h4 {
+		color: #02aedc;
+	}
+
+	p {
+		padding-bottom: 2em;
+	}
+
+}

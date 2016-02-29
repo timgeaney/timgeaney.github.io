@@ -1,0 +1,233 @@
+/* ==========================================================================
+   devices dir= scss/modules/devices-bg.scss
+   ========================================================================== */
+
+  // variables
+  $ocpacity: 0.8; 
+  $vh-height-l: 900px;
+  $vh-height-m: 650px;
+  $vh-height-s: 400px;
+
+  $bg-color-1: #fafafa;
+
+  img {
+  	max-width: 100%;
+  }
+
+
+
+#bg-images-phone{
+  @include outer-container($site-width);
+  height: $vh-height-s;
+
+  .btn {
+    width: 200px;
+
+    &:hover {
+      width: 210px;
+    }
+
+  }
+
+  @include MQ(M) {
+    height: $vh-height-m;
+  }
+
+  @include MQ(L) {
+    height: $vh-height-l;
+  }
+
+
+  .bg-phone-img {
+  	@include span-columns(12);
+    padding-top: 1em;
+    height: 50%;
+
+      img {
+      width: 180px;
+      overflow: hidden;
+      display: block;
+      margin: auto;
+
+      }
+
+      @include MQ(M) {
+        @include span-columns(6);
+        @include omega;
+        padding-right: 10px;
+        padding-top: 1em;
+        height: 100%;
+
+        img {
+          float: right;
+          width: 260px;
+          padding-top: 2em;
+          padding-bottom: 2em;
+
+        }
+
+      }
+      @include MQ(L) {
+
+        img {
+          width: 350px;
+        }
+
+    }
+
+  	
+
+  }
+
+   
+
+    
+
+
+  .phone-content {
+  @include span-columns(12);
+  background-color: #fff;
+
+
+
+  @include MQ(M) {
+      @include span-columns(6);
+
+    }
+
+ 
+
+	  .bh-center {
+	  	width: 100%;
+      text-align: center;
+      padding: 1em;
+
+
+		  	h1 {
+		      color: $text-color;
+          font-size: 2.2em;
+
+		    }
+
+		    p {
+          padding-top: 1em;
+          font-size: 1em;
+
+	
+		    }
+
+        @include MQ(M) {
+          width: 400px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          height: $vh-height-m;
+          text-align: left;
+          padding: 1em;
+
+          h1 {
+            text-align: left;
+            font-size: 3em;
+          }
+
+          p {
+            font-size: 1.4em;
+
+          }
+
+        }
+
+        @include MQ(L) {
+          width: 500px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          height: $vh-height-l;
+          text-align: left;
+          padding: 1em;
+
+        }
+
+	  }
+  }
+}
+
+//  section fucntional design
+
+
+
+
+#bg-images-mac{
+  @include outer-container(100%);
+  margin-top: 8em;
+  margin-bottom: 8em;
+
+
+
+  .bg-mac-text {
+    @include span-columns(6);
+    text-align: left;
+
+      h1 {
+      text-align: left;
+      margin-top: 1em;
+      margin: 0;
+      color: $text-color;
+      line-height: 1em;
+      font-size: 2.2em;
+    }
+
+    p {
+      color:#797e83;
+      padding: 2em 6em 4em 0em;
+      font-size: 1em;
+      margin-bottom: 0;
+    }
+
+
+    @include MQ(M) {
+
+      h1 {
+        padding-top: 1em;
+        font-size: 3em;
+      }
+
+      p {
+        font-size: 1.4em;
+      }
+    }
+
+    @include MQ(L) {
+   
+    }
+  }
+
+  .bg-mac-img {
+    @include span-columns(6);
+
+    img {
+      left: -100px;
+    }
+    
+
+  }
+
+  
+
+
+
+
+}
+
+
+#bg-full-image {
+  @include outer-container(100%);
+  margin-bottom: -5px; // hack to fix gap
+ 
+}
+
+
+
+
+
+

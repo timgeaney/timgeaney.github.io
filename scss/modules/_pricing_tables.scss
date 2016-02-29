@@ -1,0 +1,267 @@
+//variables
+$greeny: #82DACA;
+$greeny-border: rgba($greeny, 0.5);
+$gold: #a18e5c;
+$gold-border: rgba($gold, 0.5);
+$blue: #53CFE9;
+$blue-border: rgba($blue, 0.5);
+$font-white: #fefefe;
+
+#pricing-tables {
+    @include outer-container($site-width);
+    margin-top: 6em;
+    margin-bottom: 10em;
+    padding-left: 1em;
+
+
+    .pricing-heading {
+
+        @include MQ(M) {
+            @include span-columns(8);
+            @include shift(2);
+            @include omega();
+
+        }
+
+        h4 {
+        text-align: center;
+        padding-bottom: 1em;
+        color: #02aedc;   
+        }
+
+    p {
+        
+        padding-bottom: 2em;
+        font-size: 1.2em;
+        text-align: center;
+
+        }
+
+    }
+
+    
+    
+}
+
+
+.price-bracket {
+    @include span-columns(12);
+    padding-bottom: 4em;
+
+
+
+    @include MQ(M) {
+       @include span-columns(6);
+      
+    
+    }
+
+    @include MQ(X) {
+       @include span-columns(3);
+      
+    }
+
+ 
+
+    
+}
+
+
+.block{    
+    overflow: hidden;
+    border-radius: 1em; 
+    
+    .personal {
+        border: 1px solid $greeny-border;
+        border-radius: 1em; 
+    }
+    .professional{
+        border: 1px solid $blue-border;
+        border-radius: 1em; 
+    }
+
+    .business {
+        border: 1px solid $gold-border;
+        border-radius: 1em; 
+    } 
+
+
+
+}
+
+.pt-footer {
+    .btn {
+        margin-bottom: 2em;
+
+    }
+}
+/*Shared properties*/
+.title,.pt-footer{
+    color: $font-white;
+    text-transform: capitalize;
+    line-height: 2.5;
+    position: relative;
+}
+.content{
+    position: relative;
+    color: $font-white;
+    padding: 20px 0 10px 0;
+    height: 150px;
+}
+/*arrow creation*/
+.content:after, .content:before,.pt-footer:before,.pt-footer:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.pt-footer:after,.pt-footer:before{
+    top:0;
+    padding-bottom: 1em;
+    .price-btn {
+        margin-bottom: 2em;
+    }
+
+}
+.content:after,.pt-footer:after {
+	border-color: rgba(136, 183, 213, 0);	
+	border-width: 10px;
+	margin-left: -10px;
+}
+/*/arrow creation*/
+.price{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0.625rem;
+}
+.price span{    
+    font-size: 6rem;
+    letter-spacing: 8px;
+    font-weight: bold;        
+}
+.price sup{
+    font-size: 1.5rem;    
+    position: absolute;    
+    top: 12px;
+    left: -12px;
+}
+.hint{
+    padding-top: 1em;
+    font-style: italic;
+    
+}
+
+// List Icons
+// -------------------------
+
+$fa-li-width: 1.6em;
+
+.fa-ul {
+  padding-left: 0;
+  margin-left: $fa-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.fa-li {
+  position: absolute;
+  left: -$fa-li-width;
+  width: $fa-li-width;
+  top: 0.8em;
+  text-align: center;
+  
+}
+
+.features {
+    list-style-type: none;    
+    background: #FFFFFF;
+    text-align: left;
+    color: #9C9C9C;
+    padding: 1em 20%;
+    font-size: 0.75em;    
+
+}
+.features li{
+    padding: 0.75em 0;
+    width: 100%;
+}
+.features li i {
+   padding-right: 0.5; 
+}
+.pt-footer{
+    
+    padding-top: 2em;
+    text-transform: capitalize;
+}
+/*PERSONAL*/
+.personal .title{        
+    background: #78CFBF;    
+}
+.personal .content{
+    background: $greeny;
+}
+.personal .content:after{	
+	border-top-color: $greeny;	
+}
+.personal .pt-footer:after{
+    border-top-color: #FFFFFF;
+}
+/*PROFESSIONAL*/
+.professional .title{
+    background: #3EC6E0;
+}
+.professional .content{
+    background: #53CFE9;
+}
+.professional .content:after{	
+	border-top-color: #53CFE9;	
+}
+.professional .pt-footer:after{
+    border-top-color: #FFFFFF;
+}
+/*BUSINESS*/
+.business .title{
+    background: $gold;
+}
+.business .content{
+    background: lighten($gold, 10%);
+}
+.business .content:after{	
+	border-top-color: lighten($gold, 10%);	
+}
+.business .pt-footer:after {	
+	border-top-color: #FFFFFF;	
+}
+
+// buttons 
+
+
+.price-btn-greeny {
+    border: 2px solid $greeny;
+    color: $greeny;
+}
+
+.no-touch .price-btn-greeny:hover {
+    padding-right: 3em;
+    background: $greeny;
+    color: #fff;
+}
+
+.price-btn-gold {
+    border: 2px solid $gold;
+    color: $gold;
+}
+
+.no-touch .price-btn-gold:hover {
+    padding-right: 3em;
+    background: $gold;
+    color: #fff;
+}
+
+.price-btn-blue {
+
+    color: $blue;
+}

@@ -1,0 +1,24 @@
+#solutions {
+	@include outer-container(100%);
+	margin-top: 12em;
+	margin-bottom: 8em;
+
+
+	.solutions-text {
+		@include span-columns(6);
+	}
+
+	.solutions-img {
+		@include span-columns(12);
+
+		@include MQ(M) {
+			@include span-columns(6);
+		}
+		img {
+			max-height: 900px;
+			float: right;
+		}
+
+		
+	}
+}

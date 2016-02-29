@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var e=getElementsByTagName("body")[0]});
