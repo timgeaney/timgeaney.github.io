@@ -2024,7 +2024,7 @@ Form
   .cd-form input, .cd-form textarea, .cd-form select, .cd-form label {
     font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
-    color: yellow; }
+    color: #797e83; }
   .cd-form input[type="text"],
   .cd-form input[type="email"],
   .cd-form textarea,
