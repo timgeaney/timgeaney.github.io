@@ -1,0 +1,23 @@
+.legal, .intro-legal {
+	@include span-columns(12);
+	@include shift(0);
+
+	@include MQ(M) {
+		@include span-columns(8);
+		@include shift(2);
+	}
+
+	h3 {
+		font-size: 2em;
+		color: darken($text-color, 5%);
+	}
+
+	h2 {
+		color:darken($text-color, 5%);
+	}
+	p {
+		font-size: 1.4em;
+	}
+
+	
+}
