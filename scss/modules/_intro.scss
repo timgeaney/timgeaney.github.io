@@ -3,6 +3,8 @@
 	padding-top: 6em;
 	$X:800px;
 
+
+
 	svg {
 		display: block;
 		margin: auto;
@@ -91,6 +93,16 @@
 
 	.step-content {
 		opacity: 1;
+	}
+
+
+	.step-btn {
+		@include outer-container($site-width);
+		margin-top: 4em;
+		margin-bottom: 12em;
+
+		text-align: center;
+		
 	}
 
 

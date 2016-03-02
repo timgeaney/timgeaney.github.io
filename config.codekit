@@ -4607,6 +4607,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beard-profile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129095,
+		"inputAbbreviatedPath": "\/img\/beard-profile.jpg",
+		"outputAbbreviatedPath": "\/img\/beard-profile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bh-iphone-frt-red.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4926,6 +4937,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/catherine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4743,
+		"inputAbbreviatedPath": "\/img\/catherine.jpg",
+		"outputAbbreviatedPath": "\/img\/catherine.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/cd-icon-location.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4955,6 +4977,28 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/girl-mobile.png",
 		"outputAbbreviatedPath": "\/img\/girl-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/iPad-Air-2-Smartcover-sml.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85334,
+		"inputAbbreviatedPath": "\/img\/iPad-Air-2-Smartcover-sml.jpg",
+		"outputAbbreviatedPath": "\/img\/iPad-Air-2-Smartcover-sml.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/iPad-Air-2-Smartcover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30712,
+		"inputAbbreviatedPath": "\/img\/iPad-Air-2-Smartcover.jpg",
+		"outputAbbreviatedPath": "\/img\/iPad-Air-2-Smartcover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4992,6 +5036,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/iphone-silver.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54765,
+		"inputAbbreviatedPath": "\/img\/iphone-silver.jpg",
+		"outputAbbreviatedPath": "\/img\/iphone-silver.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/leia-outside.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230613,
+		"inputAbbreviatedPath": "\/img\/leia-outside.jpg",
+		"outputAbbreviatedPath": "\/img\/leia-outside.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/leia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57199,
+		"inputAbbreviatedPath": "\/img\/leia.jpg",
+		"outputAbbreviatedPath": "\/img\/leia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/mac-services-mockup-cropped.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5010,6 +5087,39 @@
 		"initialSize": 134900,
 		"inputAbbreviatedPath": "\/img\/mac-services-mockup.png",
 		"outputAbbreviatedPath": "\/img\/mac-services-mockup.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mac-silver-cropped.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93999,
+		"inputAbbreviatedPath": "\/img\/mac-silver-cropped.jpg",
+		"outputAbbreviatedPath": "\/img\/mac-silver-cropped.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/macbook-ac-not-cropped.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72944,
+		"inputAbbreviatedPath": "\/img\/macbook-ac-not-cropped.jpg",
+		"outputAbbreviatedPath": "\/img\/macbook-ac-not-cropped.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/monster-feet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73652,
+		"inputAbbreviatedPath": "\/img\/monster-feet.jpg",
+		"outputAbbreviatedPath": "\/img\/monster-feet.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

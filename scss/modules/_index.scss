@@ -1,3 +1,273 @@
+// variabless
+
+$margin-left: 20px;
+$margin-right: 15%;
+
+
+
+
+/* ==========================================================================
+   devices dir= scss/modules/index.scss
+   ========================================================================== */
+
+  // variables
+  $ocpacity: 0.8; 
+  $vh-height-l: 900px;
+  $vh-height-m: 650px;
+  $vh-height-s: 400px;
+
+  $bg-color-1: #fafafa;
+
+  img {
+  	max-width: 100%;
+  }
+
+
+
+#bg-images-phone{
+  @include outer-container($site-width);
+  height: $vh-height-s;
+
+  .btn {
+    width: 200px;
+
+    &:hover {
+      width: 210px;
+    }
+
+  }
+
+  @include MQ(M) {
+    height: $vh-height-m;
+  }
+
+  @include MQ(L) {
+    height: $vh-height-l;
+  }
+
+
+  .bg-phone-img {
+  	@include span-columns(12);
+    padding-top: 1em;
+    height: 50%;
+
+      img {
+      width: 180px;
+      overflow: hidden;
+      display: block;
+      margin: auto;
+
+      }
+
+      @include MQ(M) {
+        @include span-columns(6);
+        @include omega;
+        padding-right: 10px;
+        padding-top: 1em;
+        height: 100%;
+
+        img {
+          float: right;
+          width: 260px;
+          padding-top: 2em;
+          padding-bottom: 2em;
+
+        }
+
+      }
+      @include MQ(L) {
+
+        img {
+          width: 350px;
+        }
+
+    }
+
+  	
+
+  }
+
+   
+
+    
+
+
+  .phone-content {
+  @include span-columns(12);
+  background-color: #fff;
+
+
+
+  @include MQ(M) {
+      @include span-columns(6);
+
+    }
+
+ 
+
+	  .bh-center {
+	  	width: 100%;
+      text-align: center;
+      padding: 1em;
+
+
+		  	h1 {
+		      color: $text-color;
+          font-size: 2.2em;
+
+		    }
+
+		    p {
+          padding-top: 1em;
+          font-size: 1em;
+
+	
+		    }
+
+        @include MQ(M) {
+          width: 400px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          height: $vh-height-m;
+          text-align: left;
+          padding: 1em;
+
+          h1 {
+            text-align: left;
+            font-size: 3em;
+          }
+
+          p {
+            font-size: 1.4em;
+
+          }
+
+        }
+
+        @include MQ(L) {
+          width: 500px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          height: $vh-height-l;
+          text-align: left;
+          padding: 1em;
+
+        }
+
+	  }
+  }
+}
+
+//  section fucntional design
+
+
+
+
+#bg-images-mac{
+  @include outer-container(100%);
+  margin-top: 8em;
+  margin-bottom: 8em;
+
+  .bg-mac-img {
+    @include span-columns(12);
+
+
+    img.show-small {
+    	display: block;
+    }
+
+    img.show-large {
+    	display: none;
+    }
+
+    @include MQ(M) {
+    	@include span-columns(6);
+
+    	img.show-small {
+    		display: none;
+    	}
+
+    	img.show-large {
+    		display: block;
+    	}
+    	
+    }
+    
+
+  }
+
+
+
+  .bg-mac-text {
+    @include span-columns(12);
+    text-align: left;
+
+
+      h1 {
+      padding-top: 1em;
+      text-align: center;
+      margin-top: 1em;
+      margin: 0;
+      color: darken($text-color, 10%);
+      font-size: 2em;
+    }
+
+    p {
+      color:$text-color;
+      padding: 1em 1em;
+      font-size: 1em;
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+
+    @include MQ(M) {
+    	@include span-columns(6);
+
+      h1 {
+        padding-top: 1em;
+        margin-left: $margin-left;
+
+        font-size: 3em;
+        text-align: left;
+      }
+
+      p {
+        font-size: 1.4em;
+        text-align: left;
+        padding-top: 1em;
+        padding-left: 0;
+        padding-right: 2em;
+        margin-left: $margin-left;
+        margin-right: $margin-right;
+
+      }
+    }
+
+    @include MQ(L) {
+   
+    }
+  }
+
+  
+
+  
+
+
+
+
+}
+
+
+#bg-full-image {
+  @include outer-container(100%);
+  margin-bottom: -5px; // hack to fix gap
+ 
+}
+
+
 #index-services {
 
 	@include outer-container($site-width);
@@ -11,3 +281,135 @@
 	}
 
 }
+
+// solutions section
+
+#solutions {
+	@include outer-container(100%);
+	margin-top: 12em;
+	margin-bottom: 8em;
+
+
+	.solutions-text {
+		@include span-columns(12);
+		padding: 1em;
+		margin-top: 2em;
+
+		p {
+			font-size: 1em;
+		}
+
+		.sol-list {
+			margin: auto;
+
+		}
+
+		li {
+			padding-top: 0.8em;
+			padding-left: 2em;
+		}
+
+		@include MQ(M) {
+			@include span-columns(6);
+			text-align: left;
+			padding-left: 10%;
+
+			h1 {
+				text-align: left;
+			}
+
+			p {
+				font-size: 1.4em;
+			}
+		}
+
+
+			svg {
+				height: 24px;
+				width: 24px;
+				stroke: #02aedc;
+				display: inline;
+				margin-bottom: -8px;
+			}
+
+			h5 {
+				display: inline;
+				padding-left: 2em;
+				font-size: 0.6em;
+				border-bottom: none;
+			}
+
+			@include MQ(M) {
+
+				h5 {
+				font-size: 0.7em;
+
+				}
+
+				svg {
+					height: 32px;
+					width: 32px;
+					margin-bottom: -11px;
+				}
+
+				li {
+					padding-top: 1em;
+				}
+
+			}
+
+			@include MQ(L) {
+
+				h5 {
+				font-size: 0.8em;
+
+				}
+
+				svg {
+					height: 40px;
+					width: 40px;
+					margin-bottom: -15px;
+				}
+
+				li {
+					padding-top: 2em;
+				}
+
+			}
+
+
+
+	}
+
+	.sol-img-wrap {
+		position: relative;
+
+		.solutions-img {
+		@include span-columns(12);
+	
+		img {
+	
+			display: block;
+			margin: auto;
+
+		}
+
+		@include MQ(M) {
+			@include span-columns(6);
+				img {
+					max-height: 900px;
+			
+				float: right;
+			}
+		}
+		
+
+		
+	}
+
+	}
+
+	
+}
+
+
