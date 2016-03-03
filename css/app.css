@@ -5669,7 +5669,7 @@ Main Components
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     overflow: hidden;
     cursor: pointer;
     -webkit-transition: -webkit-transform 0.4s;
@@ -5687,7 +5687,7 @@ Main Components
       position: absolute;
       top: 0;
       left: 0;
-      height: 100vh;
+      height: 50vh;
       width: 100%;
       background-image: url("../img/bh-mu-mac-ac.png");
       background-repeat: no-repeat;
@@ -5701,24 +5701,24 @@ Main Components
       content: 'img/bh-mu-mac-ac.png';
       display: none; }
     .projects-container .cd-single-project:nth-of-type(2) {
-      top: 100vh;
+      top: 50vh;
       background-color: #b4e1ff; }
       .projects-container .cd-single-project:nth-of-type(2)::after {
-        background-image: url("../img/bh-mu-iphone-white.png"); }
+        background-image: url("../img/ac-iphone-and-ipad.jpg"); }
       .projects-container .cd-single-project:nth-of-type(2)::before {
         content: 'img/bh-mu-iphone-white.png'; }
     .projects-container .cd-single-project:nth-of-type(3) {
-      top: 200vh;
+      top: 100vh;
       background-color: #ab87ff; }
       .projects-container .cd-single-project:nth-of-type(3)::after {
         background-image: url("../img/bh-mu-mac-ac.png"); }
       .projects-container .cd-single-project:nth-of-type(3)::before {
         content: 'img/img-3-small.jpg'; }
     .projects-container .cd-single-project:nth-of-type(4) {
-      top: 300vh;
+      top: 150vh;
       background-color: #fface4; }
       .projects-container .cd-single-project:nth-of-type(4)::after {
-        background-image: url("../img/bh-mu-iphone-white.png"); }
+        background-image: url("../img/ac-iphone-and-ipad.jpg"); }
       .projects-container .cd-single-project:nth-of-type(4)::before {
         content: 'img/img-4-small.jpg'; }
     .projects-container .cd-single-project.is-loaded {
@@ -5744,7 +5744,7 @@ Main Components
       /* never visible - this is used in jQuery to check the current MQ */
       content: 'desktop'; }
     .projects-container .cd-single-project {
-      width: 100vw;
+      width: 50vw;
       height: 100%;
       opacity: 0;
       -webkit-transform: translateX(0);
@@ -5761,25 +5761,25 @@ Main Components
         background-image: url("../img/bh-mu-mac-ac.png"); }
       .projects-container .cd-single-project:nth-of-type(2) {
         top: 0;
-        left: 100vw; }
+        left: 50vw; }
         .projects-container .cd-single-project:nth-of-type(2)::before {
           content: 'img/bh-mu-iphone-white.png'; }
         .projects-container .cd-single-project:nth-of-type(2)::after {
-          background-image: url("../img/bh-mu-iphone-white.png"); }
+          background-image: url("../img/ac-iphone-and-ipad.jpg"); }
       .projects-container .cd-single-project:nth-of-type(3) {
         top: 0;
-        left: 200vw; }
+        left: 100vw; }
         .projects-container .cd-single-project:nth-of-type(3)::before {
           content: 'img/img-3-large.jpg'; }
         .projects-container .cd-single-project:nth-of-type(3)::after {
           background-image: url("../img/bh-mu-mac-ac.png"); }
       .projects-container .cd-single-project:nth-of-type(4) {
         top: 0;
-        left: 300vw; }
+        left: 150vw; }
         .projects-container .cd-single-project:nth-of-type(4)::before {
           content: 'img/img-4-large.jpg'; }
         .projects-container .cd-single-project:nth-of-type(4)::after {
-          background-image: url("../img/bh-mu-iphone-white.png"); }
+          background-image: url("../img/ac-iphone-and-ipad.jpg"); }
       .projects-container .cd-single-project::after {
         height: 100vh;
         width: 100%;
@@ -5820,7 +5820,7 @@ Main Components
   position: absolute;
   z-index: 1;
   left: 0;
-  top: 50vh;
+  top: 25vh;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -5853,7 +5853,7 @@ Main Components
   @media only screen and (min-width: 700px) {
     .cd-title {
       top: 50vh;
-      width: 100vw;
+      width: 50vw;
       opacity: 0;
       -webkit-transform: translateY(-50%) translateX(-20px);
       -moz-transform: translateY(-50%) translateX(-20px);
@@ -5871,7 +5871,7 @@ Main Components
         -moz-transition: -moz-transform 0.6s, opacity 0.6s, left 0.4s;
         transition: transform 0.6s, opacity 0.6s, left 0.4s; }
       .is-loaded.is-full-width .cd-title {
-        left: 0vw;
+        left: 25vw;
         -webkit-transition: -webkit-transform 0.6s, opacity 0s, left 0.4s;
         -moz-transition: -moz-transform 0.6s, opacity 0s, left 0.4s;
         transition: transform 0.6s, opacity 0s, left 0.4s; }

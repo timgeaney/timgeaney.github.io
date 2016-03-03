@@ -9,7 +9,7 @@ $color-4: #fface4; // Ebony
 
 // Number of projects 
 
-$items: 1;
+$items: 2;
 
 
 
@@ -76,7 +76,7 @@ Main Components
 			background-color: $color-2;
 			
 			&::after {
-				background-image: url('../img/bh-mu-iphone-white.png'); 
+				background-image: url('../img/ac-iphone-and-ipad.jpg'); 
 			}
 
 			&::before {
@@ -102,7 +102,7 @@ Main Components
 			background-color: $color-4;
 
 			&::after {
-				background-image: url('../img/bh-mu-iphone-white.png'); 
+				background-image: url('../img/ac-iphone-and-ipad.jpg'); 
 			} 
 
 			&::before {
@@ -160,7 +160,7 @@ Main Components
 				}
 
 				&::after {
-					background-image: url('../img/bh-mu-iphone-white.png'); 
+					background-image: url('../img/ac-iphone-and-ipad.jpg'); 
 				} 
 			}
 
@@ -186,7 +186,7 @@ Main Components
 				} 
 
 				&::after {
-					background-image: url('../img/bh-mu-iphone-white.png'); 
+					background-image: url('../img/ac-iphone-and-ipad.jpg'); 
 				}
 			}
 
