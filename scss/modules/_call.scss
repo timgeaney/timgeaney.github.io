@@ -1,0 +1,28 @@
+#consultation {
+	@include outer-container(100%);
+	height: 300px;
+	background-color: lighten(#02aedc, 25%);
+	position: relative;
+
+	.text-center {
+		@include outer-container($site-width);
+		@include centerer;
+		padding: 1em;
+		width: 100%;
+			h1 {
+		color: #fff;
+		font-size: 2em;
+
+		}
+	}
+
+	@include MQ(M) {
+		h1 {
+			font-size: 3em;
+		}
+	}
+
+
+	
+
+}

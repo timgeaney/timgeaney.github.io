@@ -9,7 +9,7 @@ $color-4: #fface4; // Ebony
 
 // Number of projects 
 
-$items: 3;
+$items: 1;
 
 
 
@@ -259,8 +259,8 @@ Main Components
 	}
 
 	p {
-		font-size: 1.4rem;
-		font-family: $secondary-font;
+		font-size: 2rem;
+		font-family: 'GoudyItalic';
 		font-style: italic;
 		line-height: 1.2;
 		padding: .4em 2em;
@@ -300,6 +300,7 @@ Main Components
 }
 
 .cd-project-info {
+
 	clear: both;
 	visibility: hidden;
 	opacity: 0;	
@@ -314,12 +315,18 @@ Main Components
 		visibility: visible;
 		opacity: 1;
 	}
-
-	p {
+	h5 {
 		width: 90%;
 		max-width: 800px;
 		margin: 0 auto;
-		line-height: 2;
+	}
+
+	p {
+		padding-top: 1em;
+		width: 90%;
+		max-width: 800px;
+		margin: 0 auto;
+		line-height: 1.4;
 	}
 
 	@include MQ(M) {

@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/ac-ipad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.1523e+06,
+		"inputAbbreviatedPath": "\/ac-ipad.png",
+		"outputAbbreviatedPath": "\/ac-ipad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/bh-promo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4616,6 +4627,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/ac-iphone-and-ipad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165233,
+		"inputAbbreviatedPath": "\/img\/ac-iphone-and-ipad.jpg",
+		"outputAbbreviatedPath": "\/img\/ac-iphone-and-ipad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beach-hut-tag.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5012,6 +5034,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/floating-iphones-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186348,
+		"inputAbbreviatedPath": "\/img\/floating-iphones-2.jpg",
+		"outputAbbreviatedPath": "\/img\/floating-iphones-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/floating-iphones.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186715,
+		"inputAbbreviatedPath": "\/img\/floating-iphones.jpg",
+		"outputAbbreviatedPath": "\/img\/floating-iphones.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/girl-mobile.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5283,6 +5327,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/team-member-1.jpg",
 		"outputAbbreviatedPath": "\/img\/team-member-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/user-flow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122956,
+		"inputAbbreviatedPath": "\/img\/user-flow.jpg",
+		"outputAbbreviatedPath": "\/img\/user-flow.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5884,6 +5939,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/modules\/_call-to-action.scss",
 		"outputAbbreviatedPath": "\/scss\/css\/_call-to-action.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/modules\/_call.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/modules\/_call.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_call.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6550,6 +6621,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/user-flow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/user-flow.png",
+		"outputAbbreviatedPath": "\/user-flow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/work.html": {
 		"fileType": 8192,

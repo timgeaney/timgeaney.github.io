@@ -3,6 +3,8 @@
 $margin-left: 20px;
 $margin-right: 15%;
 
+$heading-color: #02aedc;
+
 
 
 
@@ -112,7 +114,7 @@ $margin-right: 15%;
 
 
 		  	h1 {
-		      color: $text-color;
+		      color: $heading-color;
           font-size: 2.2em;
 
 		    }
@@ -210,7 +212,7 @@ $margin-right: 15%;
       text-align: center;
       margin-top: 1em;
       margin: 0;
-      color: darken($text-color, 10%);
+      color: $heading-color;
       font-size: 2em;
     }
 
@@ -286,7 +288,7 @@ $margin-right: 15%;
 
 #solutions {
 	@include outer-container(100%);
-	margin-top: 12em;
+	margin-top: 1em;
 	margin-bottom: 8em;
 
 
@@ -295,8 +297,16 @@ $margin-right: 15%;
 		padding: 1em;
 		margin-top: 2em;
 
+    h1 {
+      color: $heading-color;
+    text-align: center;
+
+    }
+
 		p {
 			font-size: 1em;
+    text-align: center;
+
 		}
 
 		.sol-list {
@@ -309,10 +319,11 @@ $margin-right: 15%;
 			padding-left: 2em;
 		}
 
+
 		@include MQ(M) {
 			@include span-columns(6);
 			text-align: left;
-			padding-left: 10%;
+			padding-left: 5%;
 
 			h1 {
 				text-align: left;
@@ -320,6 +331,7 @@ $margin-right: 15%;
 
 			p {
 				font-size: 1.4em;
+        text-align: left;
 			}
 		}
 
@@ -412,4 +424,146 @@ $margin-right: 15%;
 	
 }
 
+// user centered design
+
+
+
+#bg-images-right{
+  @include outer-container(100%);
+  margin-top: 0em;
+  margin-bottom: 0em;
+
+
+  .bg-img-right {
+    @include span-columns(12);
+
+
+
+
+    img.show-small {
+      display: block;
+    }
+
+    img.show-large {
+      display: none;
+    }
+
+    @include MQ(M) {
+      @include span-columns(6);
+      float: right;
+
+      img.show-small {
+        display: none;
+      }
+
+      img.show-large {
+        display: block;
+      }
+      
+    }
+    
+
+  }
+
+
+
+  .bg-text-right {
+    @include span-columns(12);
+    text-align: left;
+
+
+
+      h1 {
+      padding-top: 1em;
+      text-align: center;
+      margin-top: 1em;
+      margin: 0;
+      color: $heading-color;
+      font-size: 2em;
+    }
+
+    p {
+      color:$text-color;
+      padding: 1em 1em;
+      font-size: 1em;
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+
+    @include MQ(M) {
+      @include span-columns(6);
+        padding-left: 5%;
+
+      h1 {
+        padding-top: 1em;
+
+        font-size: 3em;
+        text-align: left;
+      }
+
+      p {
+        font-size: 1.4em;
+        text-align: left;
+        padding-top: 1em;
+        padding-left: 0;
+        padding-right: 2em;
+    
+        margin-right: $margin-right;
+
+      }
+    }
+
+    @include MQ(L) {
+   
+    }
+  }
+}
+
+  
+#full-width-img {
+  @include outer-container(100%);
+
+  background: url(../img/ac-iphone-and-ipad.jpg) no-repeat center center; 
+  background-size: cover;
+
+  margin-bottom: -10px;
+  height: 80vh;
+  overflow: hidden;
+
+  h1 {
+    padding-top: 2em;
+    color: #fff;
+    font-size: 1.4em;
+  }
+
+  @include MQ(M) {
+      h1 {
+      padding-top: 2em;
+      color: #fff;
+      font-size: 1.6em;
+    }
+
+  }
+
+  @include MQ(L) {
+      h1 {
+      padding-top: 1em;
+      color: #fff;
+      font-size: 1.6em;
+    }
+
+  }
+  
+
+}
+
+#floating-iphones {
+  @include outer-container(100%);
+  height: 50vh;
+
+  background: url(../img/floating-iphones.jpg) no-repeat fixed center; 
+  background-size: cover;
+
+}
 
