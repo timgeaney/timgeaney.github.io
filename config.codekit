@@ -20,72 +20,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/ac-ipad.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.1523e+06,
-		"inputAbbreviatedPath": "\/ac-ipad.png",
-		"outputAbbreviatedPath": "\/ac-ipad.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bh-promo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 116958,
-		"inputAbbreviatedPath": "\/bh-promo.jpg",
-		"outputAbbreviatedPath": "\/bh-promo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bh-promo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 76055,
-		"inputAbbreviatedPath": "\/bh-promo.png",
-		"outputAbbreviatedPath": "\/bh-promo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bh-romo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 76006,
-		"inputAbbreviatedPath": "\/bh-romo.png",
-		"outputAbbreviatedPath": "\/bh-romo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bh_iphone6_mockup_blue.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 693791,
-		"inputAbbreviatedPath": "\/bh_iphone6_mockup_blue.jpg",
-		"outputAbbreviatedPath": "\/bh_iphone6_mockup_blue.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/bh_iphone6_mockup_blue_red.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 654603,
-		"inputAbbreviatedPath": "\/bh_iphone6_mockup_blue_red.jpg",
-		"outputAbbreviatedPath": "\/bh_iphone6_mockup_blue_red.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/blog-single.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4596,28 +4530,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/FireShot Capture 38 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 86569,
-		"inputAbbreviatedPath": "\/FireShot Capture 38 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
-		"outputAbbreviatedPath": "\/FireShot Capture 38 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 107185,
-		"inputAbbreviatedPath": "\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
-		"outputAbbreviatedPath": "\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/form.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4626,6 +4538,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/ac-ipad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.98139e+06,
+		"inputAbbreviatedPath": "\/img\/ac-ipad.png",
+		"outputAbbreviatedPath": "\/img\/ac-ipad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/ac-iphone-and-ipad.jpg": {
 		"fileType": 16384,
@@ -4946,6 +4869,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bh-promo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116958,
+		"inputAbbreviatedPath": "\/img\/bh-promo.jpg",
+		"outputAbbreviatedPath": "\/img\/bh-promo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-promo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76055,
+		"inputAbbreviatedPath": "\/img\/bh-promo.png",
+		"outputAbbreviatedPath": "\/img\/bh-promo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh-romo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76006,
+		"inputAbbreviatedPath": "\/img\/bh-romo.png",
+		"outputAbbreviatedPath": "\/img\/bh-romo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bh_iphone6_mockup.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4953,6 +4909,28 @@
 		"initialSize": 641774,
 		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup.jpg",
 		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh_iphone6_mockup_blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693791,
+		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue.jpg",
+		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bh_iphone6_mockup_blue_red.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 654603,
+		"inputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue_red.jpg",
+		"outputAbbreviatedPath": "\/img\/bh_iphone6_mockup_blue_red.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5030,6 +5008,28 @@
 		"initialSize": 278110,
 		"inputAbbreviatedPath": "\/img\/cropped-mac-ac.jpg",
 		"outputAbbreviatedPath": "\/img\/cropped-mac-ac.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/FireShot Capture 38 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86569,
+		"inputAbbreviatedPath": "\/img\/FireShot Capture 38 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
+		"outputAbbreviatedPath": "\/img\/FireShot Capture 38 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730350,
+		"inputAbbreviatedPath": "\/img\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
+		"outputAbbreviatedPath": "\/img\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
