@@ -3689,14 +3689,18 @@ img {
     text-align: left; }
     #bg-images-mac .bg-mac-text:last-child {
       margin-right: 0; }
-    #bg-images-mac .bg-mac-text h1 {
+    @media only screen and (min-width: 700px) {
+      #bg-images-mac .bg-mac-text {
+        position: relative;
+        height: 600px; } }
+    #bg-images-mac .bg-mac-text .text-vert-center h1 {
       padding-top: 1em;
       text-align: center;
       margin-top: 1em;
       margin: 0;
       color: #02aedc;
       font-size: 2em; }
-    #bg-images-mac .bg-mac-text p {
+    #bg-images-mac .bg-mac-text .text-vert-center p {
       color: #797e83;
       padding: 1em 1em;
       font-size: 1em;
@@ -3710,19 +3714,28 @@ img {
         width: 48.821174201%; }
         #bg-images-mac .bg-mac-text:last-child {
           margin-right: 0; }
-        #bg-images-mac .bg-mac-text h1 {
-          padding-top: 1em;
-          margin-left: 20px;
-          font-size: 3em;
-          text-align: left; }
-        #bg-images-mac .bg-mac-text p {
-          font-size: 1.4em;
-          text-align: left;
-          padding-top: 1em;
-          padding-left: 0;
-          padding-right: 2em;
-          margin-left: 20px;
-          margin-right: 15%; } }
+        #bg-images-mac .bg-mac-text .text-vert-center {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); }
+          #bg-images-mac .bg-mac-text .text-vert-center h1 {
+            padding-top: 1em;
+            margin-left: 20px;
+            font-size: 2.2em;
+            text-align: left; }
+          #bg-images-mac .bg-mac-text .text-vert-center p {
+            font-size: 1.2em;
+            text-align: left;
+            padding-top: 1em;
+            padding-left: 0;
+            padding-right: 2em;
+            margin-left: 20px;
+            margin-right: 15%; } }
+    @media only screen and (min-width: 1024px) {
+      #bg-images-mac .bg-mac-text .text-vert-center h1 {
+        font-size: 3em; }
+      #bg-images-mac .bg-mac-text .text-vert-center p {
+        font-size: 1.4em; } }
 
 #bg-full-image {
   max-width: 100%;
@@ -3789,9 +3802,10 @@ img {
         #solutions .solutions-text:last-child {
           margin-right: 0; }
         #solutions .solutions-text h1 {
-          text-align: left; }
+          text-align: left;
+          font-size: 2.2em; }
         #solutions .solutions-text p {
-          font-size: 1.4em;
+          font-size: 1.2em;
           text-align: left; } }
     #solutions .solutions-text svg {
       height: 24px;
@@ -3805,8 +3819,10 @@ img {
       font-size: 0.6em;
       border-bottom: none; }
     @media only screen and (min-width: 700px) {
-      #solutions .solutions-text h5 {
-        font-size: 0.7em; }
+      #solutions .solutions-text h1 {
+        font-size: 3em; }
+      #solutions .solutions-text p {
+        font-size: 1.4em; }
       #solutions .solutions-text svg {
         height: 32px;
         width: 32px;
@@ -3860,7 +3876,9 @@ img {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 100%; }
+    width: 100%;
+    max-height: 100%;
+    height: auto; }
     #bg-images-right .bg-img-right:last-child {
       margin-right: 0; }
     #bg-images-right .bg-img-right img.show-small {
@@ -3912,15 +3930,27 @@ img {
           margin-right: 0; }
         #bg-images-right .bg-text-right h1 {
           padding-top: 1em;
-          font-size: 3em;
+          font-size: 2.2em;
           text-align: left; }
         #bg-images-right .bg-text-right p {
-          font-size: 1.4em;
+          font-size: 1.2em;
           text-align: left;
           padding-top: 1em;
           padding-left: 0;
           padding-right: 2em;
           margin-right: 15%; } }
+    @media only screen and (min-width: 1024px) {
+      #bg-images-right .bg-text-right h1 {
+        padding-top: 1em;
+        font-size: 3em;
+        text-align: left; }
+      #bg-images-right .bg-text-right p {
+        font-size: 1.4em;
+        text-align: left;
+        padding-top: 1em;
+        padding-left: 0;
+        padding-right: 2em;
+        margin-right: 15%; } }
 
 #full-width-img {
   max-width: 100%;
@@ -4474,14 +4504,18 @@ img {
     text-align: left; }
     #bg-images-mac .bg-mac-text:last-child {
       margin-right: 0; }
-    #bg-images-mac .bg-mac-text h1 {
+    @media only screen and (min-width: 700px) {
+      #bg-images-mac .bg-mac-text {
+        position: relative;
+        height: 600px; } }
+    #bg-images-mac .bg-mac-text .text-vert-center h1 {
       padding-top: 1em;
       text-align: center;
       margin-top: 1em;
       margin: 0;
       color: #02aedc;
       font-size: 2em; }
-    #bg-images-mac .bg-mac-text p {
+    #bg-images-mac .bg-mac-text .text-vert-center p {
       color: #797e83;
       padding: 1em 1em;
       font-size: 1em;
@@ -4495,19 +4529,28 @@ img {
         width: 48.821174201%; }
         #bg-images-mac .bg-mac-text:last-child {
           margin-right: 0; }
-        #bg-images-mac .bg-mac-text h1 {
-          padding-top: 1em;
-          margin-left: 20px;
-          font-size: 3em;
-          text-align: left; }
-        #bg-images-mac .bg-mac-text p {
-          font-size: 1.4em;
-          text-align: left;
-          padding-top: 1em;
-          padding-left: 0;
-          padding-right: 2em;
-          margin-left: 20px;
-          margin-right: 15%; } }
+        #bg-images-mac .bg-mac-text .text-vert-center {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%); }
+          #bg-images-mac .bg-mac-text .text-vert-center h1 {
+            padding-top: 1em;
+            margin-left: 20px;
+            font-size: 2.2em;
+            text-align: left; }
+          #bg-images-mac .bg-mac-text .text-vert-center p {
+            font-size: 1.2em;
+            text-align: left;
+            padding-top: 1em;
+            padding-left: 0;
+            padding-right: 2em;
+            margin-left: 20px;
+            margin-right: 15%; } }
+    @media only screen and (min-width: 1024px) {
+      #bg-images-mac .bg-mac-text .text-vert-center h1 {
+        font-size: 3em; }
+      #bg-images-mac .bg-mac-text .text-vert-center p {
+        font-size: 1.4em; } }
 
 #bg-full-image {
   max-width: 100%;
@@ -4574,9 +4617,10 @@ img {
         #solutions .solutions-text:last-child {
           margin-right: 0; }
         #solutions .solutions-text h1 {
-          text-align: left; }
+          text-align: left;
+          font-size: 2.2em; }
         #solutions .solutions-text p {
-          font-size: 1.4em;
+          font-size: 1.2em;
           text-align: left; } }
     #solutions .solutions-text svg {
       height: 24px;
@@ -4590,8 +4634,10 @@ img {
       font-size: 0.6em;
       border-bottom: none; }
     @media only screen and (min-width: 700px) {
-      #solutions .solutions-text h5 {
-        font-size: 0.7em; }
+      #solutions .solutions-text h1 {
+        font-size: 3em; }
+      #solutions .solutions-text p {
+        font-size: 1.4em; }
       #solutions .solutions-text svg {
         height: 32px;
         width: 32px;
@@ -4645,7 +4691,9 @@ img {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 100%; }
+    width: 100%;
+    max-height: 100%;
+    height: auto; }
     #bg-images-right .bg-img-right:last-child {
       margin-right: 0; }
     #bg-images-right .bg-img-right img.show-small {
@@ -4697,15 +4745,27 @@ img {
           margin-right: 0; }
         #bg-images-right .bg-text-right h1 {
           padding-top: 1em;
-          font-size: 3em;
+          font-size: 2.2em;
           text-align: left; }
         #bg-images-right .bg-text-right p {
-          font-size: 1.4em;
+          font-size: 1.2em;
           text-align: left;
           padding-top: 1em;
           padding-left: 0;
           padding-right: 2em;
           margin-right: 15%; } }
+    @media only screen and (min-width: 1024px) {
+      #bg-images-right .bg-text-right h1 {
+        padding-top: 1em;
+        font-size: 3em;
+        text-align: left; }
+      #bg-images-right .bg-text-right p {
+        font-size: 1.4em;
+        text-align: left;
+        padding-top: 1em;
+        padding-left: 0;
+        padding-right: 2em;
+        margin-right: 15%; } }
 
 #full-width-img {
   max-width: 100%;

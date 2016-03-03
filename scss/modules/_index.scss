@@ -172,6 +172,7 @@ $heading-color: #02aedc;
   margin-top: 8em;
   margin-bottom: 8em;
 
+
   .bg-mac-img {
     @include span-columns(12);
 
@@ -207,49 +208,83 @@ $heading-color: #02aedc;
     text-align: left;
 
 
-      h1 {
-      padding-top: 1em;
-      text-align: center;
-      margin-top: 1em;
-      margin: 0;
-      color: $heading-color;
-      font-size: 2em;
+    @include MQ(M) {
+    position: relative;
+    height: 600px;
+
     }
 
-    p {
-      color:$text-color;
-      padding: 1em 1em;
-      font-size: 1em;
-      margin-bottom: 0;
-      text-align: center;
+    .text-vert-center {
+      
+
+         h1 {
+        padding-top: 1em;
+        text-align: center;
+        margin-top: 1em;
+        margin: 0;
+        color: $heading-color;
+        font-size: 2em;
+      }
+
+      p {
+        color:$text-color;
+        padding: 1em 1em;
+        font-size: 1em;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
     }
+
+
+     
 
 
     @include MQ(M) {
     	@include span-columns(6);
 
-      h1 {
-        padding-top: 1em;
-        margin-left: $margin-left;
+      .text-vert-center {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
 
-        font-size: 3em;
-        text-align: left;
+           h1 {
+          padding-top: 1em;
+          margin-left: $margin-left;
+
+          font-size: 2.2em;
+          text-align: left;
+        }
+
+        p {
+          font-size: 1.2em;
+          text-align: left;
+          padding-top: 1em;
+          padding-left: 0;
+          padding-right: 2em;
+          margin-left: $margin-left;
+          margin-right: $margin-right;
+
+        }
       }
 
-      p {
-        font-size: 1.4em;
-        text-align: left;
-        padding-top: 1em;
-        padding-left: 0;
-        padding-right: 2em;
-        margin-left: $margin-left;
-        margin-right: $margin-right;
 
-      }
+     
     }
 
     @include MQ(L) {
-   
+
+      .text-vert-center{
+        h1 {
+          font-size: 3em;
+        }
+
+        p {
+          font-size: 1.4em;
+
+        }
+
+      }
     }
   }
 
@@ -327,10 +362,11 @@ $heading-color: #02aedc;
 
 			h1 {
 				text-align: left;
+        font-size: 2.2em;
 			}
 
 			p {
-				font-size: 1.4em;
+				font-size: 1.2em;
         text-align: left;
 			}
 		}
@@ -353,10 +389,14 @@ $heading-color: #02aedc;
 
 			@include MQ(M) {
 
-				h5 {
-				font-size: 0.7em;
+				h1 {
+				font-size: 3em;
 
 				}
+
+        p {
+          font-size: 1.4em;
+        }
 
 				svg {
 					height: 32px;
@@ -436,6 +476,8 @@ $heading-color: #02aedc;
 
   .bg-img-right {
     @include span-columns(12);
+    max-height: 100%;
+    height: auto;
 
 
 
@@ -498,6 +540,26 @@ $heading-color: #02aedc;
       h1 {
         padding-top: 1em;
 
+        font-size: 2.2em;
+        text-align: left;
+      }
+
+      p {
+        font-size: 1.2em;
+        text-align: left;
+        padding-top: 1em;
+        padding-left: 0;
+        padding-right: 2em;
+    
+        margin-right: $margin-right;
+
+      }
+    }
+
+    @include MQ(L) {
+      h1 {
+        padding-top: 1em;
+
         font-size: 3em;
         text-align: left;
       }
@@ -512,9 +574,6 @@ $heading-color: #02aedc;
         margin-right: $margin-right;
 
       }
-    }
-
-    @include MQ(L) {
    
     }
   }
