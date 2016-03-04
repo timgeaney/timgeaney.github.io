@@ -5629,6 +5629,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/mac-promo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117845,
+		"inputAbbreviatedPath": "\/mac-promo.jpg",
+		"outputAbbreviatedPath": "\/mac-promo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/process.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5646,6 +5657,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/prommo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77128,
+		"inputAbbreviatedPath": "\/prommo.png",
+		"outputAbbreviatedPath": "\/prommo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/promo.html": {
 		"fileType": 8192,
