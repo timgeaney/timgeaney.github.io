@@ -1,1 +1,1 @@
-jQuery(document).ready(function($){var e=getElementsByTagName("body")[0]});
+$(document).ready(function(){function e(e){e.preventDefault(),t.toggle("nav-open")}var n=document.getElementsByClassName("nav-trigger")[0],t=document.getElementsByTagName("body")[0];n.addEventListener("click",e)});
