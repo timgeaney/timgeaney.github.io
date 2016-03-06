@@ -795,13 +795,13 @@ main {
   transform: translateY(12px) rotate(-45deg); }
 .nav-open .nav-trigger span::after {
   transform: translateY(-11px) rotate(45deg); }
-.nav-open .nav-trigger:hover span {
+.no-touch .nav-open .nav-trigger:hover span {
   background: #fff;
   transform: rotate(0deg) translateX(-22px); }
-.nav-open .nav-trigger:hover span::before {
+.no-touch .nav-open .nav-trigger:hover span::before {
   width: 50%;
   transform: translateX(-2px) translateY(4px) rotate(-45deg); }
-.nav-open .nav-trigger:hover span::after {
+.no-touch .nav-open .nav-trigger:hover span::after {
   width: 50%;
   transform: translateX(-2px) translateY(-4px) rotate(45deg); }
 
@@ -5226,7 +5226,7 @@ Main components
     content: '';
     display: block;
     margin: -3px 0 0 -1px; }
-  .modal .modal-close:hover:after, .modal .modal-close:hover:before {
+  .no-touch .modal .modal-close:hover:after, .no-touch .modal .modal-close:hover:before {
     background: #c4c4c4; }
   .modal .modal-close:before {
     -webkit-transform: rotate(-45deg);

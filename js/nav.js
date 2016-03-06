@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ jQuery(document).ready(function($){
 
  // menu toggle for nav front of site home page
 
@@ -9,8 +9,8 @@ $(document).ready(function() {
 
       function toggleNavigation(event) {
         event.preventDefault();
-        body.toggle('nav-open');
+        body.classList.toggle('nav-open');
       }
 
-
+      
 });

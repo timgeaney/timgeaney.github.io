@@ -70,8 +70,8 @@
       margin: -3px 0 0 -1px;
     }
 
-    &:hover:after,
-    &:hover:before {
+    .no-touch &:hover:after,
+    .no-touch &:hover:before {
       background: darken($modal-close-color, 10%);
     }
 

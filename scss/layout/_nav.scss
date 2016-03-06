@@ -324,17 +324,17 @@ main {
 		transform: translateY(-11px)rotate(45deg);
 	}
 
-	&:hover span {
+	.no-touch &:hover span {
 		background: #fff;
 	 transform: rotate(0deg) translateX(-22px);
 }
 
 	
-	&:hover span::before {
+	.no-touch &:hover span::before {
 		width: 50%;
 	transform: translateX(-2px) translateY(4px) rotate(-45deg);
 	}
-	&:hover span::after {
+	.no-touch &:hover span::after {
 		width: 50%;
 	transform: translateX(-2px) translateY(-4px) rotate(45deg);
 	}

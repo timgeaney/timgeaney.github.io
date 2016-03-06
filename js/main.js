@@ -20,17 +20,7 @@ jQuery(document).ready(function($){
     ( inputField.val() == '' ) ? inputField.prev('.cd-label').removeClass('float') : inputField.prev('.cd-label').addClass('float');
   }
 
-  // menu toggle for front of site home page
-
-    var navTrigger = document.getElementsByClassName('nav-trigger')[0],
-        body = document.getElementsByTagName('body')[0];
-
-      navTrigger.addEventListener('click', toggleNavigation);
-
-      function toggleNavigation(event) {
-        event.preventDefault();
-        body.classList.toggle('nav-open');
-      }
+ 
 
 
   // Accordion function
