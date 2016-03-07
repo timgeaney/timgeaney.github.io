@@ -5339,11 +5339,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index-coming-soon.html": {
+	"\/index-1.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index-coming-soon.html",
+		"inputAbbreviatedPath": "\/index-1.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
