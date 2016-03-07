@@ -775,17 +775,17 @@ main {
 .nav-trigger span::before {
   bottom: 12px; }
 
-.nav-trigger:hover span {
+.no-touch .nav-trigger:hover span {
   transform: rotate(180deg) translateX(22px); }
 
-.nav-trigger span::after {
+.no-touch .nav-trigger span::after {
   top: 12px; }
 
-.nav-trigger:hover span::before {
+.no-touch .nav-trigger:hover span::before {
   width: 50%;
   transform: translateX(-2px) translateY(4px) rotate(-45deg); }
 
-.nav-trigger:hover span::after {
+.no-touch .nav-trigger:hover span::after {
   width: 50%;
   transform: translateX(-2px) translateY(-4px) rotate(45deg); }
 
