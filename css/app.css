@@ -1248,9 +1248,9 @@ BACKGROUND VIDEO
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 60vh;
+  height: 550px;
   position: relative;
-  background: url(../img/girl-mobile.png) no-repeat fixed right;
+  background: url(../img/girl-mobile.png) no-repeat right;
   background-size: cover; }
   #call::after {
     clear: both;
@@ -1295,7 +1295,7 @@ BACKGROUND VIDEO
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 60vh;
+  height: 550px;
   position: relative;
   background: url(../img/laptop-choc.png) no-repeat fixed top;
   background-size: cover; }
@@ -3154,7 +3154,7 @@ main {
       margin-top: .5em; }
   @media only screen and (min-width: 700px) {
     #cd-team li {
-      width: 31%;
+      width: 40%;
       float: left;
       margin-right: 3.5%; }
       #cd-team li:nth-child(3n) {
@@ -5695,7 +5695,7 @@ Main Components
         .projects-container .cd-single-project:nth-of-type(2)::before {
           content: 'img/bh-mu-iphone-white.png'; }
         .projects-container .cd-single-project:nth-of-type(2)::after {
-          background-image: url("../img/ac-iphone-and-ipad.jpg"); }
+          background-image: url("../img/bh-mu-website-mac.png"); }
       .projects-container .cd-single-project:nth-of-type(3) {
         top: 0;
         left: 100vw; }
@@ -5741,6 +5741,25 @@ Main Components
       -webkit-transform: scale(1);
       transform: scale(1); } }
 
+/** 
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .projects-container {
+    height: 1024px; } }
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape) {
+  .projects-container {
+    height: 768px; } }
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40 / 71) {
+  .projects-container {
+    height: 500px; } }
 .cd-title {
   position: absolute;
   z-index: 1;

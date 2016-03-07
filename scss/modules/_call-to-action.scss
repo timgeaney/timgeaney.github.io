@@ -4,14 +4,14 @@
 
   // variables
   $ocpacity: 0; 
-  $vh-height: 60vh;
+  $vh-height: 550px;
 
 #call {
   @include outer-container(100%);
   height: $vh-height;
   position: relative;
 
-  background: url(../img/girl-mobile.png) no-repeat fixed right; 
+  background: url(../img/girl-mobile.png) no-repeat  right; 
   background-size: cover;
 
   .call-content {
