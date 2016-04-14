@@ -29,12 +29,13 @@ $color-5: #02aedc; // Cinnabar
 	text-transform: uppercase;
 	transition: all 0.2s;
 	position: relative;
+  background: $color;
 	color: $text-color;
 
 	&:hover {
 		padding-right: 3em;
-    background: $color;
-    color: #fff;
+    background: lighten($color, 50%);
+    color: $text-color;
 
 	}
 }
@@ -64,7 +65,7 @@ $color-5: #02aedc; // Cinnabar
 .btn-dark { @include btn(#252525, #fff); }
 .btn-purple { @include btn(#8861aa, #fff); }
 .btn-red { @include btn(#d62323, #fff); }
-.btn-white { @include btn(#fff, #000); }
+.btn-white { @include btn(#ccc, #fff); }
 .btn-orange { @include btn(#d4522d, #fff); }
 .btn-purple-nurple { @include btn(#aa87ff, #fff); }
 

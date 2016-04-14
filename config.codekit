@@ -5185,6 +5185,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/menu-alt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4744,
+		"inputAbbreviatedPath": "\/img\/menu-alt.png",
+		"outputAbbreviatedPath": "\/img\/menu-alt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/monster-feet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5489,6 +5500,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/nav-2-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/nav-2-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/nav-2-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/min\/nav-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -5539,6 +5561,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/timeline-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/timeline-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/nav-2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/nav-2.js",
+		"outputAbbreviatedPath": "\/js\/min\/nav-2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
