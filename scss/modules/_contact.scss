@@ -1,7 +1,7 @@
 // colors
 
-$red: #d62323; // Pickled Bluewood
-$color-2: #02aedc; // Curious Blue
+$form-color-1: #9AD3DE; // Pickled Bluewood
+$color-2: #d62323; // Curious Blue
 $color-3: $x-light-grey ; // Porcelain
 $color-4: #f7f7f7; // White
 $color-5: #02aedc; // Cinnabar
@@ -17,20 +17,10 @@ Primary style
 
 -------------------------------- */
 
-*, *::after, *::before {
-  @include box-sizing(border-box);
-}
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-
-}
 
 a {
-  color: $color-2;
+  color:$text-color;
   text-decoration: none;
 
 }
@@ -47,8 +37,8 @@ a {
     padding-top: 2em;   
     width: 100%;
     float: left;
-     background-color: $red;
-     min-height: 900px;
+     background-color: $form-color-1;
+     height: 500px;
 
      text-align: left;
 
@@ -105,8 +95,8 @@ a {
     padding-top: 2em;  
     width: 100%;
     float: left;
-    background-color: $red;
-    height: 100vh;
+    background-color: $form-color-1;
+
     min-height: 900px;
 
     .contact-us-inner {
@@ -178,7 +168,7 @@ a {
 
         h1.super-big {
           font-size: 4.2em;
-          padding-bottom: 0;
+          padding-bottom: 0.25em;
         }
 
         h6.big {
@@ -238,7 +228,7 @@ a {
 
         .contact-you, .contact-us {
           width: 50%;
-          height: 100vh;
+          min-height: 940px;
 
         }
 
@@ -346,7 +336,7 @@ a {
 
     img {
       width: 100%;
-      max-height: 100vh;
+      max-height: 100%;
       overflow: hidden;
     }
    
@@ -391,7 +381,7 @@ Form
 
 -------------------------------- */
 
-.cd-form {
+.bh-form {
 
   max-width: 600px; // breakpoints inside partials > _layout.scss
   margin: 4em auto;
@@ -415,18 +405,18 @@ Form
     margin: 20px 0;
   }
 
-  h4, .cd-label {
+  h4, .bh-label {
     font-size: 1.3rem;
     color: darken($color-3, 30%);
     margin-bottom: 10px;
   }
 
-  .cd-label {
+  .bh-label {
     display: block;
   }
 
   input, textarea, select, label {
-    font-family: $primary-font;
+
     font-size: 1.6rem;
     color: $text-color;
   }
@@ -458,7 +448,7 @@ Form
     }
   }
 
-  .cd-select {
+  .bh-select {
     /* select element wapper */
     position: relative;
 
@@ -491,12 +481,12 @@ Form
     display: none;
   }
 
-  .cd-form-list {
+  .bh-form-list {
     margin-top: 16px;
     @include clearfix;
   }
 
-  .cd-form-list li {
+  .bh-form-list li {
     /* wrapper for radio and checkbox input types */
     display: inline-block;
     position: relative;
@@ -522,7 +512,7 @@ Form
   input[type="submit"] {
     /* button style */
     border: none;
-    background: #d62323;
+    background: #02aedc;
     border-radius: 5em;
     border: 2px solid #fff;
     padding: 16px 20px;
@@ -534,7 +524,7 @@ Form
     @include appearance(none);
 
     .no-touch &:hover {
-      background: lighten(#d62323, 10%);
+      background: lighten(#02aedc, 10%);
     }
 
     &:focus {
@@ -561,7 +551,7 @@ Form
   }
 
   .error {
-    border-color: red !important;
+    border-color: orange !important;
   }
 
   @include MQ(M) {
@@ -575,7 +565,7 @@ Form
       margin-top: 20px;
     }
 
-    h4, .cd-label {
+    h4, .bh-label {
       font-size: 1.4rem;
       margin-bottom: 10px;
     }
@@ -605,7 +595,7 @@ Custom icons
 
 -------------------------------- */
 
-.cd-form {
+.bh-form {
    margin-left: $con-margin;
    margin-right: $con-margin;
    margin-top: 20px;
@@ -672,25 +662,27 @@ FLoating labels
     margin: 28px 0;
   }
 
-  .cd-label {
+  .bh-label {
     position: absolute;
     top: 16px;
     left: 16px;
     font-size: 1.6rem;
+    font-family: 'brandon_grotesque_lightRg';
     cursor: text;
+
     @include transition(top .2s, left .2s, font-size .2s);
   }
 
 
 
-  .icon .cd-label {
+  .icon .bh-label {
     left: 56px;
   }
 
-  .cd-label.float {
+  .bh-label.float {
     /* move label out the input field */
     font-size: 1.2rem;
-    top: -16px;
+    top: -20px;
     left: 0 !important;
   }
 
@@ -701,8 +693,15 @@ FLoating labels
       margin-top: 16px;
     }
 
-    .cd-label {
+    .bh-label {
       top: 20px;
     }
+  }
+}
+
+#bg-full-image {
+  img {
+  margin-bottom: -20px; // fix gap issue
+
   }
 }

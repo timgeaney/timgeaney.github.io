@@ -6,13 +6,14 @@
 	animation: fadeInUp 2s .2s backwards;
 	
 	
-	margin-top: 0em;
+
 	margin-bottom: 4em;
 
 
 }
 
 .blog-post {
+	margin-top: 6em;
 
 	@include MQ(M) {
 		@include span-columns(8);
@@ -34,7 +35,7 @@
 
 	h4 {
 		margin-top: 2em;
-		text-align: center;
+		text-align: left;
 		color: #d4522d;
 	}
 
@@ -104,7 +105,7 @@
 	}
 
 	a {
-		color: $color-primary;
+		color: #02aedc;
 	}
 
 

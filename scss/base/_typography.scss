@@ -1,13 +1,6 @@
 /* ==========================================================================
-   Typography dir= scss/base/typography
+   Typography
    ========================================================================== */
-
-/* ============
-   Variables
-   ============= */
-
-   $baseline: 1em;
-
 
 @font-face {
     font-family: 'GoudyItalic';
@@ -124,29 +117,25 @@ textarea {
 }
 
 body {
-      font: {
-    size: 1.6rem;
-    family: 'brandon_grotesque_lightRg';
-  }
-  color: $text-color;
-  line-height: $baseline;
+    color: $grey;
+    font-family: 'brandon_grotesque_lightRg';
+    line-height: $baseline;
 }
 
 p {
 	margin: 0 0 $baseline;
 	font-family:  'brandon_grotesque_lightRg';
-	font-size: 1.6em;
-	line-height: $baseline;
-  color: #797e83;
+	font-size: 1.2em;
+	line-height: (27px/18px);
 }
 
 a {
 	color: $dark-grey;
     font-family:  'brandon_grotesque_lightRg';
 	text-decoration: none;
-	font-weight: $font-weight--medium;
+	
 	&:hover {
-		color:$color-primary;
+		color:blue;
 	}
 }
 
@@ -157,6 +146,7 @@ a {
 
 blockquote {
   font-size: $h2-size;
+  font-family: 'GoudyItalic', serif; /* 1 */
   line-height: 1.2em;
   font-weight: $font-weight--light;
   margin: 4% 0;
@@ -174,10 +164,6 @@ cite {
   margin: 0 0 6% 4%;
 }
 
-p {
-  font-size: 1.2em;
-}
-
 li {
 	list-style-type: none;
 }
@@ -189,11 +175,10 @@ h1, h2 {
 
 h1 {
     font-family: 'brandon_grotesque_lightRg';
-    color:lighten(#474747, 10%);
     font-size: 3em;
-    margin: 3% 0;
-	 	text-align: center;
-	 	letter-spacing: -1px;
+    margin: 1% 0;
+ 	text-align: center;
+ 	letter-spacing: 0px;
     line-height: 1em;
  	}
 h1 a {
@@ -201,25 +186,24 @@ h1 a {
 }
 
 h2 {
- 	color: darken(#ccc, 10%);
+ 	color: $text-color;
  	font-family: 'GoudyItalic', serif; /* 1 */
  	font-weight: normal;
- 	font-size: 1.25em;
+ 	font-size: 3.1em;
  	line-height: 1em;
  	text-align: center;
  	}
 
  h3 {
  	font-family: 'brandon_grotesque_lightRg';
- 	text-transform: uppercase;
- 	font-size: 3.5em;
+ 	font-size: 1em;
  	line-height: 1.25em;
-    letter-spacing: -2px;
  	margin: 1% 0;
- 	color: #000;
+ 	color: $text-color;
  }
  h4 {
  	font-family: 'brandon_grotesque_lightRg';
+ 	text-transform: uppercase;
  	font-size: 2em;
  	line-height: 1.25em;
  	margin: 2% 0;
@@ -228,15 +212,15 @@ h2 {
  h5 {
  	font-family: 'brandon_grotesque_lightRg';
     text-transform: uppercase;
- 	font-size: .75em;
- 	line-height: 1em;
+ 	font-size: 1em;
+ 	line-height: 1.25em;
  	color: #474747;
  	padding: 0 0 2% 0;
  	border-bottom: 1px solid #e6e6e6;
  }
  h6 {
     color: #474747;
-    font-family: 'brandon_grotesque_boldregular';
+    font-family: 'brandon_grotesque_lightRg';
     font-weight: normal;
     font-size: 1em;
     line-height: 1.5em;
@@ -255,6 +239,22 @@ a:hover {
     color: inherit;
 }
 
+a {
+    outline: 0 !important;
+}
+.btn {
+    font-size: 1em;
+    padding: 10px 25px;
+    margin: 2% 0;
+    display: inline-block;
+    color: #fff;
+}
+.btn a {
+    color: #fff;
+}
+.btn a:hover {
+    color: #fff;
+}
 .pink {
      -webkit-border-radius: 5px;
     -moz-border-radius: 5px;

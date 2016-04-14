@@ -1,0 +1,62 @@
+// variables
+
+// colors
+
+$color-1: #fff; // blue
+$color-2: darken(#e3e3e3 , 0%); //
+$color-3: #02aedc;
+$color-4: lighten(#02aedc, 10%); // white
+ // white
+
+
+
+.header-white {
+
+	.bh-header {
+		&.is-fixed {
+			/* when the user scrolls down, we hide the header right above the viewport */
+			
+			background-color: rgba($color-3, .96);
+			
+		}
+
+		&.is-visible {
+			/* if the user changes the scrolling direction, we show the header */
+			@include transform(translate3d(0,100%,0));
+		}
+
+		&.menu-is-open {
+			/* add a background color to the header when the navigation is open */
+			background-color: rgba($color-3, .96);
+		}
+
+	}
+
+	.bh-primary-nav {
+		background: rgba($color-3, .95);
+	}
+	
+	.bh-menu-text,
+	 a, 
+	 h1 {
+		color: #fff;
+
+	}
+	.bh-menu-icon,
+	.bh-menu-icon::before,
+	.bh-menu-icon::after {
+		background-color: #fff;
+	}
+
+	.bh-menu-icon {
+			&.is-clicked {
+				background-color: rgba(#fff, 0);
+
+				&::before, &::after {
+					background-color: rgba(#fff, 1);
+				}
+		}
+	}
+
+}
+

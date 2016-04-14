@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
 			slidesNumber = slidesWrapper.children('li').length,
 			visibleSlidePosition = 0,
 			autoPlayId,
-			autoPlayDelay = 5000;
+			autoPlayDelay = 6000;
 
 		//upload videos (if not on mobile devices)
 		uploadVideo(slidesWrapper);
@@ -101,6 +101,7 @@ jQuery(document).ready(function($){
 				video.appendTo(videoWrapper);
 				// play video if first slide
 				if(videoWrapper.parent('.cd-bg-video.selected').length > 0) video.get(0).play();
+				video.prop('muted', true); //mute
 			}
 		});
 	}

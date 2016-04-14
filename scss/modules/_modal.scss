@@ -9,7 +9,8 @@
   $light-gray: #ddd !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
-  $modal-padding: 2em;
+  $base-font-color: $dark-gray !default;
+  $modal-padding: 3em;
   $modal-background: $base-background-color;
   $modal-close-color: $light-gray;
   $modal-image-height: 135px;
@@ -31,7 +32,9 @@
     display: none;
   }
 
-
+  .modal-trigger {
+    padding: 0.8em 1em;
+  }
 
   .modal-fade-screen { // overlay
     @include transition(opacity 0.25s ease);
@@ -55,8 +58,8 @@
 
   .modal-close {
     @include position(absolute, ($modal-padding /2) ($modal-padding /2) null null);
-    @include size(em);
-    background: #fff;
+    @include size(1.5em);
+    background: $modal-background;
     cursor: pointer;
 
     &:after,
@@ -70,8 +73,8 @@
       margin: -3px 0 0 -1px;
     }
 
-    .no-touch &:hover:after,
-    .no-touch &:hover:before {
+    &:hover:after,
+    &:hover:before {
       background: darken($modal-close-color, 10%);
     }
 
@@ -80,11 +83,9 @@
     }
   }
 
-
-
   .modal-inner {
     @include transition(opacity 0.25s ease);
-    background: #fff !important;
+    background: $modal-background;
     border-radius: $base-border-radius;
     margin-top: 0;
     margin: auto;
@@ -104,32 +105,23 @@
       width: 50%;
     }
 
-    i:first-child {
-      padding-right: 1em;
-    }
-
-    i {
-      color: #02aedc;
-      padding-right: 0.5em;
+    img {
+      max-width: 80px;
     }
 
     h1 {
-      margin-top: 0;
-      padding-bottom: 0.5em;
+      color: $base-font-color;
       text-align: left;
       text-transform: capitalize;
-      animation: none;
-    }
-
-    img {
-      margin: 0;
-      padding: 0;
-      max-width: 100px;
     }
 
     p {
-      
+      color: $base-font-color;
       line-height: $base-line-height;
+    }
+
+    li i {
+      padding-right: 1em;
     }
 
     .modal-intro {
@@ -137,22 +129,12 @@
     }
 
     .modal-content {
-      
+      color: $base-font-color;
 
       @include media($medium-screen) {
         @include columns(2 8em);
       }
     }
-
-    ul {
-     padding: 0;
-     li {
-      padding-top: 1em;
-      font-size: 2em;
-     }
-    }
-
-
 
     a.cta {
       color: $base-background-color;
@@ -180,8 +162,8 @@
   overflow: hidden;
 }
 
-
 // Based on code by Kasper Mikiewicz
+
 
 
 
@@ -189,18 +171,51 @@
 
 
 .btn-modal {
+  display: none;
   position: fixed;
-  z-index: 4;
-  top: 34px;
-  right: 110px;
-  width: 150px;
+  z-index: 30;
+  top: 20px;
+  right: 80px;
+  width: 130px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'brandon_grotesque_lightRg';
+  font-size: 0.8em;
+  
 
   // img replace
 
   cursor: pointer;
 
   &:hover {
-    width: 170px;
+    width: 140px;
+  }
+
+
+   
+
+
+  i {
+    display: inline-block;
+  }
+
+
+
+
+
+
+  @include MQ(M) {
+    display: block;
+    top: 16px;
+    right: 130px;
+    font-size: 0.8em;
+    padding: 0.6em 0.6em 0.6em 0.6em;
+
+    &:hover {
+  
+  }
+
+
   }
 
 

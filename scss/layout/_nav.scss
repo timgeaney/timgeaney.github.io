@@ -1,41 +1,12 @@
-
-/* ==========================================================================
-   Nav dir= scss/layout/nav.scss
-   ========================================================================== */
-// Variables
-
-$navigation-height: 116px;
-$margin-left: 30px;
-$menu-color: #000;
-$menu-link-color: transparentize($menu-color, 0.3);
+// variables
 
 // colors
 
-$bg-color: #D62323;
-$bg-color-1: #1B49BE;
-$bg-color-2: #8861AA;
-
-/* -------------------------------- 
-Primary style
--------------------------------- */
-
-*, *::after, *::before {
-	@include box-sizing(border-box);
-}
-
-.nav-wrapper {
-	position: relative;
-}
-
-
-.bg-purple { background-color: #8861AA; }
-.bg-black { background-color: #252525; }
-.bg-blue { background-color: #02aedc; }
-.bg-red { background-color: #d62323; }
-.bg-darkblue { background-color: #1b49be; }
-.bg-gold { background-color: #A28E5C; }
-.bg-orange { background-color: #d4522d; }
-.bg-purple-nurple { background-color: #ab87ff; }
+$color-1: #fff; // blue
+$color-2: darken(#e3e3e3 , 0%); //
+$color-3: #02aedc;
+$color-4: lighten(#02aedc, 10%); // white
+ // white
 
 
 
@@ -43,571 +14,397 @@ Primary style
 
 
 
-header {
-	@include clearfix;
 
-	max-height: $navigation-height;
+//header height
 
-	.tag-line {
-			height: 80px;
-			float: left;
-			animation: fadeInDown 2s .2s backwards;
-		}
+$header-height-S: 50px;
+$header-height-M: 80px;
 
-		.text-blue {
-			color: #02aedc;
-		}
+$logo-width-S: 20px;
+$logo-width-M: 40px;
 
-	h2 {
-		padding-bottom: 1em;
-		display: none;
+// z-index 
 
-	}
+$content-zindex: 1;
+$nav-zindex: 2;
+$header-zindex: 3;
 
-	h1 {
-			text-transform: lowercase;
-			color: #fff;
-			text-align: left;
-			text-align: bottom;
-			font-size: 1.8em;
-			margin-top: 0;
-			padding-top: 2.6em;
-			padding-left: -20px;
-			animation: none;
-
-		}
-
-	.logo img {
-		float: left;
-		max-height: $navigation-height;
-		padding: 0;
-		margin: 0;
-
-	}
-
-	.btn-login {
-			display: none;
-			a {
-				color: #fff;
-			}
-			
-		}
-
-// media query
-	@include MQ(M) {
-
-		.tag-line {
-			height: $navigation-height;
-		}
-
-
-		h1 {
-			text-transform: lowercase;
-			color: #fff;
-			text-align: left;
-			font-size: 3.2em;
-			margin-top: 0;
-			padding-top: 1.1em;
-			padding-left: -20px;
-			animation: none;
-		}
-
-	h2 {
-		display: block;
-		padding-bottom: 1em;
-		color: #474747;
-		padding-left: 20px;
-
-
-	}
-
-	.logo img{
-	
-			float: left;
-			max-height: $navigation-height;
-			padding: 0;
-			margin: 0;
-		}
-
-		.btn-login {
-			position: fixed;
-			display: block;
-			z-index: 4;
-			top: 35px;
-			right: 120px;
-
-		}
-
-	} // end MQ
-
-
-	
-
-}
-
-header.projects-header {
-	background-color: transparent;
-}
-
-
-// Off screen nav
+// to disable scroll bar without hiding it to stop jenky behaviour when opeing menu
 
 body {
-	background: lighten(#252525, 10%);
-	margin: 0;
-	height: 100%;
-	width: 100%;
 
-}
-
-.btn-login-offscreen {
-	max-width: 180px;
-	color: #02aedc !important;
-	margin-top: 2em;
-	margin-left: $margin-left;
-	&:hover {
-		color: #fff !important;
+	&.overflow-hidden {
+		/* when primary navigation is visible, the content in the background won't scroll */
+		position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
 	}
 }
 
 
-main {
-	position: relative;
-	z-index: 1;
-	// height: 100vh;
-	// overflow: auto; //overflow auto breaking scrollTop in JS???
-	box-shadow: 0 0 50px #000;
-	transition: transform .5s;
-	background: #fff;
+
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+
+.bh-container { /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+
+	margin: 0 auto;
+	@include clearfix;
 }
 
-.nav-open main {
-	transform: scale(.9);
-}
-// hamburger icon
+/* -------------------------------- 
 
-.nav-trigger {
-	position: fixed;
-	z-index: 4;
-	top: 20px;
-	right: 20px;
-	width: 80px;
-	height: 80px;
-	border: 2px solid #fff;
-	border-radius: 50%;
+Main components 
 
-	// img replace
+-------------------------------- */
 
-	overflow: hidden;
-	text-indent: 100%;
-	color: transparent;
-	white-space: nowrap;
-
-	cursor: pointer;
-
+html, body {
+	height: 100%;
 }
 
-.nav-trigger span,
-.nav-trigger span::before,
-.nav-trigger span::after {
+
+.bh-header {
 	position: absolute;
-	width: 44px;
-	height: 4px;
-	background: white;
-	border-radius: 4px;
-	
-}
-
-.nav-trigger span {
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	transition: transform .3s;
-}
-
-.nav-trigger span::before,
-.nav-trigger span::after  {
-	content: " ";
-	left: 0;
-	transition: transform .3s, width .3s;
-
-}
-
-.nav-trigger span::before {
-	bottom: 12px;
-}
-
-.no-touch .nav-trigger:hover span {
-	 transform: rotate(180deg) translateX(22px);
-}
-
-.no-touch .nav-trigger span::after {
-	top: 12px;
-}
-
-
-.no-touch .nav-trigger:hover span::before {
-	width: 50%;
-	transform: translateX(-2px) translateY(4px) rotate(-45deg);
-}
-
-.no-touch .nav-trigger:hover span::after {
-	width: 50%;
-	transform: translateX(-2px) translateY(-4px) rotate(45deg);
-}
-// .nav-trigger {
-// 	position: fixed;
-// 	z-index: 4;
-// 	top: 40px;
-// 	right: 40px;
-// 	height: 44px;
-// 	width: 44px;
-	
-
-// 	overflow: hidden;
-// 	color: transparent;
-// 	white-space: nowrap;
-// 	text-indent: 100%;
-
-// 	span,
-// 	span::before,
-// 	span::after {
-// 		position: absolute;
-// 		height: 4px;
-// 		width: 36px;
-// 		background: black;
-		
-// 	}
-
-// 	span {
-// 		top: 50%;
-// 		left: 50%;
-// 		transform: translate(-50%, -50%);
-// 		transition: background .3s;	
-// 	}
-
-// 	span::before,
-// 	span::after {
-// 		content: "";
-// 		top: 0;
-// 		left: 0;
-// 		transition: background .3s, transform .3s;	
-// 	}
-
-// 	span::before {
-// 		transform: translateY(-12px);
-// 	}
-
-// 	span::after {
-// 		transform: translateY(12px);
-// 	}
-
-// 	&:hover span,
-// 	&:hover span::before,
-// 	&:hover span::after {
-// 		background: #999999;
-// 	} 
-
-// }
-
-.nav-open .nav-trigger  {
-	// background: transparent;
-	span {
-		background: transparent;
-	}
-	span::before {
-		transform: translateY(12px) rotate(-45deg);
-	}
-
-	span::after {
-		transform: translateY(-11px)rotate(45deg);
-	}
-
-	.no-touch &:hover span {
-		background: #fff;
-	 transform: rotate(0deg) translateX(-22px);
-}
-
-	
-	.no-touch &:hover span::before {
-		width: 50%;
-	transform: translateX(-2px) translateY(4px) rotate(-45deg);
-	}
-	.no-touch &:hover span::after {
-		width: 50%;
-	transform: translateX(-2px) translateY(-4px) rotate(45deg);
-	}
-}
-
-.overlay {
-	position: fixed;
-	z-index: 2;
 	top: 0;
 	left: 0;
+	height: $header-height-S;
 	width: 100%;
-	height: 100%;
-	background: #1C1D21;
-	opacity: 0;
-	visibility: hidden;
-	transition: opacity .5s, visibility .5s;
-}
-
-.nav-open .overlay {
-	opacity: .6;
-	visibility: visible;
-}
-
-
-.nav-container {
-	font-family: 'brandon_grotesque_lightRg';
-
-	position: fixed;
-	z-index: 3;
-	top: 0;
-	right: 0;
-	height: 100%;
-	width: 90%;
-	max-width: 360px;
-	overflow: auto;
-	overflow-x:hidden; 
-	transform: translateZ(0);
-	transform: translateX(100%);
-	transition: transform .5s cubic-bezier(0.7,.23,.34,1);
-
-
-	a {
-		display: block;
-		color: #fff;
-	}
-
-	h2 {
-		text-align: left;
-		padding-left: 3.2em;
-	}
-}
-
-
-
-
-.nav-container header#nav-header {
-
-	background-color: #fff;
-	height: $navigation-height;
-	width: 460px;
-	margin: 0;
-
-	h3 {
-
-		float: left;
-		padding-top: 2.6em;
-		margin: 0 0 0 10px;
-		font-size: 2em;
-	}
-}
-
-
-
-
-.nav a {
-	transform: translateZ(0);
-
-}
-
-.nav, .nav-follow {
-	padding-top: 2em;
-	margin-left: $margin-left;
-	margin-right: $margin-left;
-	padding-left: 0;
-
-	ul {
-		padding-left: 1em;
-	}
-
-	hr {
-		width: 100%;
-	}
-
-	a {
-		line-height: 35px;
-		max-width: 200px;
-		font-size: 1.42em;
-		margin-top: 0.6em;
-		font-family: 'brandon_grotesque_boldregular';
-		padding-left: 1em;
-
-		  
-
-
-		color: #fff;
-
-			&:hover {
-	
-	    color: #fff;
-		}
-
-		&::after {
-			font-family: FontAwesome;
-			content: "\f138";
-			display: inline-block;
-			position: absolute;
-			right: 1.2em;
-			opacity: 0;
-
-		}
-
-		&:hover::after {
-			animation: fadeInLeft 1s backwards;
-    opacity: 1
-		}
-	}
-}
-
-
-// .nav a:hover{
-// 	border-bottom: 2px solid #fff;
-// }
-
-.nav-follow i:first-child {
-	margin-left: 0;
-}
-
-.nav-follow i {
-	color: #fff;
-	font-size: 1.6em;
-	padding-right: 1em;
-
-	
-	&:hover {
-		color: $menu-link-color;
-	}
-}
-
-.nav-open .nav-container {
-	transform: translateX(0);
-}
-
-// animate nav links
-
-.nav-open .nav a {
-	animation: slide-in .4s .2s backwards;
-}
-
-.nav-open .nav-follow i {
-	animation: slide-in .4s .2s backwards;
-}
-
-.nav-open .nav li:nth-of-type(2) a {
-	animation-delay: .3s;
-}
-
-.nav-open .nav li:nth-of-type(3) a {
-	animation-delay: .4s;
-}
-
-.nav-open .nav li:nth-of-type(4) a {
-	animation-delay: .5s;
-}
-
-.nav-open .nav li:nth-of-type(5) a {
-	animation-delay: .6s;
-}
-.nav-open .nav li:nth-of-type(6) a {
-	animation-delay: .7s;
-}
-
-.nav-open .nav-follow i:nth-of-type(1)  {
-	animation-delay: .7s;
-}
-
-.nav-open .nav-follow i:nth-of-type(2)  {
-	animation-delay: .8s;
-}
-
-.nav-open .nav-follow i:nth-of-type(3)  {
-	animation-delay: .9s;
-}
-
-.nav-open .nav-follow i:nth-of-type(4)  {
-	animation-delay: 1s;
-}
-.nav-open .nav-follow i:nth-of-type(5)  {
-	animation-delay: 1s;
-}
-
-
-
-@keyframes slide-in {
-	0% {
-		opacity: 0;
-		transform: translateX(80px);
-	}
-	100% {
-		opacity: 1;
-		transform : translateX(0);
-	}
-}
-
-// back to top scroll button
-
-$scroll-color: darkgrey;
-
-
-.cd-top {
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-
-	position: fixed;
-	bottom: 40px;
-	right: 10px;
-
-	box-shadow: 0 0 10px rgba(#000, .05);
-
-	/* image replacement properties */
-	overflow: hidden; 
-	text-indent: 100%;
-	white-space: nowrap;
-
-	background: rgba($scroll-color, .8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
-
-	visibility: hidden;
-	opacity: 0;
-
-	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
-	-moz-transition: opacity .3s 0s, visibility 0s .3s;
-	transition: opacity .3s 0s, visibility 0s .3s;
-
-	&.cd-is-visible, &.cd-fade-out, .no-touch &:hover {
-		-webkit-transition: opacity .3s 0s, visibility 0s 0s;
-		-moz-transition: opacity .3s 0s, visibility 0s 0s;
-		transition: opacity .3s 0s, visibility 0s 0s;
-	}
-
-	&.cd-is-visible { /* the button becomes visible */
-		visibility: visible;
-		opacity: 1;
-		z-index: 10;
-	}
-
-	&.cd-fade-out { /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-		opacity: .5;
-	}
-
-	.no-touch &:hover {
-		background-color: rgba($scroll-color, 1);
-		opacity: 1;
-	}
+	z-index: $header-zindex;
+	box-shadow: 0 1px 2px rgba(#000, .3);
+	box-shadow: none;
+
+	@include font-smoothing;
 
 	@include MQ(M) {
-		right: 20px;
-		bottom: 20px;
+		height: $header-height-M;
+		background: transparent;
+		// background: $color-3;
+		box-shadow: none;
+	}
+
+	a {
+		color: $color-3;
 	}
 
 	@include MQ(L) {
-		height: 60px;
-		width: 60px;
-		right: 30px;
-		bottom: 30px;
+		@include transition(background-color .3s);
+
+		/* Force Hardware Acceleration in WebKit */
+		@include transform(translate3d(0,0,0));
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+
+		&.is-fixed {
+			/* when the user scrolls down, we hide the header right above the viewport */
+			position: fixed;
+			top: -$header-height-M;
+			background-color: rgba($color-1, .96);
+			-webkit-transition: -webkit-transform 0.3s;
+			-moz-transition: -moz-transform 0.3s;
+			transition: transform 0.3s;
+		}
+
+		&.is-visible {
+			/* if the user changes the scrolling direction, we show the header */
+			@include transform(translate3d(0,100%,0));
+		}
+
+		&.menu-is-open {
+			/* add a background color to the header when the navigation is open */
+			background-color: rgba(#fff, .96);
+		}
 	}
+}
+
+
+.bh-logo {
+	display: block;
+	position: absolute;
+	@include center(y);
+	left: .875em;
+
+
+	img {
+		display: block;
+		max-height: $header-height-S;
+		max-width: $logo-width-S;
+
+	}
+
+	@include MQ(M) {
+		left: 2.6em;
+		img {
+		max-height: $header-height-M;
+		max-width: $logo-width-M;
+
+		}
+	}
+}
+
+.tag-line {
+
+	position: absolute;
+	left: 45px;
+	top: 15px;
+	font-size: 0.6em;
+	color: #02aedc;
+	animation: fadeInDown 2s .2s backwards;
+
+		@include MQ(M) {
+			top: 43px;
+			left: 95px;
+			font-size: 0.6em;
+		}
+		@include MQ(L) {
+			top: 36px;
+			left: 95px;
+			font-size: 0.8em;
+		}
+	}
+
+.bh-secondary-nav {
+	position: absolute;
+	top: 28px;
+	right: 280px;
+	/* hidden on small devices */
+	display: none;
+
+	li {
+		display: inline-block;
+		margin-left: 1em;
+	
+	}
+
+	a {
+		display: inline-block;
+		text-transform: uppercase;
+		color: $color-3;
+		font-size: 0.8em;
+		font-family:'brandon_grotesque_boldregular';
+		&:hover {
+			
+		}
+		
+	}
+
+	@include MQ(M) {
+		display: block;
+	}
+}
+
+.bh-primary-nav-trigger {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 50px;
+	
+
+
+	.bh-menu-text {
+		color: $color-3;
+		text-transform: uppercase;
+		font-size: 1em;
+		font-family:'brandon_grotesque_boldregular';
+		/* hide the text on small devices */
+		display: none;
+	}
+
+	.bh-menu-icon {
+		/* this span is the central line of the menu icon */
+		display: inline-block;
+		position: absolute;
+		@include center; // mixin inside partials > _mixins.scss
+		width: 18px;
+		height: 2px;
+		background-color: $color-3;
+		@include transition(background-color .3s);
+
+
+		
+		/* these are the upper and lower lines in the menu icon */
+		&::before, &:after {
+			content: '';
+			width: 100%;
+			height: 100%; 
+			position: absolute;
+			background-color: $color-3;
+			right: 0;
+
+			-webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
+			-moz-transition: -moz-transform .3s, top .3s, background-color 0s;
+			transition: transform .3s, top .3s, background-color 0s;
+		}
+		
+		&::before {
+			top: -5px;
+		}
+
+		&::after {
+			top: 5px;
+		}
+
+		&.is-clicked {
+			background-color: rgba($color-3, 0);
+
+			&::before, &::after {
+				background-color: rgba($color-3, 1);
+			}
+
+			&::before {
+				top: 0;
+				@include transform(rotate(135deg));
+			}
+
+			&::after {
+				top: 0;
+				@include transform(rotate(225deg));
+			}
+		}
+	}
+
+	@include MQ(M) {
+		width: 100px;
+		padding-left: 1em;
+		background-color: transparent;
+		height: 30px;
+		line-height: 30px;
+		right: 2.2em;
+		@include center(y);
+
+		.bh-menu-text {
+			display: inline-block;
+		}
+
+		.bh-menu-icon {
+			left: auto;
+			right: 1em;
+			@include transform(translateX(0) translateY(-50%));
+		}
+	}
+}
+
+.bh-primary-nav {
+	/* by default it's hidden - on top of the viewport */
+	position: fixed;
+	left: 0;
+	top: 0px;
+	padding-top: 100px;
+	height: 100%;
+	width: 100%;
+	background: rgba($color-1, .95);
+	z-index: $nav-zindex;
+	text-align: center;
+	padding: $header-height-S 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	overflow: auto;
+	/* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
+	-webkit-overflow-scrolling: touch;
+
+	@include transform(translateY(-100%));
+	@include transition-property(transform);
+	@include transition-duration(.4s);
+
+	li:first-of-type {
+		padding-top: 60px;
+
+	}
+
+	li {
+		@include font-size(22px);
+		font-weight: 300;
+		@include font-smoothing;
+		margin: .2em 0;
+		text-transform: capitalize;
+	}
+
+	a {
+		color: $color-3;
+		display: inline-block;
+		padding: .4em 1em;
+		@include border-radius;
+		@include transition(background .2s);
+
+		.no-touch &:hover {
+			background-color: $color-2;
+		}
+	}
+
+	.bh-label {
+		color: darken($color-1, 25%);
+		text-transform: uppercase;
+		font-weight: 700;
+		@include font-size(14px);
+		margin: 2.4em 0 .8em;
+	}
+
+	.bh-social {
+		display: inline-block;
+		margin: 0 .4em;
+		
+		a {
+			width: 44px;
+			height: 44px;
+			padding: 0;
+			background-image: url('../img/cd-socials.svg');
+			background-repeat: no-repeat;
+
+			/* image replacement */
+			overflow: hidden;
+			text-indent: 100%;
+			white-space: nowrap;
+		}
+	}
+
+	.bh-facebook a {
+		background-position: 0 0;
+	}
+
+	.bh-instagram a {
+		background-position: -44px 0;
+	}
+
+	.bh-dribbble a {
+		background-position: -88px 0;
+	}
+
+	.bh-twitter a {
+		background-position: -132px 0;
+	}
+
+	&.is-visible {
+		@include transform(translateY(0));
+	}
+
+	@include MQ(M) {
+		padding: $header-height-M 0;
+	}
+
+	@include MQ(L) {
+		li {
+			@include font-size(30px);
+		}
+
+		.bh-label {
+			@include font-size(16px);
+		}
+	}
+}
+
+
+
+// Main content container
+
+.bh-main-content {
+	position: relative;
+	z-index: $content-zindex;
+
+	
 }
 

@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
 	var marker_url = ( is_internetExplorer11 ) ? 'img/cd-icon-location.png' : 'img/cd-icon-location.svg';
 		
 	//define the basic color of your map, plus a value for saturation and brightness
-	var	main_color = '#2d313f',
+	var	main_color = '#01aedc',
 		saturation_value= -20,
 		brightness_value= 5;
 
@@ -209,8 +209,8 @@ jQuery(document).ready(function($){
 	//add custom buttons for the zoom-in/zoom-out on the map
 	function CustomZoomControl(controlDiv, map) {
 		//grap the zoom elements from the DOM and insert them in the map 
-	  	var controlUIzoomIn= document.getElementById('cd-zoom-in'),
-	  		controlUIzoomOut= document.getElementById('cd-zoom-out');
+	  	var controlUIzoomIn= document.getElementById('bh-zoom-in'),
+	  		controlUIzoomOut= document.getElementById('bh-zoom-out');
 	  	controlDiv.appendChild(controlUIzoomIn);
 	  	controlDiv.appendChild(controlUIzoomOut);
 

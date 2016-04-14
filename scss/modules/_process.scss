@@ -21,26 +21,6 @@ $bg-color-2: #8861AA;
 
 
 
-// /* -------------------------------- 
-
-// Primary style
-
-// -------------------------------- */
-
-html * {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-*, *:after, *:before {
-	@include box-sizing(border-box);
-}
-
-
-
-img {
-	max-width: 100%;
-}
 
 
 
@@ -285,7 +265,7 @@ Main components
 		}
 
 		p {
-			@include font-size(32px);
+			
 		}
 
 		.cd-read-more, .cd-date {

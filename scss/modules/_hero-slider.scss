@@ -6,9 +6,10 @@ Primary style
 
 // colors
 
-$color-1: #2c343b; // 
-$color-2: #d44457; //
-$color-3: #ffffff; // White
+$color-1: #ffffff; // 
+$color-2: #02aedc; //
+$color-3: darken(#9fa8a3, 20%); // White
+$color-4: darken(#e9e9e9, 10%);
 
 // fonts 
 
@@ -21,8 +22,8 @@ $header-M: 70px;
 
 // intro height
 
-$intro-height-S: 360px;
-$intro-height-M: 500px;
+$intro-height-S: 400px;
+$intro-height-M: 520px;
 $intro-height-L: 680px;
 
 // 
@@ -38,6 +39,18 @@ Main Components
 
 -------------------------------- */
 
+.frosted {
+	padding: 1em;
+	background-color: rgba(255,255,255, 0.6);
+	max-width: 600px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.hero-btn {
+	margin-top: 0;
+}
+
 
 /* -------------------------------- 
 
@@ -48,6 +61,7 @@ Slider
 .cd-hero {
 	position: relative;
 	@include font-smoothing;
+	margin-top: 0em;
 }
 
 .cd-hero-slider {
@@ -106,6 +120,11 @@ Single slide style
 
 	li:first-of-type {
 		background-color: $color-1;
+			// background-image: url('../img/bh-home-intro.jpg');
+			background-image: url('../img/color-pencil.jpg');
+			// background-image: url('../img/watercolor-blue.jpg');
+
+
 	}
 
 	li:nth-of-type(2) {
@@ -120,12 +139,12 @@ Single slide style
 
 	li:nth-of-type(4) {
 	 	background-color: $color-1;
-	 	background-image: url('../assets/video-replace-mobile.jpg');
+	 	background-image: url('../img/bh-creative.png');
 	}
 
 	li:nth-of-type(5) {
 	 	background-color: $color-1;
-	 	background-image: url(../assets/img.jpg);
+	 	background-image: url(../img/mac-moc.jpg);
 	}
 
 	.cd-full-width, 
@@ -271,7 +290,7 @@ Single slide style
 		}
 
 		h2 {
-			font-size: 2.4em;
+			font-size: 2em;
 			font-weight: 300;
 		}
 
@@ -400,7 +419,7 @@ Slider navigation
 	z-index: 2;
 	text-align: center;
 	height: 55px;
-	background-color: rgba(darken($color-1, 20%), .5);
+	background-color: rgba(lighten(#02aedc, 20%), .5);
 
 	nav, ul, li, a {
 		height: 100%;
@@ -418,7 +437,7 @@ Slider navigation
 		width: 60px;
 		height: 100%;
 		color: $color-2;
-		background-color: $color-3;
+		background-color: $color-4;
 		box-shadow: inset 0 2px 0 currentColor;
 		@include transition(transform .2s, box-shadow .2s);
 
@@ -473,7 +492,7 @@ Slider navigation
 			height: 24px;
 			top: 8px;
 			@include center(x);
-			background: url(../assets/cd-icon-navigation.svg) no-repeat 0 0;
+			background: url(../img/cd-icon-navigation.svg) no-repeat 0 0;
 		}
 
 		.no-touch &:hover {
@@ -483,6 +502,7 @@ Slider navigation
 
 	li:first-of-type a::before {
 		background-position: 0 0;
+
 	}
 
 	li.selected:first-of-type a::before {

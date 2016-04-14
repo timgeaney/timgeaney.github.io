@@ -1,180 +1,52 @@
 // Website width
 $site-width: 1160px;
 
-// Font Stacks
-
-$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
-$font-url--google-2      : 'http://fonts.googleapis.com/css?family=Great+Vibes';
-$font-family--primary    : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-// fonts 
-
-$primary-font: 'brandon_grotesque_lightRg', sans-serif;
-
-// animation duration
-
-$expand-animation-duration: .4s;
-
-// Font Weights
-
-$font-weight--thin       : 100;
-$font-weight--light      : 300;
-$font-weight--medium     : 400;
-$font-weight--bold       : 700;
-$font-weight--ultra-bold : 900;
-
-// Typography variables  http://type-scale.com/
-
-$text-color: #797e83;
-$link-color: #0f82dd;
-$hr-color: #ccc;
-$orange: #d4522d;
-$muted_text-color: lighten($text-color, 30%);
-
-//set font family here
-$body-font-family: $font-family--primary;
-
-$h1-size: 3.157em;
-$h2-size: 2.369em;
-$h3-size: 1.777em;
-$h4-size: 1.333em;
-$h5-size: 1em;
-$h6-size: 0.75em;
-
-// Descriptive Base Colors
-
-$white : #fff;
-$black : #0b0b0b;
-$grey  : #797e83;
-
-$fountain-blue  : #52bab3;
-$emerald        : #5ece7f;
-$sunglo         : #e67478;
-$coral          : #ff784f;
-$purple-majesty : #9279c3;
-$scooter        : #39add1;
-
-// Color Usage
-
-$color-primary   : $fountain-blue;
-$color-secondary : $scooter;
-$color-accent    : $emerald;
-$color-shadow    : rgba($black, .2);
-
-// Color Palette Modifiers
-
-$xx-light-grey : lighten($grey, 43%);
-$x-light-grey  : lighten($grey, 35%);
-$light-grey    : lighten($grey, 12%);
-$dark-grey     : darken($grey, 8%);
-$x-dark-grey   : darken($grey, 16%);
-
-$light-black   : lighten($black, 10%);
-$dark-black    : darken($black, 10%);
-
-
-// UI Colors
-
-$ui-colors: (
-	default : $fountain-blue,
-	success : $emerald,
-	error   : $sunglo,
-	warning : $coral,
-	info    : $purple-majesty
-);
-
-// Button Variables
-
-$btn-roundness: 3px;
-
-$btn-small-font-size: 0.75em;
-$btn-large-font-size: 2em;
-
-$btn-default-bg: #dde2d4;
-$btn-default-text-color: #333;
-
-$btn-primary-bg: #0f82bd;
-$btn-primary-text-color: lighten(#0f82bd, 50%);
-
-// Form Variables
-
-$field-border-color: #ccc;
-$field-error-color: $sunglo;
-$field-required-color: $sunglo;
-
-// Icon variables
-
-$icon-roundness: 3px;
-$icon-border-color: lightgrey;
-
-
-// Feedback Variables.
-
-$information-color: $fountain-blue;
-$error-color: $sunglo;
-$warning-color: $coral;
-$success-color: $emerald;
-
-// Navigation Variables.
-$navbar-link-color: $text-color;
-$navbar-submenu-bg: #dde2e4;
-
-
-
-// Tabs Variables.
-$tabs-border-color: #ccc;
-$tabs-inactive-bg-color: #c1cacd;
-$tabs-active-bg-color: #fff;
-
-
-
-// Accordion Variables.
-$accordion-border-color: #ccc;
-$accordion-inactive-bg-color: #c1cacd;
-$accordion-active-bg-color: #333;
-$accordion-active-text-color: #fff;
-
-
-// colors
-
-$color-1: #9e87ce; // East Side
-$color-2: #5c4b51; // Don Juan
-$color-3: #e0cf75; // Chenin
-$color-4: #f5b65a; // Casablanca
-$color-5: #f25f5c; // Carnation
-$color-6: #8abeb2; // Gulf Stream
-$color-7: #ffffff; // White
-
-// fonts 
-
-$primary-font: 'Open Sans', sans-serif;
-$secondary-font: 'Lora', serif;
-
-// animation
-
-$animation-duration: 0.4s;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// color variables
+
+$color-base:                                                            #00bcd4 !default;
+$color-subtitle:                                                        #606060 !default;
+$color-sky-light:                                                       #f7f8fa !default;
+$color-tint-light:                                                      #ebeef6 !default;
+$color-white:                                                           #fff !default;
+$color-dark:                                                            #34343c !default;
+$color-blue:                                                            #536dfe !default;
+$color-blue-grey:                                                       #546e7a !default;
+$color-grey:                                                            #9e9e9e !default;
+$color-teal:                                                            #009688 !default;
+$color-green:                                                           #4fd2c2 !default;
+$color-red:                                                             #e55973 !default;
+$color-pink:                                                            #e91e63 !default;
+$color-purple:                                                          #b260ce !default;
+$color-gold:                                                            #A18E5C !default;
+$color-base-light:                                                      #4ed7e8 !default;
+$color-dark-light:                                                      #3a3a44 !default;
+$color-blue-grey-light:                                                 #6b8997 !default;
+$color-grey-light:                                                      #f1f1f1 !default;
+$color-blue-light:                                                      #687ffa !default;
+$color-teal-light:                                                      #45b4a9 !default;
+$color-green-light:                                                     #6edfd1 !default;
+$color-red-light:                                                       #e57287 !default;
+$color-pink-light:                                                      #ec407a !default;
+$color-purple-light:                                                    #ba75d1 !default;
+$color-gold-light:                                                      #d3af87 !default;
+$color-fb:                                                              #44619d !default;
+$color-tw:                                                              #55acee !default;
+$color-dr:                                                              #ea4c89 !default;
+$color-yt:                                                              #cc181e !default;
+$color-ig:                                                              #125688 !default;
+
+
+
+.bg-purple { background-color: #8861AA; }
+.bg-black { background-color: #252525; }
+.bg-blue { background-color: #02aedc; }
+.bg-red { background-color: #d62323; }
+.bg-darkblue { background-color: #1b49be; }
+.bg-lime { background-color: #82CE09; }
+.bg-orange { background-color: #d4522d; }
+.bg-purple-nurple { background-color: #ab87ff; }
+.bg-clear-blue { background-color: rgba(#02aedc, .30); }
+.bg-clear-dark { background-color: rgba(#252525, .30); }
+.bg-turquoise { background-color: #40E0D0; }
 
 

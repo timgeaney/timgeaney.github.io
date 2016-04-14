@@ -11,12 +11,12 @@ jQuery(document).ready(function($){
 
 		// firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
 		if( is_firefox ) {
-			$('main').addClass('no-shadow');
+		
 			$('main').addClass('slide-out').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 				$('body').addClass('overflow-hidden');
 			});
 		} else {
-			$('main').addClass('no-shadow');
+			
 			$('main').addClass('slide-out');
 			$('body').addClass('overflow-hidden');	
 		}
@@ -43,12 +43,12 @@ jQuery(document).ready(function($){
 		$('.nav-trigger').removeClass('hide-nav');
 
 		if( is_firefox ) {
-			$('main').removeClass('no-shadow');
+		
 			$('main').removeClass('slide-out').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 				$('body').removeClass('overflow-hidden');
 			});
 		} else {
-			$('main').removeClass('no-shadow');
+		
 			$('main').removeClass('slide-out');
 			$('body').removeClass('overflow-hidden');
 		}

@@ -1,8 +1,8 @@
 //variables
 
-$step-1-delay: 0.7s;
-$step-2-delay: 1.7s;
-$step-3-delay: 2.7s;
+$step-1-delay: 0s;
+$step-2-delay: 0.7s;
+$step-3-delay: 1.4s;
 
 
 
@@ -48,10 +48,10 @@ $step-3-delay: 2.7s;
 
 .step-1 {
 	opacity: 1;
-	stroke: darken(#e6e6e6, 30%);
-	stroke-width: 0.3;
-	stroke-dasharray: 60;
-	stroke-dashoffset: 60;
+	stroke: #fff;
+	stroke-width: 0.8;
+	stroke-dasharray: 58;
+	stroke-dashoffset: 55;
 
 	animation: offset 1.5s linear $step-1-delay forwards;
 
@@ -59,10 +59,10 @@ $step-3-delay: 2.7s;
 
 .step-2 {
 	opacity: 1;
-	stroke: darken(#e6e6e6, 30%);
-	stroke-width: 0.3;
-	stroke-dasharray: 90;
-	stroke-dashoffset: 90;
+	stroke: #fff;
+	stroke-width: 0.8;
+	stroke-dasharray: 105;
+	stroke-dashoffset: 105;
 	animation: offset 2s linear 0s forwards;
 
 	@include MQ(L) {
@@ -72,10 +72,10 @@ $step-3-delay: 2.7s;
 
 .step-3 {
 	opacity: 1;
-	stroke: darken(#e6e6e6, 30%);
-	stroke-width: 0.3;
-	stroke-dasharray: 95;
-	stroke-dashoffset: 95;
+	stroke: #fff;
+	stroke-width: 0.8;
+	stroke-dasharray: 90;
+	stroke-dashoffset: 90;
 	animation: offset 1.8s linear 0s forwards;
 
 	@include MQ(L) {

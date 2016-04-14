@@ -1,0 +1,51 @@
+#bh-slider {
+	@include outer-container(100%);
+	background-color:#252525;
+	h1 {
+		padding-top: 2em;
+		color: #fff;
+	}
+
+
+	.flex-control-nav li a,
+	.flex-direction-nav li a{
+		color: #fff;
+
+	}
+
+	.flex-direction-nav li a:before {
+		color: #fff;
+
+	}
+
+	.flexslider{
+	background-color: #f7f7f7;
+	border: none !important;
+
+	}
+
+	.flexslider {
+	@include outer-container();
+		.slides {
+	background-color: #252525;
+
+
+		li {
+			
+		}
+
+			img {
+				max-height: 600px;
+				width: auto;
+		
+
+				margin: auto;
+			}
+			
+
+
+
+		}
+	}
+
+}

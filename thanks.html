@@ -6,13 +6,13 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>beach_hut</title>
+      <title>beach hut - Web Design & Development</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
       <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-      <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> 
 
      
       <link rel="stylesheet" href="css/app.css">
@@ -20,48 +20,79 @@
       <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
-    <a href="#navigation" class="nav-trigger bg-red">
-      Menu <span></span> 
+  <div class="wrapper animsition">
+    <header class="bh-header">
+      <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
+      <div class="tag-line">
+        <h1>beach hut</h1>
+      </div>
 
-    <!-- main comntent section -->
-    
-    <main>
-      <header class="navigation bg-red" role="banner">
-        <div class="nav-wrapper">
-          <a href="index.html" class="logo">
-            <img src="img/bh-logo-red.png" alt="beach-hut-logo">
-          </a>
-          <div class="tag-line">
-            <h1>beach hut</h1>
-          </div>
-          <div class="modal">
-            <label for="modal-1">
-              <div class="btn btn-red btn-login bg-red modal-trigger">Hire Us</div>
-            </label>
-            <input class="modal-state" id="modal-1" type="checkbox" />
-            <div class="modal-fade-screen">
-              <div class="modal-inner">
-                <div class="modal-close" for="modal-1"></div>
-                <img src="img/beach_hut_logo.png" alt="beach-hut-logo">
-              
-                <p class="modal-intro">If you have a project ready to go or you just need advice why not give us a call</p>
-                <ul>
-                  <li><i class="fa fa-mobile"></i>tim on 089 422 1408</li>
-                  <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhutinc.com</a></li>
-                  <li><i class="fa fa-skype"></i>beachhutinc</li>
-                </ul>
-                  <p></p>
-                <p class="modal-content"></p>
-                
+      <nav>
+        <ul class="bh-secondary-nav">
+          
+        </ul>
+      </nav> <!-- bh-nav -->
+
+      <a class="bh-primary-nav-trigger" href="#0">
+        <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
+      </a> <!-- bh-primary-nav-trigger -->
+    </header>
+
+    <nav>
+      <ul class="bh-primary-nav">
+        <li class="bh-label">About us</li>
+
+        <li><a href="#0">The team</a></li>
+        <li><a href="#0">Our services</a></li>
+        <li><a href="#0">Our projects</a></li>
+
+        <li class="bh-label">Work with us</li>
+
+        <li><a href="#0">Start a project</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#0">Process</a></li>
+        <li><a href="#0">Blog</a></li>
+
+
+        <li class="bh-label">Follow us</li>
+        
+        <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
+        <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
+        <li class="bh-social bh-dribbble"><a href="#0">Dribbble</a></li>
+        <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
+      </ul>
+    </nav>
+
+    <!-- modal hire us button-->
+
+        <div class="modal">
+          <label for="modal-1">
+             <div class=" bg-clear-dark btn-modal modal-trigger"><i class="fa fa-phone"></i></div>
+          </label>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-fade-screen">
+            <div class="modal-inner">
+              <div class="modal-close" for="modal-1"></div>
+              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
+            
+              <p class="modal-intro">If you have a project ready to go or you just need advice why not give us a call.</p>
+              <ul>
+                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
+                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhutinc.com</a></li>
+                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
+              </ul>
                 <p></p>
-              </div>
+              <p class="modal-content"></p>
+              
+              <p></p>
             </div>
           </div>
-          
         </div>
-      </header>
 
-      <section id="hero-big-text" class="bg-red">
+        <!-- end modal hire us button section -->
+
+
+    <section id="hero-big-text" class="bg-blue">
         <div class="hero-text">
           <h1 class="super-big">Thanks!</h1>
           <hr class="big-hr">
@@ -70,12 +101,13 @@
         </div>
       </section>
 
-      
+    
+  
 
             <!-- Footer section -->
-        <footer class="footer-no-image bg-red" role="contentinfo">
+        <footer class="footer-no-image bg-blue" role="contentinfo">
             <div class="footer-logo">
-              <img src="img/bh-logo-red.png" alt="Logo image">
+              <img src="img/bh-logo-white-clear.png" alt="Logo image">
             </div>
 
               <div class="footer-links">
@@ -92,6 +124,7 @@
                 <li><h3>Follow Us</h3></li>
                 <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
                 <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
+
               </ul>
               <ul>
                 <li><h3>Legal</h3></li>
@@ -108,52 +141,21 @@
         <!-- end cd-content -->
 
       
-
-
+    <!-- end main comntent section -->
     </main>
 
-    <!-- end main comntent section -->
+    <!-- END WRAPPER -->
+        </div>
 
-    <a href="#0" class="cd-top">Top</a>
+
+    <a href="#0" class="bh-top">Top</a>
 
 
-    <!-- offscreen navigation -->
 
-    <nav class="nav-container bg-red">
-      <header id="nav-header">
-        <a href="index.html" class="logo">
-          <img src="img/bh-logo-invred.png" alt="beach-hut-logo">
-        </a>
-      </header>
-
-     <ul class="nav">
-        <li><a href="services.html">Services</a></li>
-        <li><a href="process.html">Process</a></li>
-        <li><a href="projects.html">Work</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <br>
-      </ul>
-
-      <div class="nav-follow">
-          <i class="fa fa-facebook"></i>
-          <i class="fa fa-twitter"></i>
-          <i class="fa fa-skype"></i>
-          <!-- <i class="fa fa-pinterest"></i> -->
-      </div>
-      <div class="nav-posts">
-        
-      </div>
-
-      <ul></ul>
-    </nav>
-    
-    <div class="overlay"></div> <!--  improve main element 3d movement -->
     
   <script src="js/vendor/jquery-1.10.2.min.js"></script>
   <script src="js/main.js"></script> <!-- Resource jQuery -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx7vvBtoO-szjq8qvO5rv4-9bTVZqbjM4"></script>
-  <script src="js/g-map.js"></script> <!-- Resource jQuery -->
+  <script src="js/vendor/jquery.animsition.min.js"></script>
+  <script src="js/animsition.js"></script>
 
   </body>

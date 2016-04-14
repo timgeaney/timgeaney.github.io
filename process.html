@@ -3,167 +3,201 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>beach_hut</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>beach hut - Web Design & Development</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-      <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-      <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/flexslider.css">
 
-     
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-      <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body class="header-white">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="wrapper animsition">
 
-      <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-  </head>
-  <body id="bh-process">
-
-    <a href="#navigation" class="nav-trigger bg-purple">
-      Menu <span></span>  
-    <!-- main content section -->
-    <main>
-      <header class="navigation bg-purple" role="banner">
-        <div class="nav-wrapper">
-          <a href="index.html" class="logo">
-            <img src="img/bh-logo-purple.png" alt="beach-hut-logo">
-          </a>
-          <div class="tag-line">
+       <header class="bh-header">
+          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
+          <div class="tag-line font-blue">
             <h1>beach hut</h1>
           </div>
-          <div class="modal">
-            <label for="modal-1">
-              <div class="btn btn-purple btn-login bg-purple modal-trigger">Hire Us</div>
-            </label>
-            <input class="modal-state" id="modal-1" type="checkbox" />
-            <div class="modal-fade-screen">
-              <div class="modal-inner">
-                <div class="modal-close" for="modal-1"></div>
-                <img src="img/beach_hut_logo.png" alt="beach-hut-logo">
-              
-                <p class="modal-intro">If you have a project ready to go or you just need advice why not give us a call</p>
-                <ul>
-                  <li><i class="fa fa-mobile"></i>tim on 089 422 1408</li>
-                  <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhutinc.com</a></li>
-                  <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-                </ul>
-                  <p></p>
-                <p class="modal-content"></p>
-                
+
+          <nav>
+            <ul class="bh-secondary-nav">
+              <li><label for="modal-1">
+                <div class="btn btn-yellow-orange btn-modal modal-trigger">Hire Us</div>
+              </label></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Free Consultation</a></li>
+            </ul>
+          </nav> <!-- bh-nav -->
+
+
+          <a class="bh-primary-nav-trigger" href="#0">
+
+            <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
+          </a> <!-- bh-primary-nav-trigger -->
+        </header>
+
+        <!-- modal hire us button-->
+
+        <div class="modal">
+          
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-fade-screen">
+            <div class="modal-inner">
+              <div class="modal-close" for="modal-1"></div>
+              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
+            
+              <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
+              <ul>
+                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
+                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhut.ie</a></li>
+                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
+              </ul>
                 <p></p>
-              </div>
+              <p class="modal-content"></p>
+              
+              <p></p>
             </div>
           </div>
-                
         </div>
-      </header>
 
-      <section id="hero-big-text" class="bg-purple">
-        <div class="hero-text">
-          <h1 class="super-big">process</h1>
-          <hr class="big-hr">
-          <h6 class="big">&ldquo;Always trust the process&rdquo;</h6>
-          <h6>A typical web design project normally includes the following steps. However we adapt the process to suit the project in order to deliver you the best possible results.</h6>
+        <!-- end modal hire us button section -->
+
+        <nav>
+          <ul class="bh-primary-nav">
+            <li class="bh-label pd-top-40">About us</li>
+
+            <li><a href="about.html">The team</a></li>
+            <li><a href="services.html">Our services</a></li>
+            <li><a href="projects.html">Our projects</a></li>
+
+            <li class="bh-label">Work with us</li>
+
+            <li><a href="process.html">Start a project</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+
+
+            <li class="bh-label">Follow us</li>
+            
+            <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
+            <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
+            <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
+          </ul>
+        </nav>
+
+          <section id="hero-big-text" class="bg-blue">
+            <div class="hero-text">
+              <h1 class="super-big">process</h1>
+              <hr class="big-hr">
+              <h6 class="big">&ldquo;Always trust the process&rdquo;</h6>
+              <h6>A typical web design project normally includes the following steps. However we adapt the process to suit the project in order to deliver you the best possible results.</h6>
+            </div>
+          </section>
+
+        <div class="timeline-bg-color">
+          <section id="cd-timeline" class="cd-container">
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <img src="img/icons/microphone.svg" alt="Picture">
+              </div> <!-- cd-timeline-img -->
+        
+              <div class="cd-timeline-content">
+                <h1>Initial consultation</h1>
+                <p>We’ll talk through your requirements and start exploring the options. This is the point where we define very specific goals for your project. This is leads on to research and information gathering.</p>
+                <span class="cd-date">Step 1</span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+        
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-movie">
+                <img src="img/icons/quill-ink.svg" alt="Movie">
+              </div> <!-- cd-timeline-img -->
+        
+              <div class="cd-timeline-content">
+                <h1>Quote</h1>
+                <p>We’ll provide either a fixed quote or a high level estimate for the project (depending on how precisely the amount of work can be predicted at this stage) — for most projects, you will receive a fixed quote.</p>
+                <span class="cd-date">Step 2</span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+        
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <img src="img/icons/pencil-ruler.svg" alt="Picture">
+              </div> <!-- cd-timeline-img -->
+        
+              <div class="cd-timeline-content">
+                <h1>Design and Development</h1>
+                <p>Now its time to start building. You may need to provide any materials or information we need at this stage in order to carry out the work.We work iteratively, breaking the project into logical chunks. We'll test everything thoroughly at each stage to ensure everything works perfectly.</p>
+                <span class="cd-date">Step 3</span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+        
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-location">
+                <img src="img/icons/refresh.svg" alt="Location">
+              </div> <!-- cd-timeline-img -->
+        
+              <div class="cd-timeline-content">
+                <h1>Feedback and Alterations</h1>
+                <p>We'll present the work on our test server for your review. Depending on the project size, this may be done at key milestones or at the end of the project. We'll listen to your feedback and carry out any further web design and development until you're completely happy.</p>
+
+                <p>We'll work closely with you to plan the launch. As well as the actual go-live, we'll do all the extras such as setting up Google Analytics, sitemaps, configuring redirects, setting up plugins for security and spam-prevention, etc.</p>
+                <span class="cd-date">Step 4</span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+        
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-location">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><g stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><circle cx="10.501" cy="8.985" r="8"/><path d="M10.001 19.984v1.5M11.001 19.984v1.5"/><path d="M16.482 23.484c-1.67-1.251-3.735-2-5.981-2s-4.312.749-5.982 2h11.963zM18.279 1.207c4.295 4.296 4.295 11.261 0 15.557-4.296 4.295-11.261 4.295-15.557-.002M17.572 1.914l1.414-1.414M2.016 17.47l1.414-1.413"/></g></svg>
+              </div> <!-- cd-timeline-img -->
+        
+              <div class="cd-timeline-content">
+                <h1>Training and Go-Live</h1>
+                <p>If required, we'll also provide formal or informal training sessions for your new website to make sure you're up to speed with everything.</p>
+                <span class="cd-date">Step 5</span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+        
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-movie">
+                <img src="img/icons/user-chat.svg" alt="Movie">
+              </div> <!-- cd-timeline-img -->
+        
+              <div class="cd-timeline-content">
+                <h1>Support</h1>
+                <p>Once the project has gone live, we’ll provide 60 days' free support to make sure everything goes smoothly.</p>
+                <p>But it doesn't end there — all successful websites evolve over time. We'll work together to continue developing your website, ensuring it meets your needs over the longer-term.</p>
+                <span class="cd-date">Step 6</span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+          </section> <!-- cd-timeline -->
+
+          <div class="process-button">
+            <a href="contact.html" class="btn btn-yellow-orange">Lets Get Started</a>
+          </div>
+          
         </div>
-      </section>
-
-  <div class="timeline-bg-color">
-    <section id="cd-timeline" class="cd-container">
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-picture">
-          <img src="img/icons/microphone.svg" alt="Picture">
-        </div> <!-- cd-timeline-img -->
-  
-        <div class="cd-timeline-content">
-          <h1>Initial consultation</h1>
-          <p>We’ll talk through your requirements and start exploring the options. This is the point where we define very specific goals for your project. This is leads on to research and information gathering.</p>
-          <span class="cd-date">Step 1</span>
-        </div> <!-- cd-timeline-content -->
-      </div> <!-- cd-timeline-block -->
-  
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-movie">
-          <img src="img/icons/quill-ink.svg" alt="Movie">
-        </div> <!-- cd-timeline-img -->
-  
-        <div class="cd-timeline-content">
-          <h1>Quote</h1>
-          <p>We’ll provide either a fixed quote or a high level estimate for the project (depending on how precisely the amount of work can be predicted at this stage) — for most projects, you will receive a fixed quote.</p>
-          <span class="cd-date">Step 2</span>
-        </div> <!-- cd-timeline-content -->
-      </div> <!-- cd-timeline-block -->
-  
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-picture">
-          <img src="img/icons/pencil-ruler.svg" alt="Picture">
-        </div> <!-- cd-timeline-img -->
-  
-        <div class="cd-timeline-content">
-          <h1>Design and Development</h1>
-          <p>Now its time to start building. You may need to provide any materials or information we need at this stage in order to carry out the work.We work iteratively, breaking the project into logical chunks. We'll test everything thoroughly at each stage to ensure everything works perfectly.</p>
-          <span class="cd-date">Step 3</span>
-        </div> <!-- cd-timeline-content -->
-      </div> <!-- cd-timeline-block -->
-  
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-location">
-          <img src="img/icons/refresh.svg" alt="Location">
-        </div> <!-- cd-timeline-img -->
-  
-        <div class="cd-timeline-content">
-          <h1>Feedback and Alterations</h1>
-          <p>We'll present the work on our test server for your review. Depending on the project size, this may be done at key milestones or at the end of the project. We'll listen to your feedback and carry out any further web design and development until you're completely happy.</p>
-
-          <p>We'll work closely with you to plan the launch. As well as the actual go-live, we'll do all the extras such as setting up Google Analytics, sitemaps, configuring redirects, setting up plugins for security and spam-prevention, etc.</p>
-          <span class="cd-date">Step 4</span>
-        </div> <!-- cd-timeline-content -->
-      </div> <!-- cd-timeline-block -->
-  
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-location">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><g stroke="#fff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><circle cx="10.501" cy="8.985" r="8"/><path d="M10.001 19.984v1.5M11.001 19.984v1.5"/><path d="M16.482 23.484c-1.67-1.251-3.735-2-5.981-2s-4.312.749-5.982 2h11.963zM18.279 1.207c4.295 4.296 4.295 11.261 0 15.557-4.296 4.295-11.261 4.295-15.557-.002M17.572 1.914l1.414-1.414M2.016 17.47l1.414-1.413"/></g></svg>
-        </div> <!-- cd-timeline-img -->
-  
-        <div class="cd-timeline-content">
-          <h1>Training and Go-Live</h1>
-          <p>If required, we'll also provide formal or informal training sessions for your new website to make sure you're up to speed with everything.</p>
-          <span class="cd-date">Step 5</span>
-        </div> <!-- cd-timeline-content -->
-      </div> <!-- cd-timeline-block -->
-  
-      <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-movie">
-          <img src="img/icons/user-chat.svg" alt="Movie">
-        </div> <!-- cd-timeline-img -->
-  
-        <div class="cd-timeline-content">
-          <h1>Support</h1>
-          <p>Once the project has gone live, we’ll provide 60 days' free support to make sure everything goes smoothly.</p>
-          <p>But it doesn't end there — all successful websites evolve over time. We'll work together to continue developing your website, ensuring it meets your needs over the longer-term.</p>
-          <span class="cd-date">Step 6</span>
-        </div> <!-- cd-timeline-content -->
-      </div> <!-- cd-timeline-block -->
-    </section> <!-- cd-timeline -->
-
-    <div class="process-button">
-      <a href="contact.html" class="btn btn-purple bg-purple">Lets Get Started</a>
-    </div>
-    
-  </div>
-
-
-       
 
         
-        <!-- Footer section -->
-      <footer class="footer-no-image bg-purple" role="contentinfo">
-        <div class="footer-logo">
-          <img src="img/bh-logo-purple.png" alt="Logo image">
-        </div>
-        <div class="footer-links">
+         
+          <!-- Footer section -->
+         <footer class="footer-no-image bg-blue" role="contentinfo">
+            <div class="footer-logo">
+              <img src="img/bh-logo-white-clear.png" alt="Logo image">
+            </div>
+              <div class="footer-links">
               <ul>
                 <li><h3>Content</h3></li>
                 <li><a href="services.html">Services</a></li>
@@ -177,65 +211,43 @@
                 <li><h3>Follow Us</h3></li>
                 <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
                 <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
+
               </ul>
               <ul>
                 <li><h3>Legal</h3></li>
                 <li><a href="legal.html">Terms and Conditions</a></li>
               </ul>
             </div>
+  
+            <hr>
+  
+            <p>copyright beach_hut 2015</p>
+                
+        </footer>
 
-        <hr>
+        <a href="#0" class="bh-top">Top</a>
 
-        <p>copyright beach_hut 2015</p>
-      </footer>
-    </main>
-
-    <!-- end main content section -->
-
-    <a href="#0" class="cd-top">Top</a>
-
-    <!-- offscreen navigation -->
-
-    <nav class="nav-container bg-purple">
-      <header id="nav-header" class="bg-purple">
-        <a href="index.html" class="logo">
-          <img src="img/bh-logo-invpurple.png" alt="beach-hut-logo">
-        </a>
-      </header>
-
-      <ul class="nav">
-        <li><a href="services.html">Services</a></li>
-        <li><a href="process.html">Process</a></li>
-        <li><a href="projects.html">Work</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <br>
-      </ul>
-
-      <div class="nav-follow">
-          <i class="fa fa-facebook"></i>
-          <i class="fa fa-twitter"></i>
-          <i class="fa fa-skype"></i>
+      <!-- END WRAPPER -->
       </div>
-      <div class="nav-posts">
-        
-      </div>
-    </nav>
-    
-    <div class="overlay"></div> <!--  improve main element 3d movement -->
 
+       
 
-    
+      <script src="js/jquery-2.1.1.js"></script>
+      <script src="js/main.js"></script> <!-- Resource jQuery -->
+      <script src="js/timeline.js"></script> 
+      <script src="js/scroll.js"></script>
+      <script src="js/vendor/jquery.animsition.min.js"></script>
+      <script src="js/animsition.js"></script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-75242311-1', 'auto');
+        ga('send', 'pageview');
 
-    
-  <script src="js/vendor/jquery-1.10.2.min.js"></script>
-  <script src="bower_components/velocity/velocity.min.js"></script>
-  <script src="bower_components/velocity/velocity.ui.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/timeline.js"></script> <!-- Resource jQuery -->
-  <script src="js/scroll.js"></script> <!-- Resource jQuery -->
+      </script>
 
-
-  </body>
+    </body>
+</html>
