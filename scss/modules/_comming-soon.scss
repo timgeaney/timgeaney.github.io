@@ -1,0 +1,34 @@
+/* ==========================================================================
+   comming-soon dir= scss/modules/comming-soon.scss
+   ========================================================================== */
+
+#comming-soon {
+	@include outer-container($site-width);
+	@include clearfix;
+
+	.bh-logo-center-large img {
+
+		padding-top: 4em;
+		display: block;
+		margin: auto;
+
+	}
+
+
+	h3 {
+		padding-top: 4em;
+		text-align: center;
+		color: #fff;
+	}
+
+	p {
+		width: 60%;
+		margin: auto;
+		text-align: center;
+		color: darkgrey;
+		text-align: center;
+		padding-top: 2em;
+		padding-bottom: 2em;
+		font-size: 1.6em;
+	}
+}

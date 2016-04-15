@@ -6878,4 +6878,37 @@ Javascript disabled
   .sliding-panel-button img {
     height: 1.3em; }
 
-/*# sourceMappingURL=app.css.map */
+/* ==========================================================================
+   comming-soon dir= scss/modules/comming-soon.scss
+   ========================================================================== */
+#comming-soon {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto; }
+  #comming-soon:before, #comming-soon:after {
+    content: " ";
+    display: table; }
+  #comming-soon:after {
+    clear: both; }
+  #comming-soon:before, #comming-soon:after {
+    content: " ";
+    display: table; }
+  #comming-soon:after {
+    clear: both; }
+  #comming-soon .bh-logo-center-large img {
+    padding-top: 4em;
+    display: block;
+    margin: auto; }
+  #comming-soon h3 {
+    padding-top: 4em;
+    text-align: center;
+    color: #fff; }
+  #comming-soon p {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: darkgrey;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 1.6em; }
