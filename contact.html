@@ -1,251 +1,503 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>beach_hut</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js">
+<!-- HEAD -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Beach Hut web Design and Development</title>
+<meta name="keywords" content="HTML5 Theme" />
+<meta name="description" content="Ark - Responsive Multi-Purpose Template">
+<meta name="author" content="prothemes.net">
 
-      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-      <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-      <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-     
-      <link rel="stylesheet" href="css/app.css">
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/et-line/et-line.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
 
-      <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-  </head>
-  <body class="header-white">
-  <div class="wrapper animsition">
-    <header class="bh-header">
-          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
-          <div class="tag-line font-blue">
-            <h1>beach hut</h1>
-          </div>
+<!-- BEGIN THEME PLUGINS STYLE -->
+<link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
 
-          <nav>
-            <ul class="bh-secondary-nav">
-              <li><label for="modal-1">
-                <div class="btn btn-yellow-orange btn-modal modal-trigger">Hire Us</div>
-              </label></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Free Consultation</a></li>
-            </ul>
-          </nav> <!-- bh-nav -->
+<!-- END THEME PLUGINS STYLE -->
+
+<!-- BEGIN THEME STYLES -->
+<link href="css/global.css" rel="stylesheet" type="text/css"/>
 
 
-          <a class="bh-primary-nav-trigger" href="#0">
+<!-- END THEME STYLES -->
 
-            <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
-          </a> <!-- bh-primary-nav-trigger -->
-        </header>
+<!-- BEGIN JQUERY -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<!-- END JQUERY -->
 
-        <!-- modal hire us button-->
+<!-- FAVICON -->
 
-        <div class="modal">
-          
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a style="color: #797e83;" href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhut.ie</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
-              
-              <p></p>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="">
+
+<!-- END FAVICON -->
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="">
+
+<!-- WRAPPER -->
+<div class="wrapper animsition">
+  <!--========== HEADER ==========-->
+
+  <header class="header header-fixed navbar-fixed-top header-sticky bg-color-yellow" >
+    <!-- Topbar Classic -->
+        <div class="topbar-c theme-toggle-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-contacts">
+                            <li class="topbar-c-contacts-item color-black"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
+                            <li class="topbar-c-contacts-item color-black"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link color-black" href="mailto:tim@beachhut.ie">info@beachhut.ie</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-actions form-modal-nav">
+                            <!-- <li class="topbar-c-actions-item"><a class="topbar-c-actions-link form-modal-login" href="javascript:void(0);">Login</a></li>
+                            <li class="topbar-c-actions-item-divider">or</li> -->
+                            <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup bg-color-dark color-white" href="special-offers.html"><i class="topbar-c-actions-icon icon-heart"></i> Special Offer !</a></li>
+                        </ul>
+                    </div>
+                </div><!--// End row -->
             </div>
-          </div>
+        </div>
+        <!-- End Topbar Classic -->
+    <!-- Navbar -->
+        <nav class="navbar mega-menu bg-blue" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
+
+                    
+
+                    <!-- Logo -->
+                    <div class="navbar-logo">
+                        <a class="navbar-logo-wrap" href="index.html">
+                            <img class="navbar-logo-img" src="img/beachhut/bh-logo-cap-black.png" alt="beachhut logo">
+                            <img class="logo-mobile" src="img/beachhut/bh-logo-white-clear.png" alt="beachhut logo">
+                        </a>
+                        
+                </div>
+
+
+                    </div>
+                    <!-- End Logo -->
+                
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav ">
+
+                          <!-- Home -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="index.html">
+                                    Home
+                                </a>
+                                
+                            </li>
+                            <!-- End Home -->
+                            
+
+                            <!-- Services -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="services.html">
+                                    Services
+                                </a>
+                                
+                            </li>
+                            <!-- End Services -->
+
+                            <!-- About Us -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="about.html">
+                                    About Us
+                                </a>
+                                
+                            </li>
+                            <!-- End About Us -->
+
+                            <!-- Resources -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="projects.html">
+                                    our work
+                                </a>
+                                
+                            </li>
+                            <!-- End Resources -->
+                           
+
+                            <!-- Blog -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="blog.html">
+                                    Resources
+                                </a>
+                                
+                            </li>
+                            <!-- End Blog -->
+
+                            <!-- Contact -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="contact.html">
+                                    Contact
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+            <!--// End Container-->
+        </nav>
+        <!-- Navbar -->
+  </header>
+
+  <!--========== END HEADER ==========-->
+
+  <!--========== HERO SECTION ==========-->
+    <div class="l-promo-block-v2 bg-color-yellow">
+        <div class="container">
+            <!-- Horizontal Center Content -->
+            <div class="row center-content-hor-wrap-md">
+                <div class="col-md-7 center-content-hor-align-md md-margin-b-50">
+                    <div class="margin-b-30">
+                        <h1 class="super-big color-dark">Its good to talk!</h1>
+                        <p class="color-dark">
+                            Drop us a line or give us a ring. We'd love to hear from you!
+                        </p>
+                    </div>
+                    <a class="btn-white-brd bg-color-white color-dark btn-base-animate-to-top btn-base-md radius-50" href="#scroll_to_demos">Contact Form
+                        <span class="btn-base-element-md"><i class="btn-base-element-icon fa fa-arrow-circle-right"></i></span>
+                    </a>
+                    <a class="mar-left-20 btn-white-brd bg-color-white color-dark btn-base-animate-to-top btn-base-md radius-50" href="#scroll_to_tel">Tel / Email
+                        <span class="btn-base-element-md"><i class="btn-base-element-icon fa fa-arrow-circle-right"></i></span>
+                    </a>
+                
+                </div>
+                <div class="col-md-5 center-content-hor-align-md">
+                    <!-- Image -->
+                    <div class="l-promo-block-v2-img-wrap">
+                        <img class="l-promo-block-v2-img-one img-responsive wow fadeInUp" src="img/beachhut/laptop-01.png" alt="" data-wow-duration=".1" data-wow-delay=".1s">
+                        <img class="l-promo-block-v2-img-two img-responsive wow fadeInRight" src="img/beachhut/iphone-01.png" alt="" data-wow-duration=".1" data-wow-delay=".3s">
+                    </div>
+                    <!-- End Image -->
+                </div>
+            </div>
+            <!--// end row -->
+            <!-- End Horizontal Center Content -->
         </div>
 
-        <!-- end modal hire us button section -->
+    </div>
+            <div class="arrow_box_yellow"></div>
 
-        <nav>
-          <ul class="bh-primary-nav">
-            <li class="bh-label pd-top-40">About us</li>
-
-            <li><a href="about.html">The team</a></li>
-            <li><a href="services.html">Our services</a></li>
-            <li><a href="projects.html">Our projects</a></li>
-
-            <li class="bh-label">Work with us</li>
-
-            <li><a href="process.html">Start a project</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
-
-
-            <li class="bh-label">Follow us</li>
-            
-            <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
-            <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-            <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
-          </ul>
-        </nav>
-
-        <!-- end modal hire us button section -->
-
-
-    <section id="bg-full-image">
-      <img src="img/bh-contact.jpg" alt="">
-    </section>
-
-      <section id="bh-contact-info" class="bg-red">
-          <div class="contact-us">
-            <div class="contact-us-inner">
-              <h1 class="super-big">Option_1</h1>
-              <h6 class="big">contact us</h6>
-
-              <ul>
-                <li>
-                  <div class="contact-item">
-                    <div class="contact-icon">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x bg-color"></i>
-                        <i class="fa fa-phone fa-stack-1x fa-inverse icon-bg-color"></i>
-                      </span>
-                    </div>
-                    <h6>01 504 5638</h6>
-                  </div>
-                </li>
-                <li>
-                  <div class="contact-icon">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x bg-color"></i>
-                      <i class="fa fa-envelope fa-stack-1x fa-inverse icon-bg-color"></i>
-                    </span>
-                  </div>
-                  <h6><a href="mailto:tim@beachhut.ie?Subject=Hello">tim@beachhut.ie</a></h6>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="contact-you">
-             <div class="contact-us-inner">
-              <h1 class="super-big">Option_2</h1>
-              <h6 class="big">Let Us Contact You</h6>
-            </div>
-            <form class="bh-form floating-labels" name="contact" action="beachhut.ie/thanks.html" netlify>
-              <div class="icon">
-                <label class="bh-label" for="bh-name">Name</label>
-                <input class="user" type="text" name="name" id="bh-name" required>
-                </div> 
-
-                <div class="icon">
-                  <label class="bh-label" for="bh-company">Company</label>
-                <input class="company" type="text" name="company" id="bh-company">
-                </div> 
-
-                <div class="icon">
-                  <label class="bh-label" for="bh-email">Email</label>
-                <input class="email error" type="email" name="_replyto" id="bh-email" required>
-                </div>
-           
-
-              <div class="icon">
-                <label class="bh-label" for="bh-textarea">Project description</label>
-                    <textarea class="message" name="textarea" id="bh-textarea" required></textarea>
-              </div>
-              <input type="text" name="_gotcha" style="display:none" />
-
-
-
-              <div>
-                    <input type="submit" value="Send Message">
-                </div>
-     
-            </form>
-          </div>
-      </section><!-- end bh-contact-info-->
-
-      
-
-      <section id="bh-google-map">
-        <div id="google-container"></div>
-        <div id="bh-zoom-in"></div>
-        <div id="bh-zoom-out"></div>
-        <address>126 sarsfield Park, Lucan, Dublin</address> 
-      </section>
-    
-  
-
-            <!-- Footer section -->
-        <footer class="footer-no-image bg-blue" role="contentinfo">
-            <div class="footer-logo">
-              <img src="img/bh-logo-white-clear.png" alt="Logo image">
-            </div>
-
-              <div class="footer-links">
-              <ul>
-                <li><h3>Content</h3></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="projects.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <ul>
-                <li><h3>Follow Us</h3></li>
-                <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
-
-              </ul>
-              <ul>
-                <li><h3>Legal</h3></li>
-                <li><a href="legal.html">Terms and Conditions</a></li>
-              </ul>
-            </div>
-  
-            <hr>
-  
-            <p>copyright beach_hut 2015</p>
-              
-            
-        </footer>
-        <!-- end cd-content -->
-
-      <!-- END WRAPPER -->
-      </div>
-
-      
-
-
-    </main>
-
-    <!-- end main comntent section -->
-
-    <a href="#0" class="bh-top">Top</a>
+    <!--========== END HERO SECTION ==========-->
 
 
 
     
-  <script src="js/vendor/jquery-1.10.2.min.js"></script>
-  <script src="js/main.js"></script> <!-- Resource jQuery -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx7vvBtoO-szjq8qvO5rv4-9bTVZqbjM4"></script>
-  <script src="js/g-map.js"></script> <!-- Resource jQuery -->
-  <script src="js/vendor/jquery.animsition.min.js"></script>
-  <script src="js/animsition.js"></script>
-  <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!--========== PAGE CONTENT ==========-->
 
-        ga('create', 'UA-75242311-1', 'auto');
-        ga('send', 'pageview');
 
-      </script>
+        
+<div class="bg-color-yellow">
+  <div class="content-md container-xs" id="scroll_to_demos">
+        <!-- Heading v1 -->
+        <div class="heading-v1  margin-b-80">
+            <h1 class="super-big text-center color-dark">Contact Us</h1>
+            <p class="text-center">...and we'll get right back to you.</p>
+        </div>
+        <!-- End Heading v1 -->
 
-  </body>
+        <!-- Comment Form v1 -->
+        <form id="comment-form" class="comment-form-v1 comment-form-error" action="index.html" method="get">
+            <div class="row">
+                <div class="col-md-4 margin-b-30">
+                    <input type="text" class="form-control comment-form-v1-input" placeholder="First Name *" name="firstname" required>
+                </div>
+                <div class="col-md-4 margin-b-30">
+                    <input type="text" class="form-control comment-form-v1-input" placeholder="Last Name">
+                </div>
+                <div class="col-md-4 margin-b-30">
+                    <input type="email" class="form-control comment-form-v1-input" placeholder="Email *" name="email" required>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="margin-b-40">
+                <textarea class="form-control comment-form-v1-input" rows="18" placeholder="Your message *" name="textarea" required></textarea>
+            </div>
+            <div class="center-block">
+                <button type="submit" class="btn-white-brd bg-color-white color-dark btn-base-animate-to-top btn-base-md radius-50">Contact Us
+                <span class="btn-base-element-md"><i class="btn-base-element-icon fa fa-arrow-circle-right"></i></span></button>
+               
+        
+      
+            </div>
+        </form>
+        <!-- End Comment Form v1 -->
+    </div>
+
+<!-- Contacts -->
+    <div class="bg-color-yellow" id="scroll_to_tel">
+        <div class="content-md container">
+        <div class="row">
+          <h1 class="super-big text-center color-dark">telephone</h1>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white   fa fa-phone"></i>
+                    <h3 class="font-size-20 ">Landline</h3>
+                    <p class="">00 353 1 5045638</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white  fa fa-mobile"></i>
+                    <h3 class="font-size-20 ">Mobile</h3>
+                    <p class="">00 353 089 4221408</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white  fa fa-envelope-o"></i>
+                    <h3 class="font-size-20">E-mail</h3>
+                    <p class="">info@beachhut.ie</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 sm-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white  fa fa fa-skype"></i>
+                    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                        <div id="SkypeButton_Call_beachhutwebdesign_1">
+                         <script type="text/javascript">
+                         Skype.ui({
+                         "name": "dropdown",
+                         "element": "SkypeButton_Call_beachhutwebdesign_1",
+                         "participants": ["beachhutwebdesign"],
+                         "imageColor": "white",
+                         "imageSize":32
+                         });
+                         </script>
+                        </div>
+                </div>
+                <!-- End Contacts -->
+            </div>
+        </div>
+        <!-- // end row -->
+    </div>
+    <!-- End Contacts -->
+    </div>
+
+
+    
+
+  
+
+     <!--========== FOOTER ==========-->
+    <footer id="footer" class="footer-v6 bg-color-dark">
+        <div class="content-sm container">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <a href="index.html">
+                        <img class="footer-v6-logo-img" src="img/beachhut/logos/bh-logo-white.png" alt="">
+                    </a>
+                   
+
+                </div>
+                <!-- End Logo -->
+
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">About us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="services.html">Services</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="projects.html">Our Work</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="about.html">About</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="blog.html">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width xs-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">Support</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="process.html">Process</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="support.html">Support</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="legal.html">Terms of Business</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width center-block">
+                    <h3 class="footer-v6-title">Contact us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            +353 (1) 504 5638
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            +353 089 422 1408
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            info@beachhut.ie
+                        </li>
+                        <li class="footer-link-v6-list-item-divider"></li>
+                        <li class="footer-link-v6-list-item">
+                           <a class="" href="special-offers.html"><i class=" icon-heart"></i> Special Offer !</a>
+                            
+                        </li>
+                        <!-- <li class="footer-link-v6-list-item">
+                            126 Sarsfield Park, Lucan, Dublin, Ireland.
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- End Link List -->
+            </div>
+            <!--// end row -->
+
+        </div>
+
+         <div class="container text-center">
+            <!-- Theme Icons Animated Dark Background -->
+            <ul class="list-inline margin-b-20">
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://www.facebook.com/prothemes.net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-google-plus"></i>
+                </a>
+              </li>
+
+
+            </ul>
+            <!-- End Theme Icons Animated Dark Background -->
+
+            <p class="margin-b-0">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
+          </div>
+    
+    </footer>
+    <!--========== END FOOTER ==========-->
+<!-- END WRAPPER -->
+
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="js-back-to-top back-to-top-theme"></a>
+<!-- End Back To Top -->
+
+
+<!--========== JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="assets/plugins/html5shiv.js"></script>
+<script src="assets/plugins/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="plugins/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="plugins/jquery.back-to-top.js"></script>
+<script type="text/javascript" src="plugins/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="plugins/jquery.animsition.min.js"></script>
+<script type="text/javascript" src="plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="plugins/jquery.equal-height.js"></script>
+<script type="text/javascript" src="plugins/validation/jquery.validate.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx7vvBtoO-szjq8qvO5rv4-9bTVZqbjM4"></script>
+<script type="text/javascript" src="plugins/wow.min.js"></script>
+
+
+<!-- END PAGE LEVEL PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/components/header-sticky.js"></script>
+<script type="text/javascript" src="scripts/components/animsition.js"></script>
+<script type="text/javascript" src="scripts/components/animated-headline.js"></script>
+<script type="text/javascript" src="scripts/components/scrollbar.js"></script>
+<script type="text/javascript" src="scripts/components/form-modal.js"></script>
+<script type="text/javascript" src="scripts/components/magnific-popup.js"></script>
+<script type="text/javascript" src="scripts/components/google-map.js"></script>
+<script type="text/javascript" src="scripts/components/equal-height.js"></script>
+<script type="text/javascript" src="scripts/components/comment-form.js"></script>
+<script type="text/javascript" src="scripts/components/wow.js"></script>
+
+<!-- END PAGE LEVEL SCRIPTS -->
+<!--========== END JAVASCRIPTS ==========-->
+</body>
+<!-- END BODY -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66518925-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

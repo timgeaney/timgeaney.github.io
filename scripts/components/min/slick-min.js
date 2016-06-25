@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".bh-slick-slider").slick({infinite:!0,slidesToShow:3,slidesToScroll:3})});

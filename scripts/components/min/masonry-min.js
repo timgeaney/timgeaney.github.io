@@ -1,0 +1,1 @@
+var Masonry=function(){"use strict";var n=function(){$(document).ready(function(){var n=$(".masonry-grid");n.imagesLoaded(function(){n.masonry({itemSelector:".masonry-grid-item",columnWidth:400,percentPosition:!0,transitionDuration:"0.5s"})})})};return{init:function(){n()}}}();$(document).ready(function(){Masonry.init()});

@@ -1,237 +1,513 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>beach hut - Web Design & Development</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js">
+<!-- HEAD -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Beach Hut web Design and Development</title>
+<meta name="keywords" content="HTML5 Theme" />
+<meta name="description" content="Ark - Responsive Multi-Purpose Template">
+<meta name="author" content="prothemes.net">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-       
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">  
-        <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="css/flexslider.css">
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/et-line/et-line.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
 
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<!-- BEGIN THEME PLUGINS STYLE -->
+<link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME PLUGINS STYLE -->
 
-    <div class="wrapper animsition">
+<!-- BEGIN THEME STYLES -->
+<link href="css/global.css" rel="stylesheet" type="text/css"/>
 
-       <header class="bh-header">
-          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-blue.png" alt="Logo"></a></div>
-          <div class="tag-line font-blue">
-            <h1>beach hut</h1>
-          </div>
 
-          <nav>
-            <ul class="bh-secondary-nav">
-              <li><label for="modal-1">
-                <div class="btn btn-yellow-orange btn-modal modal-trigger">Hire Us</div>
-              </label></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Free Consultation</a></li>
+<!-- END THEME STYLES -->
+
+<!-- BEGIN JQUERY -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+
+
+<!-- END JQUERY -->
+
+
+
+<!-- FAVICON -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- END FAVICON -->
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="resources bg-color-sky-light">
+
+<!-- WRAPPER -->
+<div class="wrapper animsition">
+  <!--========== HEADER ==========-->
+
+  <header class="header header-fixed navbar-fixed-top header-sticky bg-color-base" >
+  <!-- Topbar Classic -->
+    <div class="topbar-c theme-toggle-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <ul class="list-inline topbar-c-contacts">
+              <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
+              <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link" href="mailto:tim@beachhut.ie">info@beachhut.ie</a></li>
+
             </ul>
-          </nav> <!-- bh-nav -->
+          </div>
+          <div class="col-sm-6">
+            <ul class="list-inline topbar-c-actions form-modal-nav">
+              <!-- <li class="topbar-c-actions-item"><a class="topbar-c-actions-link form-modal-login" href="javascript:void(0);">Login</a></li>
+              <li class="topbar-c-actions-item-divider">or</li> -->
+              <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup bg-color-orange" href="special-offers.html"><i class="topbar-c-actions-icon icon-heart color-white"></i> Special Offer !</a></li>
+            </ul>
+          </div>
+        </div><!--// End row -->
+      </div>
+    </div>
+    <!-- End Topbar Classic -->
+  <!-- Navbar -->
+    <nav class="navbar mega-menu bg-blue" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="menu-container">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="toggle-icon"></span>
+          </button>
 
-
-          <a class="bh-primary-nav-trigger" href="#0">
-
-            <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
-          </a> <!-- bh-primary-nav-trigger -->
-        </header>
-
-        <!-- modal hire us button-->
-
-        <div class="modal">
           
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhut.ie</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
+
+          <!-- Logo -->
+          <div class="navbar-logo">
+            <a class="navbar-logo-wrap" href="index.html">
+              <img class="navbar-logo-img" src="img/beachhut/bh-logo-cap.png" alt="beachhut logo">
+              <img class="logo-mobile" src="img/beachhut/bh-logo-white-clear.png" alt="beachhut logo">
+            </a>    
+          </div>
+          <!-- End Logo -->
+
+
+
+        </div>
+        
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse nav-collapse">
+          <div class="menu-container">
+            <ul class="nav navbar-nav">
+
+              <!-- Home -->
+              <li class="nav-item mega-menu-fullwidth">
+                <a class="nav-item-child" href="index.html">
+                  Home
+                </a>
+                
+              </li>
+              <!-- End Home -->
               
-              <p></p>
-            </div>
+
+              <!-- Services -->
+              <li class="nav-item mega-menu-fullwidth">
+                <a class="nav-item-child" href="services.html">
+                  Services
+                </a>
+                
+              </li>
+              <!-- End Services -->
+
+              <!-- About Us -->
+              <li class="nav-item mega-menu-fullwidth">
+                <a class="nav-item-child" href="about.html">
+                  About Us
+                </a>
+                
+              </li>
+              <!-- End About Us -->
+
+              <!-- Resources -->
+              <li class="nav-item mega-menu-fullwidth">
+                <a class="nav-item-child" href="projects.html">
+                  Our Work
+                </a>
+                
+              </li>
+              <!-- End Resources -->
+               
+
+              <!-- Blog -->
+              <li class="nav-item mega-menu-fullwidth">
+                <a class="nav-item-child" href="blog.html">
+                  Resources
+                </a>
+                
+              </li>
+              <!-- End Blog -->
+
+              <!-- Contact -->
+              <li class="nav-item mega-menu-fullwidth">
+                <a class="nav-item-child" href="contact.html">
+                  Contact
+                </a>
+                
+              </li>
+            </ul>
           </div>
         </div>
-
-        <!-- end modal hire us button section -->
-
-        <nav>
-          <ul class="bh-primary-nav">
-            <li class="bh-label pd-top-40">About us</li>
-
-            <li><a href="about.html">The team</a></li>
-            <li><a href="services.html">Our services</a></li>
-            <li><a href="projects.html">Our projects</a></li>
-
-            <li class="bh-label">Work with us</li>
-
-            <li><a href="process.html">Start a project</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
-
-
-            <li class="bh-label">Follow us</li>
-            
-            <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
-            <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-            <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
-          </ul>
-        </nav>
-        
-          <!-- main blog section -->
-          <section id="blog">
-            <div class="articles">
-                <div class="article">
-                  <h4>beach hut's new website launched</h4>
-                  <ul class="info">
-                    <li>Posted in: design, responsive</li>
-                    <li>Written by: Tim Geaney</li>
-                    <li>On: 29th Febuary 2016</li>
-                  </ul>
-                  <a href="blog-single.html" class="article-img"><img src="img/bh_iphone6_mockup.jpg" /></a>
-                  <p><span>Today see's the launch of Beach Hut's new website. We wanted something bold and colorful and a little different from most of the other online web deisgn websites and I think we have acheived that. I'm sure it will go through some iterations and tweaks but we hope you like it.</p>
-                  <a href="blog-single.html" class="post-link">Continue Reading &rarr;</a>
-                  <hr>
-                </div> <!-- end article -->
-
-                <!-- <div class="article">
-                  <h4>First Blog post</h4>
-                  <ul class="info">
-                    <li>Posted in: <a href="#">design, responsive</a></li>
-                    <li>Written by: <a href="#">Tim Geaney</a></li>
-                    <li>On: 20th Febuary 2015</li>
-                  </ul>
-                  <a href="#" class="article-img"><img src="http://lorempixel.com/850/450" /></a>
-                  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum amet, odio eum, natus illo rem dolorum, veniam sunt ducimus consequatur, aliquam quia atque. Praesentium at, eius ullam ipsam adipisci quaerat.</span><span>Sed quo eius, id nesciunt nisi, illo maxime repellat. Id soluta, sed animi rem. Error accusamus quos voluptatum suscipit eaque inventore quasi? Temporibus rerum, odit ab qui ullam nihil nulla.</span></p>
-                  <a href="blog-single.html" class="post-link">Continue Reading &rarr;</a>
-                  <hr>
-                </div>  -->
-                <!-- end article -->
-
-                <!-- <div class="article">
-                  <h4>First Blog post</h4>
-                  <ul class="info">
-                    <li>Posted in: <a href="#">design, responsive</a></li>
-                    <li>Written by: <a href="#">Tim Geaney</a></li>
-                    <li>On: 20th Febuary 2015</li>
-                  </ul>
-                  <a href="#" class="article-img"><img src="http://lorempixel.com/850/450" /></a>
-                  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum amet, odio eum, natus illo rem dolorum, veniam sunt ducimus consequatur, aliquam quia atque. Praesentium at, eius ullam ipsam adipisci quaerat.</span><span>Sed quo eius, id nesciunt nisi, illo maxime repellat. Id soluta, sed animi rem. Error accusamus quos voluptatum suscipit eaque inventore quasi? Temporibus rerum, odit ab qui ullam nihil nulla.</span></p>
-                  <a href="blog-single.html" class="post-link">Continue Reading &rarr;</a>
-                  <hr>
-                </div>  -->
-                <!-- end article -->
-            </div> <!-- end articles
-        -->
-            <div class="right-sidebar">
-              <div class="social">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-google-plus"></i></a>
-                  <a href="#"><i class="fa fa-envelope-o"></i></a>
-                </div>
-
-              <div class="categories">
-                <h5>Categories</h5>
-                <ul>
-                  <li><a href="">Design</a></li>
-                  <li><a href="">Responsive</a></li>
-                  <li><a href="">Content</a></li>
-                  <li><a href="">SEO</a></li>
-                  <li><a href="">Content</a></li>
-                  <li><a href="">SEO</a></li>
-                </ul>
-              </div>
-
-              <div class="featured-articles">
-                <h5>Featured articles</h5>
-                <ul>
-                  <li><a href="blog-single.html">new website</a></li>
-                  
-                </ul>
-              </div>
-                
-            </div>
-          </section> <!-- end main section -->
-
-         <!-- Footer section -->
-         <footer class="footer-no-image bg-blue" role="contentinfo">
-            <div class="footer-logo">
-              <img src="img/bh-logo-white-clear.png" alt="Logo image">
-            </div>
-              <div class="footer-links">
-              <ul>
-                <li><h3>Content</h3></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="projects.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <ul>
-                <li><h3>Follow Us</h3></li>
-                <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
-
-              </ul>
-              <ul>
-                <li><h3>Legal</h3></li>
-                <li><a href="legal.html">Terms and Conditions</a></li>
-              </ul>
-            </div>
-  
-            <hr>
-  
-            <p>copyright beach_hut 2015</p>
-                
-        </footer>
-      <!-- END WRAPPER -->
+        <!-- End Navbar Collapse -->
       </div>
-    </main>
+      <!--// End Container-->
+    </nav>
+    <!-- Navbar -->
+  </header>
 
-    <a href="#0" class="bh-top">Top</a>
+  <!--========== END HEADER ==========-->
 
-    <!-- end main comntent section -->
+  <!--========== PAGE CONTENT ==========-->
+
+  <section class="blog-masonry bg-color-sky-light">
+      
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <ul class="blog-filters">
+                <li data-filter="*" class="active">All</li>
+                <li data-filter=".client">Clients</li>
+                <li data-filter=".development">Design</li>
+                <li data-filter=".print">Development</li>
+                <li data-filter=".seo">SEO</li>
+
+              </ul>
+            </div>
+          </div><!--end of row-->
+        </div><!--end of container-->
+        
+        <div class="container">
+          <div class="row">
+            <div class="blog-masonry-container">
+            
+              <div class="col-md-4 col-sm-6 blog-masonry-item client">
+                <div class="item-inner">
+                  <a href="blog-single.html">
+                    <img alt="Blog Preview" src="img/beachhut/01.jpg">
+                  </a>
+                  <div class="post-title">
+                    <h2>Layout out my writing gear as though I'll use it.</h2>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                    </p>
+                    <div class="post-meta">
+                      <span class="sub alt-font">Posted on June 16th</span>
+                      <span class="sub alt-font">4 Minute Read</span>
+                    </div>
+                    <a href="blog-single.html" class="link-text">Read More</a>
+                  </div>
+                </div>
+              </div><!--end of individual post-->
+
+              <div class="col-md-4 col-sm-6 blog-masonry-item seo">
+                <div class="item-inner">
+                  <a href="blog-single.html">
+                    <img alt="Blog Preview" src="img/beachhut/01.jpg">
+                  </a>
+                  <div class="post-title">
+                    <h2>Layout out my writing gear as though I'll use it.</h2>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                    </p>
+                    <div class="post-meta">
+                      <span class="sub alt-font">Posted on June 16th</span>
+                      <span class="sub alt-font">4 Minute Read</span>
+                    </div>
+                    <a href="blog-single.html" class="link-text">Read More</a>
+                  </div>
+                </div>
+              </div><!--end of individual post-->
+
+              
+              
+              <div class="col-md-4 col-sm-6 blog-masonry-item development">
+                <div class="item-inner quote-post">
+                  <div class="post-title">
+                    <h1>"A camel is a horse designed by committee"</h1>
+                    <div class="post-meta">
+                      <span class="sub alt-font">Alec Issigonis</span>
+                      <span class="sub alt-font">1965</span>
+                    </div>
+                    <a href="blog-single.html" class="link-text">Read More</a>
+                  </div>
+                </div>
+              </div><!--end of individual post-->
+            
+              <div class="col-md-4 col-sm-6 blog-masonry-item development">
+                <div class="item-inner">
+                  <a href="blog-single.html">
+                    <img alt="Blog Preview" src="img/beachhut/01.jpg">
+                  </a>
+                  <div class="post-title">
+                    <h2>Cooking up a batch of Ma's famous breadsticks</h2>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.
+                    </p>
+                    <div class="post-meta">
+                      <span class="sub alt-font">Posted on June 13th</span>
+                      <span class="sub alt-font">4 Minute Read</span>
+                    </div>
+                    <a href="blog-single.html" class="link-text">Read More</a>
+                  </div>
+                </div>
+              </div><!--end of individual post-->
+            
+              <div class="col-md-4 col-sm-6 blog-masonry-item print">
+                <div class="item-inner">
+                  <a href="blog-single.html">
+                    <img alt="Blog Preview" src="img/beachhut/01.jpg">
+                  </a>
+                  <div class="post-title">
+                    <h2>Wearing my trendy straw hat at the farm.</h2>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                    </p>
+                    <div class="post-meta">
+                      <span class="sub alt-font">Posted on June 11th</span>
+                      <span class="sub alt-font">4 Minute Read</span>
+                    </div>
+                    <a href="blog-single.html" class="link-text">Read More</a>
+                  </div>
+                </div>
+              </div><!--end of individual post-->
+              
+              <div class="col-md-4 col-sm-6 blog-masonry-item client">
+                <div class="item-inner">
+                  <a href="blog-single.html">
+                    <img alt="Blog Preview" src="img/beachhut/01.jpg">
+                  </a>
+                  <div class="post-title">
+                    <h2>Happy snaps in my hand-made raft at sunset</h2>
+                    <p>
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                    </p>
+                    <div class="post-meta">
+                      <span class="sub alt-font">Posted on June 8th</span>
+                      <span class="sub alt-font">2 Minute Read</span>
+                    </div>
+                    <a href="blog-single.html" class="link-text">Read More</a>
+                  </div>
+                </div>
+              </div><!--end of individual post-->
+            
+            </div><!--end of blog masonry container-->
+          </div><!--end of row-->
+        </div><!--end of container-->
+
+    </section><!--end of blog masonary section-->
+
+  
+  
+  
+  
 
 
-   
-    
-  <script src="js/vendor/jquery-1.10.2.min.js"></script>
-  <script src="js/main.js"></script> <!-- Resource jQuery -->
-  <script src="js/scroll.js"></script>
-  <script src="js/vendor/jquery.animsition.min.js"></script>
-  <script src="js/animsition.js"></script>
-  <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-75242311-1', 'auto');
-        ga('send', 'pageview');
 
-      </script>
+ 
 
-  </body>
+  <!--========== END PAGE CONTENT ==========-->
+
+  <!--========== FOOTER ==========-->
+  <footer id="footer" class="footer-v6 bg-color-base">
+    <div class="content-sm container">
+      <div class="row">
+        <!-- Logo -->
+        <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+          <a href="index.html">
+            <img class="footer-v6-logo-img" src="img/beachhut/logos/bh-logo-white.png" alt="">
+          </a>
+           
+
+        </div>
+        <!-- End Logo -->
+
+        <!-- Footer Link List -->
+        <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+          <h3 class="footer-v6-title">About us</h3>
+          <ul class="list-unstyled footer-link-v6-list">
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="services.html">Services</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="projects.html">Our Work</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="about.html">About</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="blog.html">Resources</a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Footer Link List -->
+
+        <!-- Footer Link List -->
+        <div class="col-md-3 col-xs-6 xs-full-width xs-margin-b-30 center-block">
+          <h3 class="footer-v6-title">Support</h3>
+          <ul class="list-unstyled footer-link-v6-list">
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="process.html">Process</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="support.html">Support</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="legal.html">Terms of Business</a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Footer Link List -->
+
+        <!-- Link List -->
+        <div class="col-md-3 col-xs-6 xs-full-width center-block">
+          <h3 class="footer-v6-title">Contact us</h3>
+          <ul class="list-unstyled footer-link-v6-list">
+            <li class="footer-link-v6-list-item">
+              +353 (1) 504 5638
+            </li>
+            <li class="footer-link-v6-list-item">
+              +353 089 422 1408
+            </li>
+            <li class="footer-link-v6-list-item">
+              info@beachhut.ie
+            </li>
+            <li class="footer-link-v6-list-item-divider"></li>
+            <li class="footer-link-v6-list-item">
+               <a class="" href="special-offers.html"><i class=" icon-heart"></i> Special Offer !</a>
+              
+            </li>
+            <!-- <li class="footer-link-v6-list-item">
+              126 Sarsfield Park, Lucan, Dublin, Ireland.
+            </li> -->
+          </ul>
+        </div>
+        <!-- End Link List -->
+      </div>
+      <!--// end row -->
+
+    </div>
+
+     <div class="container text-center">
+      <!-- Theme Icons Animated Dark Background -->
+      <ul class="list-inline margin-b-20">
+        <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="https://www.facebook.com/prothemes.net" target="_blank">
+        <i class="animate-theme-icons-element fa fa-facebook"></i>
+        </a>
+        </li>
+        <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+        <i class="animate-theme-icons-element fa fa-twitter"></i>
+        </a>
+        </li>
+        <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+        <i class="animate-theme-icons-element fa fa-google-plus"></i>
+        </a>
+        </li>
+
+
+      </ul>
+      <!-- End Theme Icons Animated Dark Background -->
+
+      <p class="margin-b-0">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
+      </div>
+  
+  </footer>
+  <!--========== END FOOTER ==========-->
+<!-- END WRAPPER -->
+
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="js-back-to-top back-to-top-theme"></a>
+<!-- End Back To Top -->
+
+
+<!--========== JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="plugins/html5shiv.js"></script>
+<script src="plugins/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="plugins/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="plugins/jquery.back-to-top.js"></script>
+<script type="text/javascript" src="plugins/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="plugins/jquery.animsition.min.js"></script>
+<script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="plugins/dzsparallaxer/dzsparallaxer.js"></script>
+<script type="text/javascript" src="plugins/jquery.equal-height.js"></script>
+<script type="text/javascript" src="plugins/circles-master/circles.min.js"></script>
+<script type="text/javascript" src="plugins/wow.min.js"></script>
+<script type="text/javascript" src="plugins/isotope.min.js"></script>
+<script type="text/javascript" src="plugins/jquery.masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="plugins/imagesLoaded.pkgd.min.js"></script>
+
+
+
+<!-- END PAGE LEVEL PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script type="text/javascript" src="assets/scripts/splash.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/components/animsition.js"></script>
+<script type="text/javascript" src="scripts/components/equal-height.js"></script>
+<script type="text/javascript" src="scripts/components/header-sticky.js"></script>
+<script type="text/javascript" src="scripts/components/piecharts.js"></script>
+<script type="text/javascript" src="scripts/components/wow.js"></script>
+<script type="text/javascript" src="scripts/components/isotope.js"></script>
+<!-- <script type="text/javascript" src="scripts/components/masonry.js"></script> -->
+
+
+
+
+
+
+<script type="text/javascript" src="scripts/portfolio/portfolio-3-col-grid-v2.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<!--========== END JAVASCRIPTS ==========-->
+</body>
+<!-- END BODY -->
+
+
+
+
+</html>

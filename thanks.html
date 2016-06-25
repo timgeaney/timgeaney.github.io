@@ -1,161 +1,254 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>beach hut - Web Design & Development</title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js">
+<!-- HEAD -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Beach Hut web Design and Development</title>
+<meta name="keywords" content="HTML5 Theme" />
+<meta name="description" content="Ark - Responsive Multi-Purpose Template">
+<meta name="author" content="prothemes.net">
 
-      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-      <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-      <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> 
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-     
-      <link rel="stylesheet" href="css/app.css">
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/et-line/et-line.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
 
-      <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-  </head>
-  <body>
-  <div class="wrapper animsition">
-    <header class="bh-header">
-      <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-white-clear.png" alt="Logo"></a></div>
-      <div class="tag-line">
-        <h1>beach hut</h1>
-      </div>
+<!-- BEGIN THEME PLUGINS STYLE -->
+<link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME PLUGINS STYLE -->
 
-      <nav>
-        <ul class="bh-secondary-nav">
-          
-        </ul>
-      </nav> <!-- bh-nav -->
-
-      <a class="bh-primary-nav-trigger" href="#0">
-        <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
-      </a> <!-- bh-primary-nav-trigger -->
-    </header>
-
-    <nav>
-      <ul class="bh-primary-nav">
-        <li class="bh-label">About us</li>
-
-        <li><a href="#0">The team</a></li>
-        <li><a href="#0">Our services</a></li>
-        <li><a href="#0">Our projects</a></li>
-
-        <li class="bh-label">Work with us</li>
-
-        <li><a href="#0">Start a project</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="#0">Process</a></li>
-        <li><a href="#0">Blog</a></li>
+<!-- BEGIN THEME STYLES -->
+<link href="css/global.css" rel="stylesheet" type="text/css"/>
 
 
-        <li class="bh-label">Follow us</li>
-        
-        <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
-        <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-        <li class="bh-social bh-dribbble"><a href="#0">Dribbble</a></li>
-        <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
-      </ul>
-    </nav>
+<!-- END THEME STYLES -->
 
-    <!-- modal hire us button-->
+<!-- THEME -->
+<link href="css/theme/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/theme/base.css" rel="stylesheet" type="text/css" id="style-color"/>
 
-        <div class="modal">
-          <label for="modal-1">
-             <div class=" bg-clear-dark btn-modal modal-trigger"><i class="fa fa-phone"></i></div>
-          </label>
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you have a project ready to go or you just need advice why not give us a call.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhutinc.com</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
-              
-              <p></p>
+<!-- BEGIN JQUERY -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<!-- END JQUERY -->
+
+<link rel="shortcut icon" href="../HTML/favicon.ico"/>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body id="">
+
+<!-- WRAPPER -->
+<div class="wrapper animsition">
+  <!--========== HEADER ==========-->
+
+  <header class="header header-fixed navbar-fixed-top header-sticky" id="bg-blue">
+    <!-- Topbar Classic -->
+        <div class="topbar-c theme-toggle-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-contacts">
+                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
+                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link" href="mailto:tim@beachhut.ie">tim@beachhut.ie</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-actions form-modal-nav">
+                            <!-- <li class="topbar-c-actions-item"><a class="topbar-c-actions-link form-modal-login" href="javascript:void(0);">Login</a></li>
+                            <li class="topbar-c-actions-item-divider">or</li> -->
+                            <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup" href="javascript:void(0);"><i class="topbar-c-actions-icon icon-heart"></i> Special Offer !</a></li>
+                        </ul>
+                    </div>
+                </div><!--// End row -->
             </div>
-          </div>
         </div>
+        <!-- End Topbar Classic -->
+    <!-- Navbar -->
+        <nav class="navbar mega-menu bg-blue" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
 
-        <!-- end modal hire us button section -->
+                    
+
+                    <!-- Logo -->
+                    <div class="navbar-logo">
+                        <a class="navbar-logo-wrap" href="index.html">
+                            <img class="navbar-logo-img" src="img/beachhut/bh_logo_tag_sm.png" alt="beachhut logo">
+                        </a>
+                        
+                </div>
 
 
-    <section id="hero-big-text" class="bg-blue">
-        <div class="hero-text">
-          <h1 class="super-big">Thanks!</h1>
-          <hr class="big-hr">
-         <!--  <h6 class="big">&ldquo;it's good to talk&rdquo;</h6><h6 class="ref">- Bob Hoskins</h6> -->
-          <h6>Thanks for reaching out we'll get back to you as soon as possible.</h6>
-        </div>
-      </section>
+                    </div>
+                    <!-- End Logo -->
+                
 
-    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav">
+
+                          <!-- Home -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="index.html">
+                                    Home
+                                </a>
+                                
+                            </li>
+                            <!-- End Home -->
+                            
+
+                            <!-- Services -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="services.html">
+                                    Services
+                                </a>
+                                
+                            </li>
+                            <!-- End Services -->
+
+                            <!-- About Us -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="about.html">
+                                    About Us
+                                </a>
+                                
+                            </li>
+                            <!-- End About Us -->
+
+                            <!-- Resources -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="projects.html">
+                                    Portfolio
+                                </a>
+                                
+                            </li>
+                            <!-- End Resources -->
+                           
+
+                            <!-- Blog -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="blog.html">
+                                    Resources
+                                </a>
+                                
+                            </li>
+                            <!-- End Blog -->
+
+                            <!-- Contact -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="contact.html">
+                                    Contact
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+            <!--// End Container-->
+        </nav>
+        <!-- Navbar -->
+  </header>
+
+  <!--========== END HEADER ==========-->
+
   
 
-            <!-- Footer section -->
-        <footer class="footer-no-image bg-blue" role="contentinfo">
-            <div class="footer-logo">
-              <img src="img/bh-logo-white-clear.png" alt="Logo image">
-            </div>
-
-              <div class="footer-links">
-              <ul>
-                <li><h3>Content</h3></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="projects.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <ul>
-                <li><h3>Follow Us</h3></li>
-                <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
-
-              </ul>
-              <ul>
-                <li><h3>Legal</h3></li>
-                <li><a href="legal.html">Terms and Conditions</a></li>
-              </ul>
-            </div>
-  
-            <hr>
-  
-            <p>copyright beach_hut 2015</p>
-              
-            
-        </footer>
-        <!-- end cd-content -->
-
-      
-    <!-- end main comntent section -->
-    </main>
-
-    <!-- END WRAPPER -->
-        </div>
+   <!--========== FOOTER ==========-->
+  <footer>
+  <div class="content-sm container text-center">
+    <!-- Theme Icons Animated Dark Background -->
+    <ul class="list-inline margin-b-20">
+      <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://www.facebook.com/prothemes.net" target="_blank">
+        <i class="animate-theme-icons-element fa fa-facebook"></i>
+        </a>
+      </li>
+      <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+        <i class="animate-theme-icons-element fa fa-twitter"></i>
+        </a>
+      </li>
+      <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+        <i class="animate-theme-icons-element fa fa-google-plus"></i>
+        </a>
+      </li>
 
 
-    <a href="#0" class="bh-top">Top</a>
+    </ul>
+    <!-- End Theme Icons Animated Dark Background -->
+
+    <p class="margin-b-0">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
+  </div>
+  </footer>
+  <!--========== END FOOTER ==========-->
+<!-- END WRAPPER -->
+
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="js-back-to-top back-to-top-theme"></a>
+<!-- End Back To Top -->
 
 
+<!--========== JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="plugins/html5shiv.js"></script>
+<script src="plugins/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="plugins/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- END CORE PLUGINS -->
 
-    
-  <script src="js/vendor/jquery-1.10.2.min.js"></script>
-  <script src="js/main.js"></script> <!-- Resource jQuery -->
-  <script src="js/vendor/jquery.animsition.min.js"></script>
-  <script src="js/animsition.js"></script>
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="plugins/jquery.back-to-top.js"></script>
+<script type="text/javascript" src="plugins/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="plugins/jquery.animsition.min.js"></script>
+<script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="plugins/dzsparallaxer/dzsparallaxer.js"></script>
+<script type="text/javascript" src="plugins/jquery.equal-height.js"></script>
+<script type="text/javascript" src="plugins/circles-master/circles.min.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
 
-  </body>
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script type="text/javascript" src="assets/scripts/splash.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/components/animsition.js"></script>
+<script type="text/javascript" src="scripts/components/equal-height.js"></script>
+<script type="text/javascript" src="scripts/components/header-sticky.js"></script>
+<script type="text/javascript" src="scripts/components/piecharts.js"></script>
+
+
+<script type="text/javascript" src="scripts/portfolio/portfolio-3-col-grid-v2.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<!--========== END JAVASCRIPTS ==========-->
+</body>
+<!-- END BODY -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66518925-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

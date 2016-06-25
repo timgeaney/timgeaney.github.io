@@ -1,0 +1,1 @@
+var Wow=function(){"use strict";var n=function(){var n=new WOW({boxClass:"wow",offset:0,mobile:!0,tablet:!1,live:!0});n.init()};return{init:function(){n()}}}();$(document).ready(function(){Wow.init()});

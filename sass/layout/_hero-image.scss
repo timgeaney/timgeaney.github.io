@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero-image {
+@include outer-container(100%);
+background: #EEF0F1;
+
+.header-intro {
+	position: absolute !important;
+	top: 152px;
+}
+
+.header-intro-left {
+	position: absolute !important;
+	top: 152px;
+	left:0;
+}
+
+
+#cf img.top, img.bottom {
+		display: none;
+	}
+
+	#cf {
+		position: relative;
+	}
+
+	#cf img.small-screen {
+		margin-top: 0px;
+	
+		
+
+	}
+
+	
+
+	
+
+	
+
+	@include MQ(M) {
+
+			#cf {
+			position: relative;
+			height: 550px;
+			width: 100%;
+			margin: 0 auto;
+
+		}
+
+			#cf img.top, img.bottom {
+			display: block;
+		}
+
+		#cf img {
+			position: absolute;
+			top: -152px;
+		  left:0;
+		  -webkit-transition: opacity 1s ease-in-out;
+		  -moz-transition: opacity 1s ease-in-out;
+		  -o-transition: opacity 1s ease-in-out;
+		  transition: opacity 1s ease-in-out;
+
+		}
+
+		#cf img.top:hover {
+		  opacity:0;
+		}
+
+		
+
+	}
+
+	@include MQ(L) {
+
+		#cf {
+
+			height: 500px;
+		}
+
+		#cf img.small-screen {
+		display: none;
+		height: 850px;
+	}
+
+	}
+	@include MQ(XL) {
+
+		#cf {
+
+			height: 580px;
+		}
+
+	}
+	@include MQ(XXL) {
+
+		#cf {
+
+			height: 750px;
+		}
+
+	}
+
+}
+
+
+
+#hero-image-2 {
+	width: 100%;
+	height: auto;
+	max-height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	display: none;
+	clip: rect(0, 1900px, 700px, 0);
+}
+
+
+
+@include MQ(XM) {
+
+	#hero-image-2 {
+		display: block;
+	}
+
+}

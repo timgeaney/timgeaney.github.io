@@ -1,7 +1,0 @@
-#projects {
-	@include outer-container($site-width);
-	height: 100%;
-	h1.intro-heading {
-		padding: 2em;
-	}
-}

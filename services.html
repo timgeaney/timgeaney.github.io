@@ -1,251 +1,550 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>beach hut - Web Design & Development</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js">
+<!-- HEAD -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Beach Hut web Design and Development</title>
+<meta name="keywords" content="HTML5 Theme" />
+<meta name="description" content="Ark - Responsive Multi-Purpose Template">
+<meta name="author" content="prothemes.net">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> 
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <link rel="stylesheet" href="css/app.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/et-line/et-line.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
 
-    </head>
-    <body id="index">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <div class="wrapper animsition">
+<!-- BEGIN THEME PLUGINS STYLE -->
+<link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME PLUGINS STYLE -->
 
-      <main>
-
-       <header class="bh-header">
-          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-blue.png" alt="Logo"></a></div>
-          <div class="tag-line font-blue">
-            <h1>beach hut</h1>
-          </div>
-
-          <nav>
-            <ul class="bh-secondary-nav">
-              <li><label for="modal-1">
-                <div class="btn btn-yellow-orange btn-modal modal-trigger">Hire Us</div>
-              </label></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Free Consultation</a></li>
-            </ul>
-          </nav> <!-- bh-nav -->
+<!-- BEGIN THEME STYLES -->
+<link href="css/global.css" rel="stylesheet" type="text/css"/>
+<link href="assets/css/splash.css" rel="stylesheet" type="text/css"/>
 
 
-          <a class="bh-primary-nav-trigger" href="#0">
+<!-- BEGIN JQUERY -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<!-- END JQUERY -->
 
-            <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
-          </a> <!-- bh-primary-nav-trigger -->
-        </header>
+<!-- FAVICON -->
 
-        <!-- modal hire us button-->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="">
 
-        <div class="modal">
-          
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhut.ie</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
-              
-              <p></p>
+<!-- END FAVICON -->
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="bg-color-sky-light">
+
+<!-- WRAPPER -->
+<div class="wrapper animsition">
+    <!--========== HEADER ==========-->
+
+  <header class="header header-fixed navbar-fixed-top header-sticky bg-color-darkpurple" >
+    <!-- Topbar Classic -->
+        <div class="topbar-c theme-toggle-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-contacts">
+                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
+                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link" href="mailto:tim@beachhut.ie">info@beachhut.ie</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-actions form-modal-nav">
+                            <!-- <li class="topbar-c-actions-item"><a class="topbar-c-actions-link form-modal-login" href="javascript:void(0);">Login</a></li>
+                            <li class="topbar-c-actions-item-divider">or</li> -->
+                            <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup bg-color-white color-dark" href="special-offers.html"><i class="topbar-c-actions-icon icon-heart"></i> Special Offer !</a></li>
+                        </ul>
+                    </div>
+                </div><!--// End row -->
             </div>
-          </div>
         </div>
+        <!-- End Topbar Classic -->
+    <!-- Navbar -->
+        <nav class="navbar mega-menu bg-blue" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
 
-        <!-- end modal hire us button section -->
+                    
 
-        <nav>
-          <ul class="bh-primary-nav">
-            <li class="bh-label pd-top-40">About us</li>
-
-            <li><a href="about.html">The team</a></li>
-            <li><a href="services.html">Our services</a></li>
-            <li><a href="projects.html">Our projects</a></li>
-
-            <li class="bh-label">Work with us</li>
-
-            <li><a href="process.html">Start a project</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
+                    <!-- Logo -->
+                    <div class="navbar-logo">
+                        <a class="navbar-logo-wrap" href="index.html">
+                            <img class="navbar-logo-img" src="img/beachhut/bh-logo-cap.png" alt="beachhut logo">
+                            <img class="logo-mobile" src="img/beachhut/bh-logo-white-clear.png" alt="beachhut logo">
+                            
+                        </a>
+                        
+                </div>
 
 
-            <li class="bh-label">Follow us</li>
-            
-            <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
-            <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-            <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
-          </ul>
+                    </div>
+                    <!-- End Logo -->
+                
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav">
+
+                          <!-- Home -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="index.html">
+                                    Home
+                                </a>
+                                
+                            </li>
+                            <!-- End Home -->
+                            
+
+                            <!-- Services -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="services.html">
+                                    Services
+                                </a>
+                                
+                            </li>
+                            <!-- End Services -->
+
+                            <!-- About Us -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="about.html">
+                                    About Us
+                                </a>
+                                
+                            </li>
+                            <!-- End About Us -->
+
+                            <!-- Resources -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="projects.html">
+                                    Our Work
+                                </a>
+                                
+                            </li>
+                            <!-- End Resources -->
+                           
+
+                            <!-- Blog -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="blog.html">
+                                    Resources
+                                </a>
+                                
+                            </li>
+                            <!-- End Blog -->
+
+                            <!-- Contact -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="contact.html">
+                                    Contact
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+            <!--// End Container-->
         </nav>
+        <!-- Navbar -->
+  </header>
 
-        <!-- end modal hire us button section -->
+  <!--========== END HEADER ==========-->
+  
 
-        <section id="hero">
-          <img src="img/bh-services.png" alt="team">
-        </section>
-
-
-        <!--  END MAIN CONTENT -->
-
-       <!--  <section id="hero-big-text" class="bg-blue">
-        <div class="hero-text">
-          <h1 class="super-big">Services</h1>
-          <hr class="big-hr">
-          <h6 class="big">&ldquo;The best design is the simplest one that works&rdquo;</h6><cite>&mdash;Albert Einstein</cite>
-        </div>
-      </section> -->
+  <!--========== SERVICE PAGE CONTENT ==========-->
+   <div class="hero-image bg-color-darkpurple ">
+      <!-- <img src="img/beachhut/bh-services-2.jpg" alt="team"> -->
+      <img src="img/beachhut/designer-desk.png" alt="team">
 
       
 
-      <section id="services">
-          <div class="feature-intro">
-            <h1>What we can do for you:</h1>
-            <p>Here's a list of just some of the things we can do</p>
-          </div>
-          <div class="grid-items-lines">
-            <li class="grid-item hover-color-1">
+    </div>
+
+    <div class="arrow_box_purple"></div>
+
+
+    <!--  END MAIN CONTENT -->
+
+
+    
+
+  <section id="services">
+      
+      <h1>What we can do for you:</h1>
+      <p class="text-center">Here's a list of just some of the things we can do</p>
+   
+    <div class="container">
+      <div class="row margin-t-60">
+        <div class="grid-items-lines">
+          <div class="col-md-4 col-sm-6 ">
+            <li class="grid-item hover-color-1 grid-item-eq-height">
               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g  stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path stroke-linecap="round" d="M23.5 19.912c0 .877-.671 1.588-1.5 1.588h-20c-.828 0-1.5-.711-1.5-1.588v-14.824c0-.877.672-1.588 1.5-1.588h20c.829 0 1.5.711 1.5 1.588v14.824zM5 23.5h14M12 21.5v2"/><circle cx="12" cy="19.5" r=".5"/><path d="M.5 17.5h23"/></g></svg>
-              <h5>Web design</h5>
-              <p>We provide Creative and functional design for the web. We build all our websites using HTML,CSS, Javascript while adhering to best practice. Brochure sites, e-commerce sites, membership sites, blogs, payments gateways ..the list goes on.</p>
+              <h2>Web design</h2>
+              <p class="xs-font-size-16">We provide Creative and functional design for the web. We build all our websites using HTML,CSS, Javascript while adhering to best practice. Brochure sites, e-commerce sites, membership sites, blogs, payments gateways ..the list goes on.</p>
               
             </li>
-            <li class="grid-item hover-color-2">
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-2 grid-item-eq-height">
               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M5.5 9.5h-4.077c-.51 0-.923-.447-.923-1v-7c0-.552.413-1 .923-1h10.154c.51 0 .923.448.923 1v6M2.5 11.5h3M.5 7.5h12M15.5 21.5v1.969M11.5 23.5h8" fill="none"/><path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M23.5 19.7c0 .995-.716 1.8-1.6 1.8h-12.8c-.884 0-1.601-.805-1.601-1.8v-8.399c.001-.994.718-1.801 1.602-1.801h12.8c.884 0 1.6.807 1.6 1.801v8.399zM8 18.5h15.5" fill="none"/><path d="M15.5 19.5c-.276 0-.5.225-.5.5 0 .276.224.5.5.5s.5-.224.5-.5c0-.275-.224-.5-.5-.5z"/></g></svg>
-              <h5>Website Redesign</h5>
-              <p>The web is a fast evolving extremely competitive environment. A well designed site that looks good on all screens will distinguish you from the majority of the web. Studies show users don't <a href="http://www.realwire.com/releases/70-Per-Cent-Of-People-Dont-Trust-Badly-Designed-Websites" target="blank">trust</a> badly designed Websites. </p>
+              <h2>Website Redesign</h2>
+              <p class="xs-font-size-16">The web is a fast evolving extremely competitive environment. A well designed site that looks good on all screens will distinguish you from the majority of the web. Studies show users don't <a href="http://www.realwire.com/releases/70-Per-Cent-Of-People-Dont-Trust-Badly-Designed-Websites" target="blank">trust</a> badly designed Websites. </p>
             </li>
-            <li class="grid-item hover-color-3">
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-7 grid-item-eq-height">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M17.5 12.5h1c1.656 0 3 1.344 3 3s-1.344 3-3 3h-1"/><path d="M17.5 21.5c0 1.104-.896 2-2 2h-9c-1.104 0-2-.896-2-2v-11h13v11zM17.381.564c1.033 1.574-.496 2.436-.853 3.282-.377.895-.011 1.752.885 2.129 2.9 1.222 3.764-4.493-.032-5.411zM14.5 10.5l2.609-4.688M18.141 6.156l-1.641 4.344"/><path d="M8.5 10.5h-3l-1.5-3-.5-3 2.5 1.5zM4 7.5l2-1.5"/><path d="M9.5.5h4v10h-4zM13.5 2.5h-2M13.5 4.5h-1M13.5 6.5h-2M13.5 8.5h-1"/></g></svg>
+              <h2>On line Branding</h2>
+              <p class="xs-font-size-16">It is important to have a distinctive online presence. This means making sure your website, business cards and social media accounts all promote your brand cohesively.</p>
+            </li>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-3 grid-item-eq-height">
               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><circle cx="19.001" cy="22" r="1.5"/><circle cx="8.001" cy="22" r="1.5"/><path d="M13.501 7.5v-7M16.501 3.5l-3-3-3 3M.5 3.5h3.501l4 17h11M7.53 18.5h12.971l3-9h-18"/></g></svg>
-              <h5>E-Commerce</h5>
-              <p>Every year people spend more and more money on line and with a new generation of shoppers who are now more comfortable than ever buying online your companies e-commerce stratgey must be right.</p>
+              <h2>E-Commerce</h2>
+              <p class="xs-font-size-16">Every year people spend more and more money on line and with a new generation of shoppers who are now more comfortable than ever buying online your companies e-commerce stratgey must be right.</p>
             </li>
-            <li class="grid-item hover-color-4">
-              <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M19.5 21.5c0 1.104-.896 2-2 2h-11c-1.104 0-2-.896-2-2v-19c0-1.104.896-2 2-2h11c1.104 0 2 .896 2 2v19zM19.5 4.5h-15M19.5 19.5h-15M9.5 2.5h5"/><circle cx="12" cy="21.5" r=".5"/></g></svg>
-              <h5>responsive web design</h5>
-              <p>Websites that look great accross all devices, desktops, laptops, mobiles and tablets. Its expected that up to 50% of internet traffic will be accessed through mobile devices this year 2016.</p>
+          </div>
+          
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-4 grid-item-eq-height">
+              <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M19.5 21.5c0 1.104-.896 2-2 2h-11c-1.104 0-2-.896-2-2v-19c0-1.104.896-2 2-2h11c1.104 0 2 .896 2 2v19zM19.5 4.5h-15M19.5 19.5h-15M9.5 2.5h1"/><circle cx="12" cy="21.5" r=".5"/></g></svg>
+              <h2>responsive web design</h2>
+              <p class="xs-font-size-16">Websites that look great accross all devices, desktops, laptops, mobiles and tablets. Its expected that up to 50% of internet traffic will be accessed through mobile devices this year 2016.</p>
             </li>
+          </div>
 
-            <li class="grid-item hover-color-5">
+          
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-5 grid-item-eq-height">
               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><ellipse cx="12.001" cy="5.5" rx="9.5" ry="4"/><path d="M21.5 9.5c0 2.209-4.254 4-9.5 4s-9.5-1.791-9.5-4M21.5 14c0 2.209-4.254 4-9.5 4s-9.5-1.791-9.5-4M2.5 5.5v13c0 2.209 4.254 4 9.5 4s9.5-1.791 9.5-4v-13"/></g></svg>
-              <h5>Content Management Systems</h5>
-              <p>Wordpress is our preferred open source cms because its simple to use and reliable. But we're not limited to any technology, we also like <a href="https://grabaperch.com/" target="blank">Perch</a> and can even custom build you a cms with Ruby on Rails if required.</p>
+              <h2>Content management</h2>
+              <p class="xs-font-size-16">Wordpress is our preferred open source CMS because its simple to use and reliable. But we're not limited to any technology, we also like <a href="https://grabaperch.com/" target="blank">Perch</a> and can even custom build you a cms with Ruby on Rails if required.</p>
             </li>
+          </div>
 
-             
-
-            
-            <li class="grid-item hover-color-6">
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-6 grid-item-eq-height">
               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><circle cx="12" cy="12" r="11.5"/><circle cx="12" cy="12" r="1.5"/><path d="M13.061 10.939l4.949-4.949M2.443 12.186h2M3.223 15.635l1.847-.765M20.775 15.636l-1.846-.766M21.499 12.001l-1.999-.001M20.776 8.365l-1.847.765M15.636 3.224l-.766 1.846M11.943 2.686v2M8.365 3.223l.765 1.847M5.283 5.282l1.413 1.414M3.224 8.364l1.846.766"/><path d="M7.5 16.5h9v3h-9z"/></g></svg>
-              <h5>SEO & Analytics</h5>
-              <p>All our site are built to adhere to SEO best practice giving you the greatest chance of positioning high in search engine results. Analytics are now essential to online success. Our websites are set up for google analytics giving you insights into its performance on a daily basis.</p>
+              <h2>SEO & Analytics</h2>
+              <p class="xs-font-size-16">All our site are built to adhere to SEO best practice giving you the greatest chance of positioning high in search engine results. Analytics are now essential to online success. Our websites are set up for google analytics giving you insights into its performance on a daily basis.</p>
             </li>
-            <li class="grid-item hover-color-7">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M23.5 18c0 .828-.672 1.5-1.5 1.5h-20c-.828 0-1.5-.672-1.5-1.5v-12c0-.828.672-1.5 1.5-1.5h20c.828 0 1.5.672 1.5 1.5v12zM20.5 8.5l-8.5 5.5-8.5-5.5M3.5 16l3.5-2M20.5 16l-3.5-2"/></g></svg>
-              <h5>E-mail marketing</h5>
-              <p>One the oldest and most effective methods of marketing to new and existing customers. We can build e-mail templates that work and then manage campaigns for you.</p>
-            </li>
-            
-           
-            <li class="grid-item hover-color-8">
+          </div>
+
+          
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-8 grid-item-eq-height">
               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g><path  stroke-linejoin="round" stroke-miterlimit="10" fill="none" d="M14 9.5h2v4l4-4h3.5v-9h-15v4M6 16.188v2.182l-3.941 1.41c-.944.337-1.559 1.231-1.559 2.232v1.488h15v-1.488c0-1.001-.615-1.895-1.559-2.231l-3.941-1.412v-2.307"/><ellipse  stroke-linejoin="round" stroke-miterlimit="10" cx="7.901" cy="12.053" rx="3.947" ry="4.737" fill="none"/><path  stroke-linejoin="round" stroke-miterlimit="10" d="M11.828 11.624l-.374.034c-1.345.259-2.208-.229-2.948-1.523-.444.851-1.832 1.523-2.973 1.523-.562 0-1.045-.115-1.528-.368" fill="none"/><path d="M20 5h-1v1h1v-1zM17 5h-1v1h1v-1zM14 5h-1v1h1v-1z"/></g></svg>
-              <h5>Support & Training</h5>
-              <p>We'll make sure you know the in's an out's of your new website or application with support and training.</p>
+              <h2>Support & Training</h2>
+              <p class="xs-font-size-16">We'll make sure you know the in's an out's of your new website or application with support and training.</p>
             </li>
-            <li class="grid-item hover-color-9">
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-7 grid-item-eq-height">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M23.5 18c0 .828-.672 1.5-1.5 1.5h-20c-.828 0-1.5-.672-1.5-1.5v-12c0-.828.672-1.5 1.5-1.5h20c.828 0 1.5.672 1.5 1.5v12zM20.5 8.5l-8.5 5.5-8.5-5.5M3.5 16l3.5-2M20.5 16l-3.5-2"/></g></svg>
+              <h2>E-mail marketing</h2>
+              <p class="xs-font-size-16">One the oldest and most effective methods of marketing to new and existing customers. We can build e-mail templates that work and then manage campaigns for you.</p>
+            </li>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-7 grid-item-eq-height">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g  stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M23.5 5.5v18h-18M21.5 2.5v19h-19"/><path d="M.5.5h19v19h-19zM17 15.5l-3-8-4 6-2.5-3-3 5"/><circle cx="6" cy="5" r="1.5"/><path d="M19.5 15.5h-19"/></g></svg>
+              <h2>Landing Pages</h2>
+              <p class="xs-font-size-16">One the oldest and most effective methods of marketing to new and existing customers. We can build e-mail templates that work and then manage campaigns for you.</p>
+            </li>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-8 grid-item-eq-height">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g  stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M18.5 8.5c0 1.104-.896 2-2 2h-8c-1.105 0-2-.896-2-2v-5h12v5zM8.5 13.5h8v10h-8z"/><circle cx="4.5" cy="18.5" r="2"/><path stroke-linecap="round" d="M10.5 19.5l1-3h2l1 3"/><path d="M8.5 5v4M10.5 5v4M12.5 5v4M14.5 5v4M16.5 5v4M9.5 10.5v3M15.5 10.5v3"/><path d="M18.5 17.5h3v2h-3zM16.5 14.5h4c1.65 0 3 1.35 3 3v2c0 1.65-1.35 3-3 3h-4M8.5 22.5h-5c-1.65 0-3-1.35-3-3v-2c0-1.65 1.35-3 3-3h5"/></g></svg>
+              <h2>Photography</h2>
+              <p class="xs-font-size-16">Forms, buttons, Icons....we can do it all.</p>
+            </li>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <li class="grid-item hover-color-9 grid-item-eq-height">
               <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M4.5 8.5h-1v11h17v-2"/><path d="M6.5 4.5h17v11h-17zM1.5 12.5h-1v11h17v-2"/></g></svg>
-              <h5>More</h5>
-              <p>If you've got addtional requirements that your project needs, try us, we love to research new technological solutions to customers problems. Not everything has to be built from scratch and there are many ready made solutions now on the market that you may not be aware of.</p>
+              <h2>More</h2>
+              <p class="xs-font-size-16">If you've got addtional requirements that your project needs, try us, we love to research new technological solutions to customers problems. Not everything has to be built from scratch and there are many ready made solutions now on the market that you may not be aware of.</p>
             </li>
-            <div class="right-cover"></div>
-            <div class="bottom-cover"></div>
           </div>
-        </section>
-
-        <section id="call-to-action">
-          <div class="action-btn">
-            <a href="contact.html" class="btn btn-yellow-orange">Lets Talk!</a>
-          </div>
-        </section>
-
-        
-
-        
-          <!-- FOOTER SECTION -->
-
-         <footer class="footer-no-image bg-blue" role="contentinfo">
-            <div class="footer-logo">
-              <img src="img/bh-logo-white-clear.png" alt="Logo image">
-            </div>
-              <div class="footer-links">
-              <ul>
-                <li><h3>Content</h3></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="projects.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <ul>
-                <li><h3>Follow Us</h3></li>
-                <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
-
-              </ul>
-              <ul>
-                <li><h3>Legal</h3></li>
-                <li><a href="legal.html">Terms and Conditions</a></li>
-              </ul>
-            </div>
-  
-            <hr>
-  
-            <p>copyright beach_hut 2015</p>
-                
-        </footer>
-        <div class="cd-overlay"></div>
-        <a href="#0" class="bh-top">Top</a>
-        </main>
-
-          <!-- END WRAPPER -->
+        </div>
       </div>
+      
+    </div>
+      
+      
+    </section>
 
-       
+   
 
-      <script src="js/jquery-2.1.1.js"></script>
-      <script src="js/main.js"></script> 
-      <script src="js/vendor/jquery.animsition.min.js"></script>
-      <script src="js/animsition.js"></script>
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   <!-- Contacts -->
+    <div class="bg-color-sky-light wow zoomIn" data-wow-duration="1.2s" data-wow-delay=".3s">
+        <div class="content-md container">
+        <div class="row">
+          <h1 class="">Consultations are free</h1>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa-phone"></i>
+                    <h3 class="font-size-20">Landline</h3>
+                    <p class="">00 353 1 5045638</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa-mobile"></i>
+                    <h3 class="font-size-20">Mobile</h3>
+                    <p class="">00 353 089 4221408</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa-envelope-o"></i>
+                    <h3 class="font-size-20">E-mail</h3>
+                    <p class="">info@beachhut.ie</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 sm-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa fa-skype"></i>
+                    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                        <div id="SkypeButton_Call_beachhutwebdesign_1">
+                         <script type="text/javascript">
+                         Skype.ui({
+                         "name": "dropdown",
+                         "element": "SkypeButton_Call_beachhutwebdesign_1",
+                         "participants": ["beachhutwebdesign"],
+                         "imageColor": "black",
+                         "imageSize":32
+                         });
+                         </script>
+                        </div>
+                </div>
+                <!-- End Contacts -->
+            </div>
+        </div>
+        <!-- // end row -->
+    </div>
+    <!-- End Contacts -->
+    </div>
 
-        ga('create', 'UA-75242311-1', 'auto');
-        ga('send', 'pageview');
+  
+  <!--========== END PAGE CONTENT ==========-->
 
-      </script>
+ 
 
-    </body>
+
+ 
+
+  <!--========== END PAGE CONTENT ==========-->
+
+        <!--========== FOOTER ==========-->
+    <footer id="footer" class="footer-v6 bg-color-dark">
+        <div class="content-sm container">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <a href="index.html">
+                        <img class="footer-v6-logo-img" src="img/beachhut/logos/bh-logo-white.png" alt="">
+                    </a>
+                   
+
+                </div>
+                <!-- End Logo -->
+
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">About us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="services.html">Services</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="projects.html">Our Work</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="about.html">About</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="blog.html">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width xs-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">Support</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="process.html">Process</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="support.html">Support</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="legal.html">Terms of Business</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width center-block">
+                    <h3 class="footer-v6-title">Contact us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            +353 (1) 504 5638
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            +353 089 422 1408
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            info@beachhut.ie
+                        </li>
+                        <li class="footer-link-v6-list-item-divider"></li>
+                        <li class="footer-link-v6-list-item">
+                           <a class="" href="special-offers.html"><i class=" icon-heart"></i> Special Offer !</a>
+                            
+                        </li>
+                        <!-- <li class="footer-link-v6-list-item">
+                            126 Sarsfield Park, Lucan, Dublin, Ireland.
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- End Link List -->
+            </div>
+            <!--// end row -->
+
+        </div>
+
+         <div class="container text-center">
+            <!-- Theme Icons Animated Dark Background -->
+            <ul class="list-inline margin-b-20">
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://www.facebook.com/prothemes.net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-google-plus"></i>
+                </a>
+              </li>
+
+
+            </ul>
+            <!-- End Theme Icons Animated Dark Background -->
+
+            <p class="margin-b-0">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
+          </div>
+    
+    </footer>
+    <!--========== END FOOTER ==========-->
+<!-- END WRAPPER -->
+
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="js-back-to-top back-to-top-theme"></a>
+<!-- End Back To Top -->
+
+<!--========== JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="plugins/html5shiv.js"></script>
+<script src="plugins/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="plugins/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="plugins/jquery.back-to-top.js"></script>
+<script type="text/javascript" src="plugins/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="plugins/jquery.animsition.min.js"></script>
+<script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="plugins/dzsparallaxer/dzsparallaxer.js"></script>
+<script type="text/javascript" src="plugins/jquery.equal-height.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script type="text/javascript" src="assets/scripts/splash.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/components/animsition.js"></script>
+<script type="text/javascript" src="scripts/components/equal-height.js"></script>
+<script type="text/javascript" src="scripts/components/header-sticky.js"></script>
+
+<script type="text/javascript" src="scripts/portfolio/portfolio-3-col-grid-v2.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<!--========== END JAVASCRIPTS ==========-->
+</body>
+<!-- END BODY -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66518925-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </html>

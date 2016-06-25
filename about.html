@@ -1,249 +1,679 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>beach hut - Web Design & Development</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js">
+<!-- HEAD -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Beach Hut web Design and Development</title>
+<meta name="keywords" content="HTML5 Theme" />
+<meta name="description" content="Ark - Responsive Multi-Purpose Template">
+<meta name="author" content="prothemes.net">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> 
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <link rel="stylesheet" href="css/app.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/et-line/et-line.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
 
-    </head>
-    <body id="index">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    
-    <div class="wrapper animsition">
+<!-- BEGIN THEME PLUGINS STYLE -->
+<link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/rev-slider/css/settings.css" rel="stylesheet" type="text/css">
+<link href="plugins/rev-slider/css/layers.css" rel="stylesheet" type="text/css">
+<link href="plugins/rev-slider/css/navigation.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
 
-      <main>
+<!-- END THEME PLUGINS STYLE -->
 
-       <header class="bh-header">
-          <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-blue.png" alt="Logo"></a></div>
-          <div class="tag-line">
-            <h1>beach hut</h1>
-          </div>
-
-          <nav>
-            <ul class="bh-secondary-nav">
-              <li><label for="modal-1">
-                <div class="btn btn-yellow-orange btn-modal modal-trigger">Hire Us</div>
-              </label></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Free Consultation</a></li>
-            </ul>
-          </nav> <!-- bh-nav -->
-
-          <a class="bh-primary-nav-trigger" href="#0">
-            <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
-          </a> <!-- bh-primary-nav-trigger -->
-        </header>
-
-        <nav>
-          <ul class="bh-primary-nav">
-            <li class="bh-label">About us</li>
-
-            <li><a href="about.html">The team</a></li>
-            <li><a href="services.html">Our services</a></li>
-            <li><a href="projects.html">Our projects</a></li>
-
-            <li class="bh-label">Work with us</li>
-
-            <li><a href="process.html">Start a project</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
+<!-- BEGIN THEME STYLES -->
+<link href="css/global.css" rel="stylesheet" type="text/css"/>
 
 
-            <li class="bh-label">Follow us</li>
-            
-            <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
-            <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-            <li class="bh-social bh-dribbble"><a href="#0">Dribbble</a></li>
-            <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
-          </ul>
-        </nav>
+<!-- END THEME STYLES -->
 
-        <!-- modal hire us button-->
+<!-- BEGIN JQUERY -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
 
-        <div class="modal">
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you have a project ready to go or you just need advice why not give us a call.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhutinc.com</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
-              
-              <p></p>
+<!-- BEGIN SLIDER REVOLUTION -->
+<script type="text/javascript" src="plugins/rev-slider/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+    (Load Extensions only on Local File Systems !
+    The following part can be removed on Server for On Demand Loading) -->
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="plugins/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+<!-- END SLIDER REVOLUTION -->
+
+<!-- END JQUERY -->
+
+<!-- FAVICON -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- END FAVICON -->
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="">
+
+<!-- WRAPPER -->
+<div class="wrapper animsition">
+  <!--========== HEADER ==========-->
+
+  <header class="header header-fixed navbar-fixed-top header-sticky bg-color-bright-pink" >
+    <!-- Topbar Classic -->
+        <div class="topbar-c theme-toggle-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-contacts">
+                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
+                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link" href="mailto:tim@beachhut.ie">info@beachhut.ie</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-actions form-modal-nav">
+                            <!-- <li class="topbar-c-actions-item"><a class="topbar-c-actions-link form-modal-login" href="javascript:void(0);">Login</a></li>
+                            <li class="topbar-c-actions-item-divider">or</li> -->
+                            <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup bg-color-white color-dark" href="special-offers.html"><i class="topbar-c-actions-icon icon-heart"></i> Special Offer !</a></li>
+                        </ul>
+                    </div>
+                </div><!--// End row -->
             </div>
-          </div>
         </div>
+        <!-- End Topbar Classic -->
+    <!-- Navbar -->
+        <nav class="navbar mega-menu" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
 
-        <!-- end modal hire us button section -->
+                    
 
-        <section id="hero">
-          <img src="img/bh-team-3.png" alt="team">
-        </section>
+                    <!-- Logo -->
+                    <div class="navbar-logo">
+                        <a class="navbar-logo-wrap" href="index.html">
+                            <img class="navbar-logo-img" src="img/beachhut/bh-logo-cap.png" alt="beachhut logo">
+                            <img class="logo-mobile" src="img/beachhut/bh-logo-white-clear.png" alt="beachhut logo">
+                        </a>
+                        
+                </div>
 
 
-      <section id="cd-team" class="cd-section">
-        <div class="cd-container">
-          <p>One's a designer. One's a developer.</p>
-          <ul>
-            <li>
-              <a href="#0" data-type="member-1">
-                <figure>
-                  <img src="img/beard-profile.jpg" alt="Team member 1">
-                  <div class="cd-img-overlay"><span>View Bio</span></div>
-                </figure>
-
-                <div class="cd-member-info">
-                  Tim <span>Designer/ Developer</span>
-                </div> <!-- cd-member-info -->
-              </a>
-            </li>
-            
-            <li>
-              <a href="#0" data-type="member-2">
-                <figure>
-                  <img src="img/catherine.jpg" alt="Team member 1">
-                  <div class="cd-img-overlay"><span>View Bio</span></div>
-                </figure>
-
-                <div class="cd-member-info">
-                  Catherine <span>Designer</span>
-                </div> <!-- cd-member-info -->
-              </a>
-            </li>
-
-            
-          </ul>
-        </div> <!-- cd-container -->
-      </section> <!-- cd-team -->
-
-      <section id="call">
-        <div class="call-content">
-          <div class="call-info">
-            <h1>Why Us?</h1>
-            <p>Building great online experiences for our clients is what we love to do. So we keep going until we get it right.</p>  
-            <a href="#0" class="btn btn-white">Learn More</a>
-          </div>
-        </div>
-      </section>
-
-        
-          <!-- Footer section -->
-         <footer class="footer-white" role="contentinfo">
-            <div class="footer-logo">
-              <img src="img/bh-logo-blue.png" alt="Logo image">
-            </div>
-              <div class="footer-links text-blue">
-              <ul>
-                <li><h3>Content</h3></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="projects.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <ul>
-                <li><h3>Follow Us</h3></li>
-                <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
-
-              </ul>
-              <ul>
-                <li><h3>Legal</h3></li>
-                <li><a href="legal.html">Terms and Conditions</a></li>
-              </ul>
-            </div>
-  
-            <hr>
-  
-            <p>copyright beach_hut 2015</p>
+                    </div>
+                    <!-- End Logo -->
                 
-        </footer>
-        <a href="#0" class="bh-top">Top</a>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav">
+
+                          <!-- Home -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="index.html">
+                                    Home
+                                </a>
+                                
+                            </li>
+                            <!-- End Home -->
+                            
+
+                            <!-- Services -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="services.html">
+                                    Services
+                                </a>
+                                
+                            </li>
+                            <!-- End Services -->
+
+                            <!-- About Us -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="about.html">
+                                    About Us
+                                </a>
+                                
+                            </li>
+                            <!-- End About Us -->
+
+                            <!-- Resources -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="projects.html">
+                                    Our work
+                                </a>
+                                
+                            </li>
+                            <!-- End Resources -->
+                           
+
+                            <!-- Blog -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="blog.html">
+                                    Resources
+                                </a>
+                                
+                            </li>
+                            <!-- End Blog -->
+
+                            <!-- Contact -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child" href="contact.html">
+                                    Contact
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+            <!--// End Container-->
+        </nav>
+        <!-- Navbar -->
+  </header>
+
+  <!--========== END HEADER ==========-->
+    <!--========== HERO SECTION ==========-->
+    <!--========== HERO SECTION ==========-->
+    <div class="l-promo-block-v2 bg-color-bright-pink">
+        <div class="container">
+            <!-- Horizontal Center Content -->
+            <div class="row center-content-hor-wrap-md">
+                <div class="col-md-7 center-content-hor-align-md md-margin-b-50">
+                    <div class="margin-b-30">
+                        <h1 class="super-big color-white">Its all about the Service!</h1>
+                        <p class="color-white">
+                            Your success online is as important to us as it is to you.
+                        </p>
+                    </div>
+                    <a class="btn-white-brd bg-color-white color-dark btn-base-animate-to-top btn-base-md radius-50" href="#scroll_to_about">Learn More
+                        <span class="btn-base-element-md"><i class="btn-base-element-icon fa fa-arrow-circle-right"></i></span>
+                    </a>
+                    
+                
+                </div>
+                <div class="col-md-5 center-content-hor-align-md">
+                    <!-- Image -->
+                    <div class="l-promo-block-v2-img-wrap">
+                        <img class="l-promo-block-v2-img-one img-responsive wow fadeInUp" src="img/beachhut/laptop-01.png" alt="" data-wow-duration=".1" data-wow-delay=".1s">
+                        <img class="l-promo-block-v2-img-two img-responsive wow fadeInRight" src="img/beachhut/iphone-01.png" alt="" data-wow-duration=".1" data-wow-delay=".3s">
+                    </div>
+                    <!-- End Image -->
+                </div>
+            </div>
+            <!--// end row -->
+            <!-- End Horizontal Center Content -->
+        </div>
+
+    </div>
+            <div class="arrow_box_bright_pink"></div>
+
+    <!--========== END HERO SECTION ==========-->
+    <!-- <section id="hero-image-2">
+      <div id="">
+        <img src="img/beachhut/girl-mobile.png" alt="">
+      </div>
+    </section> -->
+
+    <!-- <div class="arrow_box_white"></div> -->
+
+    <!--========== END HERO SECTION ==========-->
 
 
-        <!-- END WRAPPER -->
-        
+    <!--========== REVOLUTION SLIDER ==========-->
+    <section class="about-intro" >
+        <div class="container">
+            <div class="row col-md-8 col-md-push-2">
+                <h1>who we are</h1>
+                <p>We are a couple of web professionals that are passionate about deisgn and development which gives us the perfect foundation to provide an outstanding, personal service to our clients.</p>         
+            </div>
+        </div>
+        <div id="scroll_to_about"></div>
+    </section>
+    
+    <div  id="rev_slider_289_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="our-team-carousel29" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+        <!-- START REVOLUTION SLIDER 5.1.4 auto mode -->
+        <div id="rev_slider_289_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.1.4">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-939" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="500" data-fsslotamount="7" data-saveperformance="off" data-title="First" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/team/team_7.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption tp-shape tp-shapewrapper " id="slide-939-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="opacity:0;s:1000;s:1000;" data-start="500" data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);">
+                    </div>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption Team-Name   tp-resizeme" id="slide-939-layer-1" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['300','250','220','150']" data-fontsize="['70','70','50','50']" data-lineheight="['70','70','50','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="0" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">Tim Geaney
+                    </div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption Team-Position   tp-resizeme" id="slide-939-layer-2" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['370','320','270','200']" data-fontsize="['30','30','20','20']" data-lineheight="['30','30','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="250" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;">Web Designer & Developer
+                    </div>
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption Team-Description   tp-resizeme" id="slide-939-layer-3" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['450','400','320','250']" data-fontsize="['18','18','15','15']" data-lineheight="['28','28','25','25']" data-width="['640','640','640','360']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;rZ:360;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; min-width: 640px; max-width: 640px; white-space: normal;">Tim studied in both DIT Kevin street and UCD and has a Higher Diploma in Computer Science. He like's simple effective design and building things with Ruby on Rails, Wordpress or Javascript.
+                    </div>
+                    <!-- LAYER NR. 5 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-5" data-x="['left','left','left','left']" data-hoffset="['130','80','30','10']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 9; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-facebook"></i>
+                    </a>
+                    <!-- LAYER NR. 6 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-7" data-x="['left','left','left','left']" data-hoffset="['180','130','80','60']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 10; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-twitter"></i>
+                    </a>
+                    <!-- LAYER NR. 7 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-8" data-x="['left','left','left','left']" data-hoffset="['230','180','130','110']" data-y="['top','top','top','top']" data-voffset="['620','550','430','387']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 11; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-linkedin"></i>
+                    </a>
+                    <!-- LAYER NR. 8 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-9" data-x="['left','left','left','left']" data-hoffset="['280','230','180','160']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 12; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+                <!-- SLIDE  -->
+                <li data-index="rs-940" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500" data-rotate="0" data-saveperformance="off" data-title="Second" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/team/team_4.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption tp-shape tp-shapewrapper " id="slide-940-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="opacity:0;s:1000;s:1000;" data-start="500" data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);">
+                    </div>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption Team-Name   tp-resizeme" id="slide-940-layer-1" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['300','250','220','150']" data-fontsize="['70','70','50','50']" data-lineheight="['70','70','50','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="0" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">Catherine Geaney
+                    </div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption Team-Position   tp-resizeme" id="slide-940-layer-2" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['370','320','270','200']" data-fontsize="['30','30','20','20']" data-lineheight="['30','30','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="250" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;">Graphic Designer
+                    </div>
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption Team-Description   tp-resizeme" id="slide-940-layer-3" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['450','400','320','250']" data-fontsize="['18','18','15','15']" data-lineheight="['28','28','25','25']" data-width="['640','640','640','360']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;rZ:360;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; min-width: 640px; max-width: 640px; white-space: normal;">An artist at heart she graduated in Visual Communication from the NCAD in 2010. She specialises in photography, videography and design. She has also studied Digital marketing in the DBS. She's a regular blogger with a keen interest in art promotion.
+She also speaks Japanese and spent two years teaching English in Hiroshima Japan.
+                    </div>
+                    <!-- LAYER NR. 5 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-940-layer-5" data-x="['left','left','left','left']" data-hoffset="['130','80','30','10']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 9; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-facebook"></i>
+                    </a>
+                    <!-- LAYER NR. 6 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-940-layer-7" data-x="['left','left','left','left']" data-hoffset="['180','130','80','60']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 10; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-twitter"></i>
+                    </a>
+                    <!-- LAYER NR. 7 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-940-layer-8" data-x="['left','left','left','left']" data-hoffset="['230','180','130','110']" data-y="['top','top','top','top']" data-voffset="['620','550','430','387']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 11; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-linkedin"></i>
+                    </a>
+                    <!-- LAYER NR. 8 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-940-layer-9" data-x="['left','left','left','left']" data-hoffset="['280','230','180','160']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 12; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-envelope"></i>
+                    </a>
+                </li>
 
+                <!-- SLIDE  -->
+                <li data-index="rs-939" data-transition="slideoverhorizontal" data-slotamount="default" data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="500" data-fsslotamount="7" data-saveperformance="off" data-title="First" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/team/team_7.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption tp-shape tp-shapewrapper " id="slide-939-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="opacity:0;s:1000;s:1000;" data-start="500" data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);">
+                    </div>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption Team-Name   tp-resizeme" id="slide-939-layer-1" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['300','250','220','150']" data-fontsize="['70','70','50','50']" data-lineheight="['70','70','50','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="0" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">Tim Geaney
+                    </div>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption Team-Position   tp-resizeme" id="slide-939-layer-2" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['370','320','270','200']" data-fontsize="['30','30','20','20']" data-lineheight="['30','30','20','20']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="250" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;">Web Designer & Developer
+                    </div>
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption Team-Description   tp-resizeme" id="slide-939-layer-3" data-x="['left','left','left','left']" data-hoffset="['150','100','50','30']" data-y="['top','top','top','top']" data-voffset="['450','400','320','250']" data-fontsize="['18','18','15','15']" data-lineheight="['28','28','25','25']" data-width="['640','640','640','360']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;rZ:360;" data-transform_in="x:-50px;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="x:50px;opacity:0;s:500;e:Power1.easeInOut;s:500;e:Power1.easeInOut;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; min-width: 640px; max-width: 640px; white-space: normal;">Tim studied in both DIT Kevin street and UCD and has a Higher Diploma in Computer Science. He like's simple effective design and building things with Ruby on Rails, Wordpress or Javascript.
+                    </div>
+                    <!-- LAYER NR. 5 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-5" data-x="['left','left','left','left']" data-hoffset="['130','80','30','10']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 9; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-facebook"></i>
+                    </a>
+                    <!-- LAYER NR. 6 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-7" data-x="['left','left','left','left']" data-hoffset="['180','130','80','60']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 10; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-twitter"></i>
+                    </a>
+                    <!-- LAYER NR. 7 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-8" data-x="['left','left','left','left']" data-hoffset="['230','180','130','110']" data-y="['top','top','top','top']" data-voffset="['620','550','430','387']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 11; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-linkedin"></i>
+                    </a>
+                    <!-- LAYER NR. 8 -->
+                    <a class="tp-caption Team-Social   tp-resizeme" href="#" id="slide-939-layer-9" data-x="['left','left','left','left']" data-hoffset="['280','230','180','160']" data-y="['top','top','top','top']" data-voffset="['620','550','430','390']" data-width="50" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power1.easeInOut;" data-transform_out="auto:auto;s:500;e:Power1.easeInOut;" data-start="750" data-splitin="none" data-splitout="none" data-actions='' data-responsive_offset="on" style="z-index: 12; min-width: 50px; max-width: 50px; white-space: nowrap;text-align:center;cursor:pointer;"><i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+              
+            </ul>
+            <div class="tp-static-layers">
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer" id="slide-134-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="full" data-height="['100','100','100','50']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:top;s:1000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="0" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-startslide="0" data-endslide="6" style="z-index: 5;background-color:rgba(255, 255, 255, 1.00);border-color:rgba(0, 0, 0, 0);">
+                </div>
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption Team-Thumb   tp-resizeme tp-static-layer" id="slide-134-layer-2" data-x="['center','center','center','center']" data-hoffset="['-315','-315','-315','-180']" data-y="['top','top','top','top']" data-voffset="['30','30','30','10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;skX:0px;skY:0px;rX:0;rY:0;rZ:0;z:0;s:500;e:Power2.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);br:0 0 0px 0;" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-actions='[{"event":"mouseenter","action":"jumptoslide","slide":"rs-939","delay":""}]' data-basealign="slide" data-responsive_offset="on" data-startslide="0" data-endslide="6" style="z-index: 6; line-height: 22px;cursor:pointer;"><img src="img/team/beard-profile.jpg" alt="" width="300" height="300" data-ww="['140px','140px','140px','80px']" data-hh="['140px','140px','140px','80px']" data-no-retina>
+                </div>
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption   tp-resizeme tp-static-layer" id="slide-134-layer-3" data-x="['center','center','center','center']" data-hoffset="['-210','-210','-210','-120']" data-y="['top','top','top','top']" data-voffset="['30','30','30','10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:500;e:Power2.easeInOut;" data-style_hover="c:rgba(0, 0, 0, 1.00);" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-actions='[{"event":"mouseenter","action":"jumptoslide","slide":"rs-940","delay":""}]' data-basealign="slide" data-responsive_offset="on" data-startslide="0" data-endslide="6" style="z-index: 7;cursor:pointer;"><img src="img/team/catherine.jpg" alt="" width="300" height="300" data-ww="['140px','140px','140px','80px']" data-hh="['140px','140px','140px','80px']" data-no-retina>
+                </div>
+                <!-- LAYER NR. 4 -->
+                
+                <!-- LAYER NR. 5 -->
+                
+                <!-- LAYER NR. 6 -->
+                
+                <!-- LAYER NR. 7 -->
+                
+                <!-- LAYER NR. 8 -->
+                <div class="tp-caption   tp-resizeme tp-static-layer" id="slide-134-layer-8" data-x="['center','center','center','center']" data-hoffset="['315','315','315','180']" data-y="['top','top','top','top']" data-voffset="['30','30','30','10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;sX:0.5;sY:0.5;" data-transform_hover="o:1;sX:1.01;sY:1.01;rX:0;rY:0;rZ:0;z:0;s:500;e:Power2.easeInOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-actions='[{"event":"mouseenter","action":"jumptoslide","slide":"rs-945","delay":""}]' data-basealign="slide" data-responsive_offset="on" data-startslide="0" data-endslide="6" style="z-index: 12;cursor:pointer;">
+                </div>
+            </div>
+            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+        </div>
+    </div>
+    <!--========== END REVOLUTION SLIDER ==========-->
 
+  
+     <!-- Contacts -->
+    <div class="bg-color-sky-light">
+        <div class="content-md container">
+        <div class="row">
+          <h1 class="">Consultations are free</h1>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa-phone"></i>
+                    <h3 class="font-size-20">Landline</h3>
+                    <p class="">00 353 1 5045638</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa-mobile"></i>
+                    <h3 class="font-size-20">Mobile</h3>
+                    <p class="">00 353 089 4221408</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa-envelope-o"></i>
+                    <h3 class="font-size-20">E-mail</h3>
+                    <p class="">info@beachhut.ie</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 sm-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-dark margin-b-20  fa fa fa-skype"></i>
+                    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                        <div id="SkypeButton_Call_beachhutwebdesign_1">
+                         <script type="text/javascript">
+                         Skype.ui({
+                         "name": "dropdown",
+                         "element": "SkypeButton_Call_beachhutwebdesign_1",
+                         "participants": ["beachhutwebdesign"],
+                         "imageColor": "black",
+                         "imageSize":32
+                         });
+                         </script>
+                        </div>
+                </div>
+                <!-- End Contacts -->
+            </div>
+        </div>
+        <!-- // end row -->
+    </div>
+    <!-- End Contacts -->
+    </div>
+    
+  <!--========== END PAGE CONTENT ==========-->
 
+        <!--========== FOOTER ==========-->
+    <footer id="footer" class="footer-v6 bg-color-dark">
+        <div class="content-sm container">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <a href="index.html">
+                        <img class="footer-v6-logo-img" src="img/beachhut/logos/bh-logo-white.png" alt="">
+                    </a>
+                   
 
-        </main>
+                </div>
+                <!-- End Logo -->
 
-        <div class="cd-overlay"></div>
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">About us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="services.html">Services</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="projects.html">Our Work</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="about.html">About</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="blog.html">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width xs-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">Support</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="process.html">Process</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="support.html">Support</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="legal.html">Terms of Business</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width center-block">
+                    <h3 class="footer-v6-title">Contact us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            +353 (1) 504 5638
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            +353 089 422 1408
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            info@beachhut.ie
+                        </li>
+                        <li class="footer-link-v6-list-item-divider"></li>
+                        <li class="footer-link-v6-list-item">
+                           <a class="" href="special-offers.html"><i class=" icon-heart"></i> Special Offer !</a>
+                            
+                        </li>
+                        <!-- <li class="footer-link-v6-list-item">
+                            126 Sarsfield Park, Lucan, Dublin, Ireland.
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- End Link List -->
+            </div>
+            <!--// end row -->
 
         </div>
 
+         <div class="container text-center">
+            <!-- Theme Icons Animated Dark Background -->
+            <ul class="list-inline margin-b-20">
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://www.facebook.com/prothemes.net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-google-plus"></i>
+                </a>
+              </li>
 
 
-        <!-- ********************************* -->
-        <!-- offscreen bios -->
-        <!-- ********************************* -->
-        <div class="cd-member-bio member-1">
-        <div class="cd-member-bio-pict">
-          <img src="img/monster-feet.jpg" alt="Member Bio image">
-        </div> <!-- cd-member-bio-pict -->
+            </ul>
+            <!-- End Theme Icons Animated Dark Background -->
 
-        <div class="cd-bio-content">
-          <h1>Tim Geaney</h1>
-          <h5>front-end developer and Designer</h5>
-          <p>Tim studied in both DIT Kevin street and UCD and has a Higher Diploma in Computer Science.</p>
-          <p>He like's simple effective design and building things with Ruby on Rails, Wordpress or Javascript. He also likes talking about himself in the third person.</p>
-        </div> <!-- cd-bio-content -->
-      </div> <!-- cd-member-bio -->
+            <p class="margin-b-0">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
+          </div>
+    
+    </footer>
+    <!--========== END FOOTER ==========-->
+<!-- END WRAPPER -->
 
-      <div class="cd-member-bio member-2">
-        <div class="cd-member-bio-pict">
-          <img src="img/color-pencil.jpg" alt="Member Bio image">
-        </div> <!-- cd-member-bio-pict -->
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="js-back-to-top back-to-top-theme"></a>
+<!-- End Back To Top -->
 
-        <div class="cd-bio-content">
-          <h1>Catherine Geaney</h1>
-          <h5>Graphic Designer</h5>
-          <p>An artist at heart she graduated in Visual Communication fro the NCAD in 2010. She specialises in photography, videography and design. She has also studied Digital marketing in the DBS. She's a regular blogger with a keen interest in art promotion</p>
-          <p>She also speaks japanese and spent two years teaching English in Hiroshima Japan.</p>
-        </div> <!-- cd-bio-content -->
-      </div> <!-- cd-member-bio -->
 
-      <a href="#0" class="cd-member-bio-close">Close</a>
+<!--========== JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="plugins/html5shiv.js"></script>
+<script src="plugins/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="plugins/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- END CORE PLUGINS -->
 
-      <script src="js/jquery-2.1.1.js"></script>
-      <script src="js/main.js"></script> 
-      <script src="js/side-panel.js"></script> 
-      <script src="js/scroll.js"></script>
-      <script src="js/vendor/jquery.animsition.min.js"></script>
-      <script src="js/animsition.js"></script>
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="plugins/jquery.back-to-top.js"></script>
+<script type="text/javascript" src="plugins/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="plugins/jquery.animsition.min.js"></script>
+<script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="plugins/dzsparallaxer/dzsparallaxer.js"></script>
+<script type="text/javascript" src="plugins/jquery.equal-height.js"></script>
+<script type="text/javascript" src="plugins/circles-master/circles.min.js"></script>
+<script type="text/javascript" src="plugins/wow.min.js"></script>
 
-        ga('create', 'UA-75242311-1', 'auto');
-        ga('send', 'pageview');
+<!-- END PAGE LEVEL PLUGINS -->
 
-      </script>
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script type="text/javascript" src="assets/scripts/splash.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/components/animsition.js"></script>
+<script type="text/javascript" src="scripts/components/equal-height.js"></script>
+<script type="text/javascript" src="scripts/components/header-sticky.js"></script>
+<script type="text/javascript" src="scripts/components/piecharts.js"></script>
+<script type="text/javascript" src="scripts/components/wow.js"></script>
 
-    </body>
+
+
+<script type="text/javascript" src="scripts/portfolio/portfolio-3-col-grid-v2.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+
+<!-- REVOLUTION SCRIPT CODE -->
+<script type="text/javascript">
+    var tpj = jQuery;
+
+    var revapi289;
+    tpj(document).ready(function() {
+        if (tpj("#rev_slider_289_1").revolution == undefined) {
+            revslider_showDoubleJqueryError("#rev_slider_289_1");
+        } else {
+            revapi289 = tpj("#rev_slider_289_1").show().revolution({
+                sliderType: "carousel",
+                jsFileLocation: "../../assets/plugins/rev-slider/js/",
+                sliderLayout: "auto",
+                dottedOverlay: "none",
+                delay: 9000,
+                navigation: {
+                    onHoverStop: "off",
+                },
+                carousel: {
+                    horizontal_align: "center",
+                    vertical_align: "center",
+                    fadeout: "on",
+                    vary_fade: "off",
+                    maxVisibleItems: 3,
+                    infinity: "on",
+                    space: 0,
+                    stretch: "off"
+                },
+                responsiveLevels: [1240, 1024, 778, 480],
+                visibilityLevels: [1240, 1024, 778, 480],
+                gridwidth: [1000, 800, 700, 480],
+                gridheight: [800, 700, 600, 500],
+                lazyType: "none",
+                shadow: 0,
+                spinner: "off",
+                stopLoop: "on",
+                stopAfterLoops: 0,
+                stopAtSlide: 1,
+                shuffle: "off",
+                autoHeight: "off",
+                disableProgressBar: "on",
+                hideThumbsOnMobile: "off",
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                debugMode: false,
+                fallbacks: {
+                    simplifyAll: "off",
+                    nextSlideOnWindowFocus: "off",
+                    disableFocusListener: false,
+                }
+            });
+        }
+    }); /*ready*/
+</script>
+<!-- END REVOLUTION SCRIPT CODE -->
+
+<!--========== END JAVASCRIPTS ==========-->
+</body>
+<!-- END BODY -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66518925-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </html>

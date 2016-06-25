@@ -1,177 +1,575 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>beach hut - Web Design & Development</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js">
+<!-- HEAD -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Beach Hut web Design and Development</title>
+<meta name="keywords" content="HTML5 Theme" />
+<meta name="description" content="Ark - Responsive Multi-Purpose Template">
+<meta name="author" content="prothemes.net">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="icon" type="image/png" href="http://beachhutinc.com/favicon.png">
-       
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">  
-        <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="css/flexslider.css">
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/et-line/et-line.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
 
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <div class="wrapper animsition">
+<!-- BEGIN THEME PLUGINS STYLE -->
+<link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<link href="plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
 
-       <header class="bh-header">
-        <div class="bh-logo"><a href="index.html"><img src="img/bh-logo-blue.png" alt="Logo"></a></div>
-        <div class="tag-line font-blue">
-          <h1>beach hut</h1>
-        </div>
+<!-- END THEME PLUGINS STYLE -->
 
-        <nav>
-          <ul class="bh-secondary-nav">
-            <li><label for="modal-1">
-              <div class="btn btn-yellow-orange btn-modal modal-trigger">Hire Us</div>
-            </label></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Free Consultation</a></li>
-          </ul>
-        </nav> <!-- bh-nav -->
+<!-- BEGIN THEME STYLES -->
+<link href="css/global.css" rel="stylesheet" type="text/css"/>
 
 
-        <a class="bh-primary-nav-trigger" href="#0">
+<!-- END THEME STYLES -->
 
-          <span class="bh-menu-text">Menu</span><span class="bh-menu-icon"></span>
-        </a> <!-- bh-primary-nav-trigger -->
-      </header>
+<!-- BEGIN JQUERY -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<!-- END JQUERY -->
 
-        <!-- modal hire us button-->
+<!-- FAVICON -->
 
-        <div class="modal"> 
-          <input class="modal-state" id="modal-1" type="checkbox" />
-          <div class="modal-fade-screen">
-            <div class="modal-inner">
-              <div class="modal-close" for="modal-1"></div>
-              <img src="img/bh-logo-white.png" alt="beach-hut-logo">
-            
-              <p class="modal-intro">If you need help planning a web project or have one ready to go why not reach out. We can help.</p>
-              <ul>
-                <li><i class="fa fa-phone"></i>tim on 01 5045638</li>
-                <li><i class="fa fa-envelope-o"></i><a href="mailto:tim@beachhutinc.com?Subject=Hello">tim@beachhut.ie</a></li>
-                <!-- <li><i class="fa fa-skype"></i>beachhutinc</li> -->
-              </ul>
-                <p></p>
-              <p class="modal-content"></p>
-              
-              <p></p>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- END FAVICON -->
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="">
+
+<!-- WRAPPER -->
+<div class="wrapper animsition">
+  <!--========== HEADER ==========-->
+
+  <header class="header header-fixed navbar-fixed-top header-sticky" >
+    <!-- Topbar Classic -->
+        <div class="topbar-c theme-toggle-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-contacts">
+                            <li class="topbar-c-contacts-item color-black"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
+                            <li class="topbar-c-contacts-item color-black"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link color-black" href="mailto:tim@beachhut.ie">info@beachhut.ie</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="list-inline topbar-c-actions form-modal-nav">
+                            <!-- <li class="topbar-c-actions-item"><a class="topbar-c-actions-link form-modal-login" href="javascript:void(0);">Login</a></li>
+                            <li class="topbar-c-actions-item-divider">or</li> -->
+                            <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup bg-color-dark color-white" href="special-offers.html"><i class="topbar-c-actions-icon icon-heart"></i> Special Offer !</a></li>
+                        </ul>
+                    </div>
+                </div><!--// End row -->
             </div>
-          </div>
-          <!-- end modal -->
         </div>
+        <!-- End Topbar Classic -->
+    <!-- Navbar -->
+        <nav class="navbar mega-menu bg-blue" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="toggle-icon"></span>
+                    </button>
+
+                    
+
+                    <!-- Logo -->
+                    <div class="navbar-logo">
+                        <a class="navbar-logo-wrap" href="index.html">
+                            <img class="navbar-logo-img" src="img/beachhut/bh-logo-cap-black.png" alt="beachhut logo">
+                            <img class="logo-mobile" src="img/beachhut/bh-logo-white-clear.png" alt="beachhut logo">
+                        </a>
+                        
+                </div>
 
 
-        <!-- end modal hire us button section -->
+                    </div>
+                    <!-- End Logo -->
+                
 
-        <nav>
-          <ul class="bh-primary-nav">
-            <li class="bh-label pd-top-40">About us</li>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav ">
 
-            <li><a href="about.html">The team</a></li>
-            <li><a href="services.html">Our services</a></li>
-            <li><a href="projects.html">Our projects</a></li>
+                          <!-- Home -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="index.html">
+                                    Home
+                                </a>
+                                
+                            </li>
+                            <!-- End Home -->
+                            
 
-            <li class="bh-label">Work with us</li>
+                            <!-- Services -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="services.html">
+                                    Services
+                                </a>
+                                
+                            </li>
+                            <!-- End Services -->
 
-            <li><a href="process.html">Start a project</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="blog.html">Blog</a></li>
+                            <!-- About Us -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="about.html">
+                                    About Us
+                                </a>
+                                
+                            </li>
+                            <!-- End About Us -->
 
+                            <!-- Resources -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="projects.html">
+                                    our work
+                                </a>
+                                
+                            </li>
+                            <!-- End Resources -->
+                           
 
-            <li class="bh-label">Follow us</li>
-            
-            <li class="bh-social bh-facebook"><a href="#0">Facebook</a></li>
-            <li class="bh-social bh-instagram"><a href="#0">Instagram</a></li>
-            <li class="bh-social bh-twitter"><a href="#0">Twitter</a></li>
-          </ul>
+                            <!-- Blog -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="blog.html">
+                                    Resources
+                                </a>
+                                
+                            </li>
+                            <!-- End Blog -->
+
+                            <!-- Contact -->
+                            <li class="nav-item mega-menu-fullwidth">
+                                <a class="nav-item-child nav-item-blue" href="contact.html">
+                                    Contact
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+            <!--// End Container-->
         </nav>
+        <!-- Navbar -->
+  </header>
 
-         <!--========== PAGE CONTENT ==========-->
+  <!--========== END HEADER ==========-->
 
-          <!-- main blog section -->
-          <section id="blog-single">
-            <div class="blog-post">
-              <h4>beach hut's new website launched today</h4>
-                  <ul class="info">
-                    <li>Posted in: design, responsive</li>
-                    <li>Written by: Tim Geaney</li>
-                    <li>On: 29th Febuary 2016</li>
-                  </ul>
-              <img src="img/bh_iphone6_mockup.jpg" />
-              <p>Today see's the launch of Beach Hut's new website. We wanted something distinctive, bold and colorful and a little different from most of the other online web deisgn websites and I think we have acheived that. I'm sure it will go through some iterations and tweaks in the coming weeks but we hope you like it.</p>
+  <!--========== PAGE CONTENT ==========-->
 
-           <blockquote>A well designed website is now more important than ever for companies and individuals to succeed online.</blockquote>
 
-           <p>A lot of work goes into building and branding a new website and sometimes you can lose track of your overall goals during the process but our goals have always been simple. We want to do great work for great clients.</p>
+  <div class="bh-articles wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.5s">
+    <article>
+        <header>
+            <img src="img/beachhut/01.jpg" alt="">
+            <h1>20 Star Wars Secrets Revealed: From Leia’s ‘Cocaine Nail’ to the Ronald Reagan Connection</h1>
+        </header>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis maxime id, sunt, eum sed blanditiis aliquid! Minus assumenda tempore perspiciatis, numquam est aliquam, quis molestias enim consequuntur suscipit similique cumque ut natus facilis laboriosam quidem, nesciunt quasi doloribus tenetur. Quas doloremque suscipit, molestias odit, et quasi? Quas hic numquam, vitae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cum quibusdam eaque, autem porro fuga laudantium culpa beatae laboriosam quos.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi. Laborum temporibus enim eius quidem eum voluptatum eligendi. Nemo fuga at provident accusantium tempore eligendi alias sed! Provident veritatis adipisci deserunt. Totam repudiandae ducimus nemo aperiam assumenda. Odio quos, quam quod illum reiciendis sapiente doloremque quasi deserunt alias provident! Labore voluptatibus excepturi, ipsum et sint nihil delectus enim, commodi quis!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta praesentium dolor asperiores nesciunt quod sapiente est minus, architecto corrupti, excepturi hic ipsa, saepe dignissimos similique ullam repudiandae rem voluptate. Ipsa iusto, voluptate doloremque facere expedita, molestias omnis facilis. Adipisci voluptatum, quia alias aut sint totam facere porro aperiam repellat ipsa? Odio ut sint dicta magnam molestias maiores eos impedit natus iste quas perspiciatis voluptas autem, illum qui aperiam labore necessitatibus incidunt, placeat reiciendis facilis iusto reprehenderit. Ad, quisquam, voluptatibus!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laborum omnis iure cumque veritatis reiciendis, optio ad. Praesentium, illum. Deleniti ab rem laboriosam numquam natus explicabo sit cumque provident maxime.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi facilis vel distinctio itaque ea, commodi a autem, amet explicabo harum libero vero earum doloremque officiis, dolorum beatae soluta officia dignissimos. Ad odit ab, error illo! Iure numquam recusandae unde dignissimos aspernatur quia neque, voluptatibus ea, iste eaque corporis doloribus.
+        </p>
+    </article>
 
-            <p>A well designed website is now more important than ever for companies and individuals to succeed online. Consumers expectations for websites have increased significantly especially in recent years. Also the shift to mobile viewing with over 50% of all web traffic being viewed on mobile devices predicted by the end of this year, means mobile has never been more important.</p>
+    <article>
+        <header>
+            <img src="img/beachhut/01.jpg" alt="">
+          
+            <h1>How ‘Star Wars’ Brought Kim Kardashian and Kanye West Together</h1>
+        </header>
 
-           <!--  <p>The online space is such a fast evolving, hyper competitive environment with maybe a thousand different solutions to the same problem that it can be a confusing place for many clients at times. We see it as our job to take away that confusion and give honest advice on whats the best most cost effective solution.</p> -->
-              
-            </div> 
-          </section> <!-- end main section -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis maxime id, sunt, eum sed blanditiis aliquid! Minus assumenda tempore perspiciatis, numquam est aliquam, quis molestias enim consequuntur suscipit similique cumque ut natus facilis laboriosam quidem, nesciunt quasi doloribus tenetur. Quas doloremque suscipit, molestias odit, et quasi? Quas hic numquam, vitae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cum quibusdam eaque, autem porro fuga laudantium culpa beatae laboriosam quos.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi. Laborum temporibus enim eius quidem eum voluptatum eligendi. Nemo fuga at provident accusantium tempore eligendi alias sed! Provident veritatis adipisci deserunt. Totam repudiandae ducimus nemo aperiam assumenda. Odio quos, quam quod illum reiciendis sapiente doloremque quasi deserunt alias provident! Labore voluptatibus excepturi, ipsum et sint nihil delectus enim, commodi quis!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta praesentium dolor asperiores nesciunt quod sapiente est minus, architecto corrupti, excepturi hic ipsa, saepe dignissimos similique ullam repudiandae rem voluptate. Ipsa iusto, voluptate doloremque facere expedita, molestias omnis facilis. Adipisci voluptatum, quia alias aut sint totam facere porro aperiam repellat ipsa? Odio ut sint dicta magnam molestias maiores eos impedit natus iste quas perspiciatis voluptas autem, illum qui aperiam labore necessitatibus incidunt, placeat reiciendis facilis iusto reprehenderit. Ad, quisquam, voluptatibus!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laborum omnis iure cumque veritatis reiciendis, optio ad. Praesentium, illum. Deleniti ab rem laboriosam numquam natus explicabo sit cumque provident maxime.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi facilis vel distinctio itaque ea, commodi a autem, amet explicabo harum libero vero earum doloremque officiis, dolorum beatae soluta officia dignissimos. Ad odit ab, error illo! Iure numquam recusandae unde dignissimos aspernatur quia neque, voluptatibus ea, iste eaque corporis doloribus.
+        </p>
+    </article>
 
-        <!-- Footer section -->
-        <footer class="footer-no-image bg-blue" role="contentinfo">
-          <div class="footer-logo">
-            <img src="img/bh-logo-white-clear.png" alt="Logo image">
-          </div>
-          <div class="footer-links">
-              <ul>
-                <li><h3>Content</h3></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="projects.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-              <ul>
-                <li><h3>Follow Us</h3></li>
-                <li><a href="https://www.facebook.com/beachhutinc" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/beachhutinc" target="_blank">Twitter</a></li>
-              </ul>
-              <ul>
-                <li><h3>Legal</h3></li>
-                <li><a href="legal.html">Terms and Conditions</a></li>
-              </ul>
+    <article>
+        <header>
+            <img src="img/beachhut/01.jpg" alt="">
+            
+            <h1>How Audiences Reacted to the Star Wars: The Force Awakens Premiere</h1>
+        </header>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis maxime id, sunt, eum sed blanditiis aliquid! Minus assumenda tempore perspiciatis, numquam est aliquam, quis molestias enim consequuntur suscipit similique cumque ut natus facilis laboriosam quidem, nesciunt quasi doloribus tenetur. Quas doloremque suscipit, molestias odit, et quasi? Quas hic numquam, vitae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cum quibusdam eaque, autem porro fuga laudantium culpa beatae laboriosam quos.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi. Laborum temporibus enim eius quidem eum voluptatum eligendi. Nemo fuga at provident accusantium tempore eligendi alias sed! Provident veritatis adipisci deserunt. Totam repudiandae ducimus nemo aperiam assumenda. Odio quos, quam quod illum reiciendis sapiente doloremque quasi deserunt alias provident! Labore voluptatibus excepturi, ipsum et sint nihil delectus enim, commodi quis!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta praesentium dolor asperiores nesciunt quod sapiente est minus, architecto corrupti, excepturi hic ipsa, saepe dignissimos similique ullam repudiandae rem voluptate. Ipsa iusto, voluptate doloremque facere expedita, molestias omnis facilis. Adipisci voluptatum, quia alias aut sint totam facere porro aperiam repellat ipsa? Odio ut sint dicta magnam molestias maiores eos impedit natus iste quas perspiciatis voluptas autem, illum qui aperiam labore necessitatibus incidunt, placeat reiciendis facilis iusto reprehenderit. Ad, quisquam, voluptatibus!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laborum omnis iure cumque veritatis reiciendis, optio ad. Praesentium, illum. Deleniti ab rem laboriosam numquam natus explicabo sit cumque provident maxime.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi facilis vel distinctio itaque ea, commodi a autem, amet explicabo harum libero vero earum doloremque officiis, dolorum beatae soluta officia dignissimos. Ad odit ab, error illo! Iure numquam recusandae unde dignissimos aspernatur quia neque, voluptatibus ea, iste eaque corporis doloribus.
+        </p>
+    </article>
+
+    <article>
+        <header>
+            <img src="img/beachhut/01.jpg" alt="">
+            <h1>The Ultimate Star Wars Dictionary for Dummies</h1>
+        </header>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis maxime id, sunt, eum sed blanditiis aliquid! Minus assumenda tempore perspiciatis, numquam est aliquam, quis molestias enim consequuntur suscipit similique cumque ut natus facilis laboriosam quidem, nesciunt quasi doloribus tenetur. Quas doloremque suscipit, molestias odit, et quasi? Quas hic numquam, vitae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti cum quibusdam eaque, autem porro fuga laudantium culpa beatae laboriosam quos.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque error quos consequuntur totam, esse commodi magnam dignissimos explicabo modi. Laborum temporibus enim eius quidem eum voluptatum eligendi. Nemo fuga at provident accusantium tempore eligendi alias sed! Provident veritatis adipisci deserunt. Totam repudiandae ducimus nemo aperiam assumenda. Odio quos, quam quod illum reiciendis sapiente doloremque quasi deserunt alias provident! Labore voluptatibus excepturi, ipsum et sint nihil delectus enim, commodi quis!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dicta praesentium dolor asperiores nesciunt quod sapiente est minus, architecto corrupti, excepturi hic ipsa, saepe dignissimos similique ullam repudiandae rem voluptate. Ipsa iusto, voluptate doloremque facere expedita, molestias omnis facilis. Adipisci voluptatum, quia alias aut sint totam facere porro aperiam repellat ipsa? Odio ut sint dicta magnam molestias maiores eos impedit natus iste quas perspiciatis voluptas autem, illum qui aperiam labore necessitatibus incidunt, placeat reiciendis facilis iusto reprehenderit. Ad, quisquam, voluptatibus!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero laborum omnis iure cumque veritatis reiciendis, optio ad. Praesentium, illum. Deleniti ab rem laboriosam numquam natus explicabo sit cumque provident maxime.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi facilis vel distinctio itaque ea, commodi a autem, amet explicabo harum libero vero earum doloremque officiis, dolorum beatae soluta officia dignissimos. Ad odit ab, error illo! Iure numquam recusandae unde dignissimos aspernatur quia neque, voluptatibus ea, iste eaque corporis doloribus.
+        </p>
+    </article>
+
+    <aside class="bh-read-more">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <em>20 Star Wars Secrets Revealed</em>
+                    <b>by J. Morrison</b>
+                    <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36"><circle fill="none" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle></svg>
+                </a>
+            </li>
+
+            <li>
+                <a href="how-star-wars-brought-kim-and-kanye.html">
+                    <em>How ‘Star Wars’ Brought Kim and Kanye</em>
+                    <b>by J. Morrison</b>
+                    <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36"><circle fill="none" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle></svg>
+                </a>
+            </li>
+
+            <li>
+                <a href="how-audiences-reacted-to-the-star-wars.html">
+                    <em>How Audiences Reacted to the Star Wars</em>
+                    <b>by J. Morrison</b>
+                    <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36"><circle fill="none" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle></svg>
+                </a>
+            </li>
+
+            <li>
+                <a href="the-ultimate-star-wars-dictionary.html">
+                    <em>The Ultimate Star Wars Dictionary</em>
+                    <b>by J. Morrison</b>
+                    <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36"><circle fill="none" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle></svg>
+                </a>
+            </li>
+        </ul>
+    </aside> <!-- .bh-read-more -->
+</div> <!-- .bh-articles -->
+
+<!-- Content Overlay -->
+    <div class="bg-color-sky-light wow slideInUp" data-wow-duration="1.4s" data-wow-delay="0s" id="blog-read-more">
+        <div class="content-md container">
+            <h1 class="">want to read more?</h1>
+            <div class="row margin-b-30">
+                <div class="col-md-4 md-margin-b-30">
+                    <div class="content-item">
+                      
+                            <div class="overlay"></div>
+                            <div class="corner-overlay-content">Read More</div>
+                            <div class="overlay-content">
+                            <h2><a href="process.html" class="color-white">More Info</a></h2>
+                    
+                    </div>
+                    <article class="content-background">
+                        <div class="margin-b-50">
+                            <span class="content-date">Jan 03, 2016</span>
+                            <h1 class=" ">a typical web design and development process.</h1>
+                        </div>
+                        
+                    </article>
+                    </div>                 
+                </div>
+                <div class="col-md-4 md-margin-b-30">
+                    <div class="content-item">
+                        <div class="overlay"></div>
+                    <div class="corner-overlay-content">Read More</div>
+                    <div class="overlay-content">
+                        <h2><a class="color-white" href="#">More Info</a></h2>
+                    </div>
+                    <article class="content-background">
+                        <div class="margin-b-50">
+                            <span class="content-date">Jan 03, 2016</span>
+                            <h1 class=" ">All about SEO and our 48 point seo check list...........</h1>
+                        </div>
+                        
+                    </article>
+                    </div>                 
+                </div>
+                <div class="col-md-4 md-margin-b-30">
+                    <div class="content-item">
+                        <div class="overlay"></div>
+                    <div class="corner-overlay-content">Read More</div>
+                    <div class="overlay-content">
+                        <h2><a class="color-white" href="#">More Info</a></h2>
+                    </div>
+                    <article class="content-background">
+                        <div class="margin-b-50">
+                            <span class="content-date">Jan 03, 2016</span>
+                            <h1 class=" ">Web design and development process what to expect........</h1>
+                        </div>
+                        
+                    </article>
+                    </div>                 
+                </div>
             </div>
-
-          <hr>
-
-          <p>copyright beach_hut 2015</p>
-        </footer>
-
-    <!-- END WRAPPER -->
-  </div>
-     <a href="#0" class="bh-top">Top</a>
-
-    <!-- end main comntent section -->
+            <!--// end row -->
+        </div>
+    </div>
+    <!-- End Content Overlay -->
 
 
+  
+  
+
+
+
+
+ 
+
+  <!--========== END PAGE CONTENT ==========-->
+
+        <!--========== FOOTER ==========-->
+    <footer id="footer" class="footer-v6 bg-color-base">
+        <div class="content-sm container">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <a href="index.html">
+                        <img class="footer-v6-logo-img" src="img/beachhut/logos/bh-logo-white.png" alt="">
+                    </a>
+                   
+
+                </div>
+                <!-- End Logo -->
+
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">About us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="services.html">Services</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="projects.html">Our Work</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="about.html">About</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="blog.html">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Footer Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width xs-margin-b-30 center-block">
+                    <h3 class="footer-v6-title">Support</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="process.html">Process</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="support.html">Support</a>
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            <a class="footer-link-v6-list-link" href="legal.html">Terms of Business</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Footer Link List -->
+
+                <!-- Link List -->
+                <div class="col-md-3 col-xs-6 xs-full-width center-block">
+                    <h3 class="footer-v6-title">Contact us</h3>
+                    <ul class="list-unstyled footer-link-v6-list">
+                        <li class="footer-link-v6-list-item">
+                            +353 (1) 504 5638
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            +353 089 422 1408
+                        </li>
+                        <li class="footer-link-v6-list-item">
+                            info@beachhut.ie
+                        </li>
+                        <li class="footer-link-v6-list-item-divider"></li>
+                        <li class="footer-link-v6-list-item">
+                           <a class="" href="special-offers.html"><i class=" icon-heart"></i> Special Offer !</a>
+                            
+                        </li>
+                        <!-- <li class="footer-link-v6-list-item">
+                            126 Sarsfield Park, Lucan, Dublin, Ireland.
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- End Link List -->
+            </div>
+            <!--// end row -->
+
+        </div>
+
+         <div class="container text-center">
+            <!-- Theme Icons Animated Dark Background -->
+            <ul class="list-inline margin-b-20">
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="https://www.facebook.com/prothemes.net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="animate-theme-icons">
+                <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+                <i class="animate-theme-icons-element fa fa-google-plus"></i>
+                </a>
+              </li>
+
+
+            </ul>
+            <!-- End Theme Icons Animated Dark Background -->
+
+            <p class="margin-b-0">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
+          </div>
     
-    
-    <div class="overlay"></div> <!--  improve main element 3d movement -->
-    
-  <script src="js/vendor/jquery-1.10.2.min.js"></script>
-  <script src="js/main.js"></script> <!-- Resource jQuery -->
-  <script src="js/scroll.js"></script>
-  <script src="js/vendor/jquery.animsition.min.js"></script>
-  <script src="js/animsition.js"></script>
+    </footer>
+    <!--========== END FOOTER ==========-->
+<!-- END WRAPPER -->
 
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="js-back-to-top back-to-top-theme"></a>
+<!-- End Back To Top -->
+
+
+<!--========== JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) ==========-->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="plugins/html5shiv.js"></script>
+<script src="plugins/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="plugins/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script type="text/javascript" src="plugins/jquery.back-to-top.js"></script>
+<script type="text/javascript" src="plugins/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="plugins/jquery.animsition.min.js"></script>
+<script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script type="text/javascript" src="plugins/dzsparallaxer/dzsparallaxer.js"></script>
+<script type="text/javascript" src="plugins/jquery.equal-height.js"></script>
+<script type="text/javascript" src="plugins/circles-master/circles.min.js"></script>
+<script type="text/javascript" src="plugins/wow.min.js"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script type="text/javascript" src="assets/scripts/splash.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/components/animsition.js"></script>
+<script type="text/javascript" src="scripts/components/equal-height.js"></script>
+<script type="text/javascript" src="scripts/components/header-sticky.js"></script>
+<script type="text/javascript" src="scripts/components/piecharts.js"></script>
+<script type="text/javascript" src="scripts/components/progress-indicator.js"></script>
+<script type="text/javascript" src="scripts/components/wow.js"></script>
+
+
+
+<script type="text/javascript" src="scripts/portfolio/portfolio-3-col-grid-v2.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<!--========== END JAVASCRIPTS ==========-->
 </body>
+<!-- END BODY -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66518925-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </html>

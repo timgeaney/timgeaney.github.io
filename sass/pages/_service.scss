@@ -1,0 +1,214 @@
+
+
+// variables
+
+$base-background-color: #fff !default;
+$dark-gray: #333 !default;
+$light-gray: #DDD !default;
+$medium-screen: 700px !default;
+$large-screen: 1024px !default;
+$base-font-color: $light-gray !default;
+$grid-items-background: #fff;
+$grid-item-background: #fff;
+$grid-item-border: 1px solid transparentize($base-font-color, 0.4); 
+$grid-item-columns: 4;
+$grid-item-med-columns: 6;
+$grid-item-big-columns: 8;
+$grid-item-height-s: 32em;
+$grid-item-height-l: 42em;
+
+
+
+// colors
+
+$color-1: orange; 
+$color-2: #d62323; 
+$color-3: #ab87ff; 
+$color-4: #1b49be;
+$color-5: #02aedc;
+$color-6: #8661aa;
+$color-7: #4dccbd;
+$color-8: #2374ab;
+$color-9: #ff8484;
+$grey  : #797e83;
+$dark: #252525;
+
+
+
+
+// Services
+
+#hero img {
+  max-width: 100%;
+  margin-top: -5px;
+}
+
+.feature-intro {
+  text-align: center;
+}
+
+
+#services {
+  
+  padding-left: 2em;
+  padding-right: 2em;
+
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 1em;
+  }
+
+  li.grid-item {
+    list-style-type: none;
+    padding: 2em;
+    margin-bottom: 2em;
+    background: #fff;
+    box-shadow: 7px 7px 5px 0 #eff1f8;
+  }
+
+  .feature-intro {
+      h1 {
+        margin-top: 0;
+      animation: none;
+      color: $dark;
+      padding-top: 2em;
+      padding-bottom: 0.75em;
+      text-transform: uppercase;
+      font-size: 1.6em;
+    }
+    p {
+      text-align: center;
+      font-size: 1em;
+    }
+    
+  }
+
+
+
+
+
+
+
+  
+}
+
+
+.grid-items-lines {
+
+
+
+  h5 {
+    text-align: center;
+    padding-top: 1em;
+ 
+      }
+
+    p {
+      text-align: left;
+      padding-top: 1em;
+      padding-bottom: 2em;
+      font-size: 1.4em;
+
+      text-align: left;
+    }
+    
+
+  
+    
+  .grid-item {
+
+    background: $grid-item-background;
+    
+    float: left;
+
+    overflow: hidden;
+    outline: none;
+    padding: 0.8em;
+    text-decoration: none;
+    width: 100%;
+
+    svg {
+      stroke: $color-darkpurple;
+      height: 64px;
+      width: 64px;
+      display: block;
+      margin: auto;
+      padding-bottom: 1em;
+    }
+
+    &:focus,
+    &:hover {
+      background: #fff;
+      svg {
+        opacity: 1;
+        stroke-dasharray: 90;
+        stroke-dashoffset: 90;
+        stroke: $dark;
+        
+        animation: offset 1s linear forwards;
+
+        }
+
+
+    }
+
+    @media(max-width: 767px) {      
+
+      svg {
+        height: 96px;
+        width: 96px;
+      }
+    }
+
+    @media(min-width: 768px) {
+     
+      svg {
+        height: 128px;
+        width: 128px;
+      }
+    }
+    
+  }
+
+  .svg__color-1 svg { stroke: $color-1; }
+
+
+
+  .hover-color-1 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-2 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-3 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-4 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-5 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-6 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-7 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-8 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+  .hover-color-9 { &:focus,&:hover svg {stroke: $color-darkpurple;} }
+
+  // this, below, might not be the most beautiful solution but it removes the outer borders by using the background color.
+  .bottom-cover {
+    background: $grid-items-background;
+    bottom: 0px;
+    height: 30px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .right-cover {
+    background: $grid-items-background;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    width: 4px;
+  }
+}
+
+#services {
+  p {
+    font-size: 1.2em;
+  }
+}
+
+
+
+

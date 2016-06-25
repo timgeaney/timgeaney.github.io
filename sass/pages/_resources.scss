@@ -1,0 +1,24 @@
+.clients {
+	width: 50%;
+	height: 100vh;
+	background: #00ccff;
+	float: left;
+	position: relative;
+	.client-content {
+		position: absolute;
+		@include center(y);	
+		left: 30%;
+		h1 {
+			color: white;
+		}
+	}
+
+}
+
+.developers {
+	width: 50%;
+	height: 100vh;
+	background: $color-sky-light;
+	float: right;
+
+}
