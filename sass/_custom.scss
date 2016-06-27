@@ -303,6 +303,7 @@
   position: relative;
   background: $color-bright-pink;
   border: 4px solid $color-bright-pink;
+  z-index: 100000;
 }
 .arrow_box_bright_pink:after, .arrow_box_bright_pink:before {
   top: 100%;
