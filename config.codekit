@@ -2942,6 +2942,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beachhut\/process-hero-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25569,
+		"inputAbbreviatedPath": "\/img\/beachhut\/process-hero-color.png",
+		"outputAbbreviatedPath": "\/img\/beachhut\/process-hero-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beachhut\/service-hero-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
