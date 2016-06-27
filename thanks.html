@@ -22,6 +22,8 @@
 <link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
 <link href="plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
 <link href="plugins/dzsparallaxer/dzsparallaxer.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+
 <!-- END THEME PLUGINS STYLE -->
 
 <!-- BEGIN THEME STYLES -->
@@ -30,40 +32,57 @@
 
 <!-- END THEME STYLES -->
 
-<!-- THEME -->
-<link href="css/theme/dark.css" rel="stylesheet" type="text/css"/>
-<link href="css/theme/base.css" rel="stylesheet" type="text/css" id="style-color"/>
-
 <!-- BEGIN JQUERY -->
 <script type="text/javascript" src="plugins/jquery.min.js"></script>
 <!-- END JQUERY -->
 
-<link rel="shortcut icon" href="../HTML/favicon.ico"/>
+<!-- FAVICON -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="">
+
+<!-- END FAVICON -->
+
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
-<body id="">
+<body class="">
 
 <!-- WRAPPER -->
 <div class="wrapper animsition">
   <!--========== HEADER ==========-->
 
-  <header class="header header-fixed navbar-fixed-top header-sticky" id="bg-blue">
+  <header class="header header-fixed navbar-fixed-top header-sticky bg-color-yellow" >
     <!-- Topbar Classic -->
         <div class="topbar-c theme-toggle-content">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="list-inline topbar-c-contacts">
-                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
-                            <li class="topbar-c-contacts-item"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link" href="mailto:tim@beachhut.ie">tim@beachhut.ie</a></li>
+                            <li class="topbar-c-contacts-item color-black"><i class="topbar-c-contacts-icon icon-phone"></i> +353 (1) 504 5638</li>
+                            <li class="topbar-c-contacts-item color-black"><i class="topbar-c-contacts-icon icon-envelope"></i> <a class="topbar-c-contacts-link color-black" href="mailto:tim@beachhut.ie">info@beachhut.ie</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="list-inline topbar-c-actions form-modal-nav">
                             <!-- <li class="topbar-c-actions-item"><a class="topbar-c-actions-link form-modal-login" href="javascript:void(0);">Login</a></li>
                             <li class="topbar-c-actions-item-divider">or</li> -->
-                            <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup" href="javascript:void(0);"><i class="topbar-c-actions-icon icon-heart"></i> Special Offer !</a></li>
+                            <li class="topbar-c-actions-item"><a class="topbar-c-actions-link-border radius-50 form-modal-signup bg-color-dark color-white" href="special-offers.html"><i class="topbar-c-actions-icon icon-heart"></i> Special Offer !</a></li>
                         </ul>
                     </div>
                 </div><!--// End row -->
@@ -85,7 +104,8 @@
                     <!-- Logo -->
                     <div class="navbar-logo">
                         <a class="navbar-logo-wrap" href="index.html">
-                            <img class="navbar-logo-img" src="img/beachhut/bh_logo_tag_sm.png" alt="beachhut logo">
+                            <img class="navbar-logo-img" src="img/beachhut/bh-logo-cap-black.png" alt="beachhut logo">
+                            <img class="logo-mobile" src="img/beachhut/bh-logo-white-clear.png" alt="beachhut logo">
                         </a>
                         
                 </div>
@@ -98,11 +118,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse nav-collapse">
                     <div class="menu-container">
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav ">
 
                           <!-- Home -->
                             <li class="nav-item mega-menu-fullwidth">
-                                <a class="nav-item-child" href="index.html">
+                                <a class="nav-item-child nav-item-blue" href="index.html">
                                     Home
                                 </a>
                                 
@@ -112,7 +132,7 @@
 
                             <!-- Services -->
                             <li class="nav-item mega-menu-fullwidth">
-                                <a class="nav-item-child" href="services.html">
+                                <a class="nav-item-child nav-item-blue" href="services.html">
                                     Services
                                 </a>
                                 
@@ -121,7 +141,7 @@
 
                             <!-- About Us -->
                             <li class="nav-item mega-menu-fullwidth">
-                                <a class="nav-item-child" href="about.html">
+                                <a class="nav-item-child nav-item-blue" href="about.html">
                                     About Us
                                 </a>
                                 
@@ -130,8 +150,8 @@
 
                             <!-- Resources -->
                             <li class="nav-item mega-menu-fullwidth">
-                                <a class="nav-item-child" href="projects.html">
-                                    Portfolio
+                                <a class="nav-item-child nav-item-blue" href="projects.html">
+                                    our work
                                 </a>
                                 
                             </li>
@@ -140,7 +160,7 @@
 
                             <!-- Blog -->
                             <li class="nav-item mega-menu-fullwidth">
-                                <a class="nav-item-child" href="blog.html">
+                                <a class="nav-item-child nav-item-blue" href="blog.html">
                                     Resources
                                 </a>
                                 
@@ -149,7 +169,7 @@
 
                             <!-- Contact -->
                             <li class="nav-item mega-menu-fullwidth">
-                                <a class="nav-item-child" href="contact.html">
+                                <a class="nav-item-child nav-item-blue" href="contact.html">
                                     Contact
                                 </a>
                                 
@@ -166,37 +186,209 @@
 
   <!--========== END HEADER ==========-->
 
-  <h1>thanks we'll get right back to you</h1>
+  <!--========== HERO SECTION ==========-->
+    <div class="l-promo-block-v2 bg-color-yellow">
+        <div class="container">
+            <!-- Horizontal Center Content -->
+            <div class="row center-content-hor-wrap-md">
+                <div class="col-md-7 center-content-hor-align-md md-margin-b-50">
+                    <div class="margin-b-30">
+                        <h1 class="super-big color-dark">Thanks for reaching out!</h1>
+                        <p class="color-dark">
+                           We'll get back to you soon.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 center-content-hor-align-md">
+                    <!-- Image -->
+                    <div class="l-promo-block-v2-img-wrap">
+                        <img class="l-promo-block-v2-img-one img-responsive wow fadeInUp" src="img/beachhut/laptop-01.png" alt="" data-wow-duration=".1" data-wow-delay=".1s">
+                        <img class="l-promo-block-v2-img-two img-responsive wow fadeInRight" src="img/beachhut/iphone-01.png" alt="" data-wow-duration=".1" data-wow-delay=".3s">
+                    </div>
+                    <!-- End Image -->
+                </div>
+            </div>
+            <!--// end row -->
+            <!-- End Horizontal Center Content -->
+        </div>
+
+    </div>
+            <div class="arrow_box_yellow"></div>
+
+    <!--========== END HERO SECTION ==========-->
+
+
+        
+
+<!-- Contacts -->
+    <div class="bg-color-yellow" id="scroll_to_tel">
+        <div class="content-md container">
+        <div class="row">
+          <h1 class="super-big text-center color-dark">telephone</h1>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white   fa fa-phone"></i>
+                    <h3 class="font-size-20 ">Landline</h3>
+                    <p class="">00 353 1 5045638</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 md-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white  fa fa-mobile"></i>
+                    <h3 class="font-size-20 ">Mobile</h3>
+                    <p class="">00 353 089 4221408</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white  fa fa-envelope-o"></i>
+                    <h3 class="font-size-20">E-mail</h3>
+                    <p class="">info@beachhut.ie</p>
+                </div>
+                <!-- End Contacts -->
+            </div>
+            <div class="col-md-3 col-sm-6 sm-margin-b-50">
+                <!-- Contacts -->
+                <div class="text-center">
+                    <i class="font-size-36 color-white  fa fa fa-skype"></i>
+                    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+                        <div id="SkypeButton_Call_beachhutwebdesign_1">
+                         <script type="text/javascript">
+                         Skype.ui({
+                         "name": "dropdown",
+                         "element": "SkypeButton_Call_beachhutwebdesign_1",
+                         "participants": ["beachhutwebdesign"],
+                         "imageColor": "white",
+                         "imageSize":32
+                         });
+                         </script>
+                        </div>
+                </div>
+                <!-- End Contacts -->
+            </div>
+        </div>
+        <!-- // end row -->
+    </div>
+    <!-- End Contacts -->
+    </div>
+
+
+    
 
   
 
-   <!--========== FOOTER ==========-->
-  <footer>
-  <div class="content-sm container text-center">
-    <!-- Theme Icons Animated Dark Background -->
-    <ul class="list-inline margin-b-20">
-      <li class="animate-theme-icons">
-        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://www.facebook.com/prothemes.net" target="_blank">
+  <!--========== FOOTER ==========-->
+  <footer id="footer" class="footer-v6 bg-color-dark">
+    <div class="content-sm container">
+      <div class="row">
+        <!-- Logo -->
+        <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+          <a href="index.html">
+            <img class="footer-v6-logo-img" src="img/beachhut/logos/bh-logo-white.png" alt="">
+          </a>
+           
+
+        </div>
+        <!-- End Logo -->
+
+        <!-- Footer Link List -->
+        <div class="col-md-3 col-xs-6 xs-full-width md-margin-b-30 center-block">
+          <h3 class="footer-v6-title">About us</h3>
+          <ul class="list-unstyled footer-link-v6-list">
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="services.html">Services</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="projects.html">Our Work</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="about.html">About</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="blog.html">Resources</a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Footer Link List -->
+
+        <!-- Footer Link List -->
+        <div class="col-md-3 col-xs-6 xs-full-width xs-margin-b-30 center-block">
+          <h3 class="footer-v6-title">Support</h3>
+          <ul class="list-unstyled footer-link-v6-list">
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="process.html">Process</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="contact.html">Support</a>
+            </li>
+            <li class="footer-link-v6-list-item">
+              <a class="footer-link-v6-list-link" href="legal.html">Terms of Business</a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Footer Link List -->
+
+        <!-- Link List -->
+        <div class="col-md-3 col-xs-6 xs-full-width center-block">
+          <h3 class="footer-v6-title">Contact us</h3>
+          <ul class="list-unstyled footer-link-v6-list">
+            <li class="footer-link-v6-list-item">
+              (+353)-01-504 5638
+            </li>
+            <li class="footer-link-v6-list-item">
+              (+353)-089-422 1408
+            </li>
+            <li class="footer-link-v6-list-item">
+              info@beachhut.ie
+            </li>
+            <li class="footer-link-v6-list-item-divider"></li>
+            <li class="footer-link-v6-list-item">
+               <a class="" href="special-offers.html"><i class=" icon-heart"></i> Special Offer !</a>
+              
+            </li>
+            <!-- <li class="footer-link-v6-list-item">
+              126 Sarsfield Park, Lucan, Dublin, Ireland.
+            </li> -->
+          </ul>
+        </div>
+        <!-- End Link List -->
+      </div>
+      <!--// end row -->
+
+    </div>
+
+     <div class="container text-center">
+      <!-- Theme Icons Animated Dark Background -->
+      <ul class="list-inline margin-b-20">
+        <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="#" target="_blank">
         <i class="animate-theme-icons-element fa fa-facebook"></i>
         </a>
-      </li>
-      <li class="animate-theme-icons">
-        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+        </li>
+        <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="https://twitter.com/_beachhut" target="_blank">
         <i class="animate-theme-icons-element fa fa-twitter"></i>
         </a>
-      </li>
-      <li class="animate-theme-icons">
-        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md radius-circle" href="https://twitter.com/Prothemes_net" target="_blank">
+        </li>
+        <li class="animate-theme-icons">
+        <a class="animate-theme-icons-body animate-theme-icons-dark-bg theme-icons-md bg-color-dark radius-circle" href="#" target="_blank">
         <i class="animate-theme-icons-element fa fa-google-plus"></i>
         </a>
-      </li>
+        </li>
 
 
-    </ul>
-    <!-- End Theme Icons Animated Dark Background -->
+      </ul>
+      <!-- End Theme Icons Animated Dark Background -->
 
-    <p class="margin-b-0">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
-  </div>
+      <p class="margin-b-0 color-sky-light">&#169; 2016 Beach Hut Media. All Rights Reserved.</p>
+      </div>
+  
   </footer>
   <!--========== END FOOTER ==========-->
 <!-- END WRAPPER -->
@@ -209,8 +401,8 @@
 <!--========== JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) ==========-->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
-<script src="plugins/html5shiv.js"></script>
-<script src="plugins/respond.min.js"></script>
+<script src="assets/plugins/html5shiv.js"></script>
+<script src="assets/plugins/respond.min.js"></script>
 <![endif]-->
 <script type="text/javascript" src="plugins/jquery.migrate.min.js"></script>
 <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -220,23 +412,29 @@
 <script type="text/javascript" src="plugins/jquery.back-to-top.js"></script>
 <script type="text/javascript" src="plugins/jquery.smooth-scroll.js"></script>
 <script type="text/javascript" src="plugins/jquery.animsition.min.js"></script>
-<script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
-<script type="text/javascript" src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-<script type="text/javascript" src="plugins/dzsparallaxer/dzsparallaxer.js"></script>
+<script type="text/javascript" src="plugins/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="plugins/jquery.equal-height.js"></script>
-<script type="text/javascript" src="plugins/circles-master/circles.min.js"></script>
+<script type="text/javascript" src="plugins/validation/jquery.validate.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx7vvBtoO-szjq8qvO5rv4-9bTVZqbjM4"></script>
+<script type="text/javascript" src="plugins/wow.min.js"></script>
+
+
 <!-- END PAGE LEVEL PLUGINS -->
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-<script type="text/javascript" src="assets/scripts/splash.js"></script>
 <script type="text/javascript" src="scripts/app.js"></script>
-<script type="text/javascript" src="scripts/components/animsition.js"></script>
-<script type="text/javascript" src="scripts/components/equal-height.js"></script>
 <script type="text/javascript" src="scripts/components/header-sticky.js"></script>
-<script type="text/javascript" src="scripts/components/piecharts.js"></script>
+<script type="text/javascript" src="scripts/components/animsition.js"></script>
+<script type="text/javascript" src="scripts/components/animated-headline.js"></script>
+<script type="text/javascript" src="scripts/components/scrollbar.js"></script>
+<script type="text/javascript" src="scripts/components/form-modal.js"></script>
+<script type="text/javascript" src="scripts/components/magnific-popup.js"></script>
+<script type="text/javascript" src="scripts/components/google-map.js"></script>
+<script type="text/javascript" src="scripts/components/equal-height.js"></script>
+<script type="text/javascript" src="scripts/components/comment-form.js"></script>
+<script type="text/javascript" src="scripts/components/wow.js"></script>
 
-
-<script type="text/javascript" src="scripts/portfolio/portfolio-3-col-grid-v2.js"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <!--========== END JAVASCRIPTS ==========-->
 </body>
