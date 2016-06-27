@@ -2039,6 +2039,7 @@ p {
 .content-item {
   overflow: hidden;
   position: relative;
+  height: 300px;
   padding: 2em 1em 2em 1em;
   background: #fff; }
   .content-item h1 {
@@ -16711,9 +16712,37 @@ html, body {
   #hero-image .header-intro {
     position: absolute !important;
     top: 152px; }
+  #hero-image .header-intro-offers {
+    position: absolute !important;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2em; }
+    #hero-image .header-intro-offers h1 {
+      font-size: 2em; }
+    #hero-image .header-intro-offers h3 {
+      text-align: center;
+      font-size: 1.4em; }
+    @media only screen and (min-width: 768px) {
+      #hero-image .header-intro-offers {
+        top: 252px;
+        width: 75%; }
+        #hero-image .header-intro-offers h1 {
+          text-align: left; }
+        #hero-image .header-intro-offers h3 {
+          text-align: left; } }
+    @media only screen and (min-width: 1170px) {
+      #hero-image .header-intro-offers {
+        top: 352px;
+        width: 50%; }
+        #hero-image .header-intro-offers h1 {
+          font-size: 3em; }
+        #hero-image .header-intro-offers h3 {
+          font-size: 1.6em; } }
   #hero-image .header-intro-left {
     position: absolute !important;
-    top: 152px;
+    top: 352px;
     left: 0; }
   #hero-image #cf img.top, #hero-image img.bottom {
     display: none; }
@@ -16765,6 +16794,9 @@ html, body {
 @media only screen and (min-width: 991px) {
   #hero-image-2 {
     display: block; } }
+
+.hero-image-bg-white {
+  background: #fff !important; }
 
 /*------------------------------------------------------------------
   	[Coming Soon]
@@ -17976,8 +18008,10 @@ article.velocity {
 .tp-caption .tp-shape .tp-shapewrapper .tp-static-layer .rev-static-visbile {
   min-height: 0 !important; }
 
-#hero-image-2 #bg-img img {
-  margin-top: 0px; }
+#hero-image-2 {
+  display: block; }
+  #hero-image-2 #bg-img img {
+    margin-top: 0px; }
 
 @media only screen and (min-width: 991px) {
   #hero-image-2 #bg-img img {
@@ -18065,6 +18099,10 @@ article.velocity {
 
 .pricing-list-v4-price, .pricing-list-v4-subprice {
   color: #00ccff; }
+
+#scroll_custom_price img {
+  display: block;
+  margin: 0 auto; }
 
 /*------------------------------------------------------------------
     [Animated Headline v1]

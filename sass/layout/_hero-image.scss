@@ -13,9 +13,54 @@ background: #EEF0F1;
 	top: 152px;
 }
 
+.header-intro-offers {
+	position: absolute !important;
+	top: 100px;
+	left:0;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	padding: 2em;
+	h1 {
+		font-size: 2em;
+	}
+
+	h3 {
+		text-align: center;
+			font-size: 1.4em;	
+
+	}
+
+	@include MQ(M) {
+		top: 252px;
+		width: 75%;
+
+		h1 {
+			text-align: left;	
+		}
+		h3 {
+			text-align: left;
+
+		}
+	}
+
+	@include MQ(L) {
+		top: 352px;
+		width: 50%;
+
+		h1 {
+			font-size: 3em;	
+		}
+		h3 {
+			font-size: 1.6em;	
+		}
+	}
+}
+
+
+
 .header-intro-left {
 	position: absolute !important;
-	top: 152px;
+	top: 352px;
 	left:0;
 }
 
@@ -127,4 +172,8 @@ background: #EEF0F1;
 		display: block;
 	}
 
+}
+
+.hero-image-bg-white {
+	background: #fff !important;
 }

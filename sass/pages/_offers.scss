@@ -2,6 +2,7 @@ $margin-left: 20px;
 
 
 #hero-image-2 {
+	display: block;
 	#bg-img img {
 		margin-top: 0px;
 	}
@@ -138,4 +139,11 @@ background: #fff;
 
 .pricing-list-v4-price, .pricing-list-v4-subprice {
 	color: $color-base;
+}
+
+#scroll_custom_price {
+	img {
+	display: block;
+	margin: 0 auto;
+	}
 }
