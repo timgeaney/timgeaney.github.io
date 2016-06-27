@@ -16705,6 +16705,32 @@ html, body {
   margin: 0;
   padding: 0; }
 
+.header-intro, .header-intro-left {
+  position: absolute;
+  top: 300px;
+  float: right;
+  width: 40%;
+  margin: 0;
+  z-index: -100;
+  background: #ffffff;
+  opacity: 0.9;
+  padding: 1em;
+  display: none; }
+  @media only screen and (min-width: 991px) {
+    .header-intro, .header-intro-left {
+      display: block; } }
+  .header-intro h1, .header-intro-left h1 {
+    margin-top: 0;
+    text-align: left; }
+  .header-intro h2, .header-intro-left h2 {
+    text-align: left; }
+
+.header-intro {
+  right: 0; }
+
+.header-intro-left {
+  left: 0; }
+
 #hero-image {
   max-width: 100%;
   margin-left: auto;
@@ -16722,6 +16748,7 @@ html, body {
     position: absolute !important;
     top: 100px;
     left: 0;
+    display: none;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
     padding: 2em; }
@@ -16733,7 +16760,8 @@ html, body {
     @media only screen and (min-width: 768px) {
       #hero-image .header-intro-offers {
         top: 252px;
-        width: 75%; }
+        width: 75%;
+        display: block; }
         #hero-image .header-intro-offers h1 {
           text-align: left; }
         #hero-image .header-intro-offers h3 {
