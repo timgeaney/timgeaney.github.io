@@ -84,40 +84,7 @@ div.header-img img {
 
 /* Content inside the header can be to your liking, but should be absolutely positioned. Here we are assuming all header content (other than the main image) is wrapped in a single <div> */
 
-.header-intro, .header-intro-left {
-  position: absolute;
-  top: 300px;
-  float: right;
-  width: 40%;
-  margin: 0;
-  z-index: 99999;
-  background: $color-white;
-  opacity: 0.7;
-  padding: 1em;
-  display: none;
 
-  @include MQ(XM) {
-    display: block;
-  }
-
-  h1 {
-    margin-top: 0;
-    text-align: left;
-  }
-
-  h2 {
-    text-align: left;
-  }
- 
-}
-
-.header-intro {
-  right: 0;
-}
-
-.header-intro-left {
-  left: 0;
-}
 
 
 /* Content is expected to be wrapped in an <article> and is initially hidden. */
