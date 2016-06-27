@@ -13,7 +13,7 @@
     label {
         &.error {
             display: block;
-            @include font($size: $font-size-12, $weight: $font-weight-400, $style: italic);
+            @include font($size: $font-size-18, $weight: $font-weight-400, $style: italic);
             color: $color-red;
             text-align: left;
         }
@@ -59,4 +59,10 @@
             border-color: $color-white;
         }
     }
+}
+
+
+
+.form-control {
+    font-size: 18px !important;
 }

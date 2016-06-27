@@ -6610,7 +6610,7 @@ p {
 
 .comment-form-error label.error {
   display: block;
-  font-size: 12px;
+  font-size: 18px;
   font-style: italic;
   font-weight: 400;
   color: #EF194F;
@@ -6663,6 +6663,9 @@ p {
       color: #ffffff; }
     .comment-form-v2 .comment-form-v2-input:focus::-webkit-input-placeholder {
       color: #ffffff; }
+
+.form-control {
+  font-size: 18px !important; }
 
 /*--------------------------------------------------
     [Divider]
