@@ -3567,28 +3567,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/team_4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18031,
-		"inputAbbreviatedPath": "\/img\/team_4.jpg",
-		"outputAbbreviatedPath": "\/img\/team_4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/team_7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18971,
-		"inputAbbreviatedPath": "\/img\/team_7.jpg",
-		"outputAbbreviatedPath": "\/img\/team_7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/widgets\/blog-both-sidebar.png": {
 		"fileType": 32768,
 		"ignore": 0,
