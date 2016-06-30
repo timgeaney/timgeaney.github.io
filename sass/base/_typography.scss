@@ -224,11 +224,15 @@ h1, h2 {
 
 h1 {
     font-family: 'brandon_grotesque_lightRg';
-    font-size: 3em;
+    font-size: 2.2em;
     margin: 3% 0;
     text-transform: uppercase;
     text-align: center;
         // letter-spacing: -2px;
+
+        @include MQ(M) {
+          font-size: 3em;
+        }
     }
 h1 a {
     color: #474747;
@@ -360,7 +364,7 @@ hr {
   text-align: center;
   @include MQ(M) {
     font-size: 3.6em;
-    
+
   }
 
   @include MQ(XM) {

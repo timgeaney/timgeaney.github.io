@@ -2,12 +2,12 @@
 /*----------------------------------------------------------------------
 [Master Stylesheet]
 
-	Project:        Ark - Responsive Multi-Purpose Theme
-	Version:        1.3.2
-	Author:         Prothemes.net
+	Project:        beachhut media website
+	Version:        
+	Author:         beachhut.ie
 	Primary use:    Corporate, Business, Portfolio, Landing, Shop and Blog Themes.
-	Email: 			prothemes.net@gmail.com
-	Website:		http://www.prothemes.net
+	Email: 			info@beachhut.ie
+	Website:		http://www.beachhut.ie
 
 
 [Table of Contents]
@@ -455,10 +455,13 @@ h1, h2 {
 
 h1 {
   font-family: 'brandon_grotesque_lightRg';
-  font-size: 3em;
+  font-size: 2.2em;
   margin: 3% 0;
   text-transform: uppercase;
   text-align: center; }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 3em; } }
 
 h1 a {
   color: #474747; }
