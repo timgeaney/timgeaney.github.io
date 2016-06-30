@@ -18190,7 +18190,7 @@ Articles
     font-size: 1.4em;
     padding-bottom: 10px; }
   .bh-articles article {
-    padding: 3em 0;
+    padding: 3em 1em;
     border-bottom: 1px solid #e6e6e6; }
     .bh-articles article:last-of-type {
       border-bottom: none; }
@@ -18215,6 +18215,9 @@ Articles
       .bh-articles::before {
         /* never visible - this is used in jQuery to check the current MQ */
         content: 'desktop'; } }
+
+.article-summary {
+  padding: 1em; }
 
 /* -------------------------------- 
 

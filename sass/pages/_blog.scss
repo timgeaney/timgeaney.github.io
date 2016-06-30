@@ -68,7 +68,7 @@ Articles
 	}
 
 	article {
-		padding: 3em 0;
+		padding: 3em 1em;
 		border-bottom: 1px solid shade($color-3, 10%);
 
 		&:last-of-type {
@@ -120,6 +120,9 @@ Articles
 			
 		}
 	}
+}
+.article-summary {
+	padding: 1em;
 }
 
 /* -------------------------------- 
