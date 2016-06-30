@@ -9757,10 +9757,6 @@ p {
   .md-margin-b-150 {
     margin-bottom: 150px; } }
 
-#hero-big-text {
-  padding-top: 2em;
-  padding-bottom: 2em; }
-
 .sidebar {
   border-left: 10px solid #fff;
   line-height: 100px; }
@@ -23461,5 +23457,12 @@ article.velocity {
   padding-top: 4px;
   padding-right: 4px;
   padding-left: 3px; }
+
+/* ========== Img Responsive home page========== */
+.img-responsive {
+  width: 300px; }
+
+.equal-height-ib-bg-img img {
+  display: none; }
 
 /*# sourceMappingURL=global.css.map */
