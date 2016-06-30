@@ -573,10 +573,17 @@ hr {
   text-align: left; }
 
 .super-big {
-  font-size: 4em;
+  font-size: 2.2em;
   color: #fff;
   font-family: 'brandon_grotesque_boldregular';
-  text-align: left; }
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .super-big {
+      font-size: 3.6em; } }
+  @media only screen and (min-width: 992px) {
+    .super-big {
+      font-size: 4em;
+      text-align: left; } }
 
 .big {
   font-size: 4em;
@@ -9876,7 +9883,7 @@ Pricing tables
         float: right; }
         .cd-pricing > li:last-of-type {
           margin-right: 0; } }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .cd-pricing > li {
       width: 28%;
       float: left;
@@ -10278,7 +10285,7 @@ Form
         transition: transform; }
     .cd-form.is-visible .cd-more-info {
       opacity: 1; } }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .cd-form .cd-credit-card p:nth-of-type(2) {
       width: 25%;
       margin-right: 4%; }
@@ -15271,7 +15278,7 @@ Shadow layer
 .header-dark-op {
   background: rgba(0, 0, 0, 0.7); }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 992px) {
   .header-pink, .header-dark, .header-dark-op {
     background: none !important; } }
 
@@ -17224,7 +17231,7 @@ html, body {
   opacity: 0.9;
   padding: 1em;
   display: none; }
-  @media only screen and (min-width: 991px) {
+  @media only screen and (min-width: 992px) {
     .header-intro, .header-intro-left {
       display: block; } }
   .header-intro h1, .header-intro-left h1 {
@@ -17274,7 +17281,7 @@ html, body {
           text-align: left; }
         #hero-image .header-intro-offers h3 {
           text-align: left; } }
-    @media only screen and (min-width: 1170px) {
+    @media only screen and (min-width: 1200px) {
       #hero-image .header-intro-offers {
         top: 352px;
         width: 50%; }
@@ -17310,7 +17317,7 @@ html, body {
       transition: opacity 1s ease-in-out; }
     #hero-image #cf img.top:hover {
       opacity: 0; } }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     #hero-image #cf {
       height: 500px; }
     #hero-image #cf img.small-screen {
@@ -17333,7 +17340,7 @@ html, body {
   display: none;
   clip: rect(0, 1900px, 700px, 0); }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 992px) {
   #hero-image-2 {
     display: block; } }
 
@@ -17766,7 +17773,7 @@ html, body {
     height: 100%;
     width: 4px;
     background: #f2f2f2; }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     #cd-timeline {
       margin-top: 3em;
       margin-bottom: 3em; }
@@ -17786,7 +17793,7 @@ html, body {
     margin-top: 0; }
   .cd-timeline-block:last-child {
     margin-bottom: 0; }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .cd-timeline-block {
       margin: 8em 0; }
       .cd-timeline-block:first-child {
@@ -17819,7 +17826,7 @@ html, body {
     background: #252525; }
   .cd-timeline-img.cd-location {
     background: #252525; }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .cd-timeline-img {
       width: 60px;
       height: 60px;
@@ -17951,7 +17958,7 @@ html, body {
     .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
       font-size: 28px;
       font-size: calculateRem(28px); } }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .cd-timeline-content {
       margin-left: 0;
       padding: 1.6em;
@@ -17992,7 +17999,7 @@ html, body {
         -moz-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out; } }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1200px) {
   /* inverse bounce effect on even content blocks */
   .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
@@ -18159,7 +18166,7 @@ img, svg {
   padding-top: 24px; }
   .bh-header h1 {
     font-size: 2rem; }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .bh-header {
       height: 250px;
       padding-top: 70px; } }
@@ -18198,7 +18205,7 @@ Articles
     line-height: 1.6; }
     .bh-articles p:last-of-type {
       padding-bottom: 0; }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .bh-articles {
       width: 970px;
       max-width: none;
@@ -18305,7 +18312,7 @@ Aside
     transform: translateY(-50%);
     left: -20px;
     stroke: #2a76e8; }
-  @media only screen and (min-width: 1170px) {
+  @media only screen and (min-width: 1200px) {
     .bh-read-more {
       display: block;
       position: absolute;
@@ -18529,7 +18536,7 @@ article.velocity {
   #hero-image-2 #bg-img img {
     margin-top: 0px; }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 992px) {
   #hero-image-2 #bg-img img {
     margin-top: -152px; } }
 
