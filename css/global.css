@@ -17470,6 +17470,25 @@ html, body {
 .hero-image-bg-white {
   background: #fff !important; }
 
+.hero-grid {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .hero-grid:before, .hero-grid:after {
+    content: " ";
+    display: table; }
+  .hero-grid:after {
+    clear: both; }
+
+.hero-image-left {
+  width: 50%;
+  float: left; }
+
+.hero-image-right {
+  width: 50%;
+  height: 50%;
+  float: right; }
+
 /*------------------------------------------------------------------
   	[Coming Soon]
 ------------------------------------------------------------------*/

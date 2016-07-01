@@ -2564,6 +2564,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beachhut\/casual-female.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317695,
+		"inputAbbreviatedPath": "\/img\/beachhut\/casual-female.jpg",
+		"outputAbbreviatedPath": "\/img\/beachhut\/casual-female.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beachhut\/catherine.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3407,6 +3418,28 @@
 		"initialSize": 7094,
 		"inputAbbreviatedPath": "\/img\/content-img\/video.jpg",
 		"outputAbbreviatedPath": "\/img\/content-img\/video.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/casual-female.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317695,
+		"inputAbbreviatedPath": "\/img\/hero-img\/casual-female.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/casual-female.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/solar-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197947,
+		"inputAbbreviatedPath": "\/img\/hero-img\/solar-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/solar-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8161,6 +8194,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/layout\/_header.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/_header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/sass\/layout\/_hero-grid.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/layout\/_hero-grid.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_hero-grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

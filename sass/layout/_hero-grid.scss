@@ -1,0 +1,20 @@
+.hero-grid {
+	@include outer-container(100%);
+
+}
+
+
+.hero-image-left{
+	width: 50%;
+	float: left;
+
+
+}
+
+.hero-image-right{
+		width: 50%;
+		height: 50%;
+		float: right;
+
+}
+
