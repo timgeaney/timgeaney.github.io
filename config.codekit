@@ -3026,6 +3026,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beachhut\/process-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18788,
+		"inputAbbreviatedPath": "\/img\/beachhut\/process-hero.png",
+		"outputAbbreviatedPath": "\/img\/beachhut\/process-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beachhut\/service-hero-color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3429,6 +3440,72 @@
 		"initialSize": 317695,
 		"inputAbbreviatedPath": "\/img\/hero-img\/casual-female.jpg",
 		"outputAbbreviatedPath": "\/img\/hero-img\/casual-female.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/e-commerce-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52096,
+		"inputAbbreviatedPath": "\/img\/hero-img\/e-commerce-02.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/e-commerce-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/girl-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17368,
+		"inputAbbreviatedPath": "\/img\/hero-img\/girl-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/girl-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/hero-img-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14855,
+		"inputAbbreviatedPath": "\/img\/hero-img\/hero-img-1.png",
+		"outputAbbreviatedPath": "\/img\/hero-img\/hero-img-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/ipad-air-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21998,
+		"inputAbbreviatedPath": "\/img\/hero-img\/ipad-air-2.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/ipad-air-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/solar-ad-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47087,
+		"inputAbbreviatedPath": "\/img\/hero-img\/solar-ad-2.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/solar-ad-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-img\/solar-ad-sm-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34188,
+		"inputAbbreviatedPath": "\/img\/hero-img\/solar-ad-sm-dark.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/solar-ad-sm-dark.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -2,7 +2,8 @@
    
 $S:     320px; // bootstrap  
 $M:     768px; // bootstrap  
-$XM:		992px;     
+$XM:		992px; 
+$XXM:   1100px;    
 $L:     1200px; // bootstrap
 $XL: 		1300px;
 $XXL:		1500px;     
@@ -18,6 +19,9 @@ $XXL:		1500px;
   }
   @else if $canvas == XM {
    @media only screen and (min-width: $XM) { @content; } 
+  }
+  @else if $canvas == XXM {
+   @media only screen and (min-width: $XXM) { @content; } 
   }
   @else if $canvas == L {
    @media only screen and (min-width: $L) { @content; } 
