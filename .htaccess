@@ -1,0 +1,2 @@
+#Redirect a single page:
+Redirect 301 /search-engine-optomization.html http://www.domain.com/index.html
