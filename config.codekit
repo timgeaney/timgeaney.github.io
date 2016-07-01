@@ -2124,6 +2124,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beachhut\/bh-logo-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2618,
+		"inputAbbreviatedPath": "\/img\/beachhut\/bh-logo-black.png",
+		"outputAbbreviatedPath": "\/img\/beachhut\/bh-logo-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beachhut\/bh-logo-blue.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2190,6 +2201,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beachhut\/bh-logo-white-circ.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11199,
+		"inputAbbreviatedPath": "\/img\/beachhut\/bh-logo-white-circ.png",
+		"outputAbbreviatedPath": "\/img\/beachhut\/bh-logo-white-circ.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beachhut\/bh-logo-white-clear.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2197,6 +2219,17 @@
 		"initialSize": 2535,
 		"inputAbbreviatedPath": "\/img\/beachhut\/bh-logo-white-clear.png",
 		"outputAbbreviatedPath": "\/img\/beachhut\/bh-logo-white-clear.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/beachhut\/bh-logo-white-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8193,
+		"inputAbbreviatedPath": "\/img\/beachhut\/bh-logo-white-mobile.png",
+		"outputAbbreviatedPath": "\/img\/beachhut\/bh-logo-white-mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

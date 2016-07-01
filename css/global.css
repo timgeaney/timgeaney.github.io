@@ -14734,7 +14734,7 @@ Shadow layer
     width: 25px;
     height: 3px;
     display: inline-block;
-    background: #fff;
+    background: #222222;
     transition-duration: 400ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
@@ -14743,7 +14743,7 @@ Shadow layer
       left: 0;
       width: 25px;
       height: 3px;
-      background: #fff;
+      background: #222222;
       content: " "; }
     .header .navbar-toggle .toggle-icon:before {
       bottom: 16px;
@@ -14762,9 +14762,9 @@ Shadow layer
       transition-property: all;
       transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
     .header .navbar-toggle .toggle-icon.is-clicked {
-      background: rgba(255, 255, 255, 0); }
+      background: rgba(34, 34, 34, 0); }
       .header .navbar-toggle .toggle-icon.is-clicked:before, .header .navbar-toggle .toggle-icon.is-clicked:after {
-        background: #fff; }
+        background: #222222; }
       .header .navbar-toggle .toggle-icon.is-clicked:before {
         bottom: 5px;
         -webkit-transform: rotate(45deg);
@@ -14781,6 +14781,25 @@ Shadow layer
         transition-duration: 400ms;
         transition-property: all;
         transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .header .navbar-toggle:hover .toggle-icon.is-clicked {
+    background: rgba(255, 255, 255, 0); }
+
+/* Navbar Toggle White*/
+.header .navbar-toggle {
+  width: 25px;
+  height: 25px;
+  float: left;
+  border: none;
+  padding: 0;
+  margin: 32px 0; }
+  .header .navbar-toggle .toggle-white {
+    background: #fff; }
+    .header .navbar-toggle .toggle-white:before, .header .navbar-toggle .toggle-white:after {
+      background: #fff; }
+    .header .navbar-toggle .toggle-white.is-clicked {
+      background: rgba(255, 255, 255, 0); }
+      .header .navbar-toggle .toggle-white.is-clicked:before, .header .navbar-toggle .toggle-white.is-clicked:after {
+        background: #fff; }
   .header .navbar-toggle:hover .toggle-icon.is-clicked {
     background: rgba(255, 255, 255, 0); }
 
@@ -14865,15 +14884,15 @@ Shadow layer
 /* Navbar Nav */
 .header .navbar-nav .nav-item-child {
   font-size: 14px;
-  font-family: 'brandon_grotesque_blackRg';
+  font-family: 'brandon_grotesque_lightRg';
   font-weight: 900;
   color: #fff;
   background: 0;
+  cursor: pointer;
   text-decoration: none;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding: 55px 15px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -14885,8 +14904,8 @@ Shadow layer
     content: "";
     position: absolute;
     width: 100%;
-    height: 3px;
-    bottom: 40px;
+    height: 2px;
+    bottom: 20px;
     left: 0;
     background-color: #fff;
     visibility: hidden;
@@ -14901,6 +14920,16 @@ Shadow layer
 
 .header .navbar-nav .open .nav-item-child:hover, .header .navbar-nav .open .nav-item-child:focus {
   background: 0; }
+
+.navbar-nav > li > a {
+  line-height: 72px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 992px) {
+    .navbar-nav > li > a {
+      padding-bottom: 0; } }
+
+.nav > li > a {
+  padding-left: 10px; }
 
 /* Dropdown Menu */
 .header .dropdown-menu {
@@ -15280,6 +15309,101 @@ Shadow layer
 @media only screen and (min-width: 992px) {
   .header-pink, .header-dark, .header-dark-op {
     background: none !important; } }
+
+/*--------------------------------------------------
+    Blue Nav Items
+----------------------------------------------------*/
+.nav-item {
+  max-height: 90px; }
+
+.topbar-c-contacts-link {
+  font-family: 'brandon_grotesque_boldregular'; }
+
+.nav-item-blue {
+  color: #080404 !important; }
+  .nav-item-blue:hover {
+    color: #080404 !important; }
+
+.nav-item-blue:hover {
+  color: #080404 !important; }
+
+.nav-item:hover {
+  color: #fff !important; }
+
+.nav-item-blue:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 80px;
+  left: 0;
+  background-color: #080404 !important;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s; }
+
+.nav-item-child-blue:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1); }
+
+/*--------------------------------------------------
+    Logo
+----------------------------------------------------*/
+.logo {
+  display: none;
+  font-size: 2.2em;
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .logo {
+      display: block; } }
+  @media only screen and (min-width: 992px) {
+    .logo {
+      text-align: left; } }
+
+.title-logo {
+  text-align: left; }
+
+@media (max-width: 991px) {
+  .title-logo {
+    text-align: center; } }
+
+@media (max-width: 768px) {
+  .title-logo {
+    display: none; } }
+
+@media (max-width: 990px) {
+  .header .navbar-logo .navbar-logo-img {
+    display: block;
+    margin: auto; } }
+
+@media (max-width: 480px) {
+  .header .navbar-logo .navbar-logo-img {
+    display: none;
+    margin: none; } }
+
+.header .navbar-logo .logo-mobile {
+  display: block;
+  margin-left: auto;
+  max-width: 110px; }
+  @media only screen and (min-width: 768px) {
+    .header .navbar-logo .logo-mobile {
+      display: none; } }
+
+.hero-image {
+  padding-top: 4em;
+  padding-bottom: 4em; }
+
+.bh-ss-img {
+  margin: auto; }
+
+.header .navbar-logo .navbar-logo-wrap {
+  padding-top: 11px; }
+  @media only screen and (min-width: 992px) {
+    .header .navbar-logo .navbar-logo-wrap {
+      width: 400px; } }
 
 /*--------------------------------------------------
     [Header]
@@ -22963,8 +23087,7 @@ article.velocity {
   color: #fff !important; }
 
 .header .navbar-logo .navbar-logo-wrap {
-  padding-top: 11px;
-  width: 400px; }
+  padding-top: 11px; }
 
 .header .navbar-collapse.collapse.in {
   overflow-y: none !important; }
@@ -23031,43 +23154,6 @@ article.velocity {
 
 .btn-base-md {
   font-family: 'brandon_grotesque_boldregular'; }
-
-.nav-item {
-  max-height: 90px; }
-
-.topbar-c-contacts-link {
-  color: #fff !important;
-  font-family: 'brandon_grotesque_boldregular'; }
-
-.nav-item-blue {
-  color: #3a3a44 !important; }
-  .nav-item-blue:hover {
-    color: #3a3a44 !important; }
-
-.nav-item-blue:hover {
-  color: #3a3a44 !important; }
-
-.nav-item:hover {
-  color: #fff !important; }
-
-.nav-item-blue:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 40px;
-  left: 0;
-  background-color: #3a3a44 !important;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s; }
-
-.nav-item-child-blue:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1); }
 
 .color-black {
   color: #222222 !important; }
@@ -23402,42 +23488,6 @@ article.velocity {
   padding-bottom: 0 !important; }
 
 /* ========== End Nav Toggle Blue ========== */
-.title-logo {
-  text-align: left; }
-
-@media (max-width: 991px) {
-  .title-logo {
-    text-align: center; } }
-
-@media (max-width: 768px) {
-  .title-logo {
-    display: none; } }
-
-@media (max-width: 990px) {
-  .header .navbar-logo .navbar-logo-img {
-    display: block;
-    margin: auto; } }
-
-@media (max-width: 480px) {
-  .header .navbar-logo .navbar-logo-img {
-    display: none;
-    margin: none; } }
-
-.header .navbar-logo .logo-mobile {
-  display: block;
-  max-width: 50px;
-  margin-left: 80px; }
-  @media (min-width: 480px) {
-    .header .navbar-logo .logo-mobile {
-      display: none; } }
-
-.hero-image {
-  padding-top: 4em;
-  padding-bottom: 4em; }
-
-.bh-ss-img {
-  margin: auto; }
-
 /* ========== Style skype dropdown ========== */
 #dropdown_SkypeButton_Call_beachhutwebdesign_1 {
   border: 2px solid grey !important;
