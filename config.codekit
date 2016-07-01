@@ -3433,6 +3433,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero-img\/bh-logo-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11518,
+		"inputAbbreviatedPath": "\/img\/hero-img\/bh-logo-black.png",
+		"outputAbbreviatedPath": "\/img\/hero-img\/bh-logo-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero-img\/casual-female.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
