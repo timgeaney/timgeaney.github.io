@@ -14,3 +14,16 @@
 .tp-caption .tp-shape .tp-shapewrapper  .tp-static-layer .rev-static-visbile{
 	min-height: 0 !important;
 }
+
+
+.bh-fw-con	{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background-image: url("../img/content-img/bg_oswald_1.jpg");
+}
+
+.center-content {
+	position: relative;
+	@include center(y);
+}
