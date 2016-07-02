@@ -3389,6 +3389,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/content-img\/girl-mobile-blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29380,
+		"inputAbbreviatedPath": "\/img\/content-img\/girl-mobile-blue.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/girl-mobile-blue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/girl-mobile-purple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41699,
+		"inputAbbreviatedPath": "\/img\/content-img\/girl-mobile-purple.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/girl-mobile-purple.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/girl-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47371,
+		"inputAbbreviatedPath": "\/img\/content-img\/girl-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/girl-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/content-img\/ihpone.png": {
 		"fileType": 32768,
 		"ignore": 0,

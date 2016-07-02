@@ -524,6 +524,30 @@
 
 /* ========== End Arrow Purple ========== */
 
+/* ========== Arrow Top Base ========== */
+
+.arrow_box_top_base {
+  position: relative;
+  background: #00ccff;
+}
+.arrow_box_top_base:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 204, 255, 0);
+  border-bottom-color: #00ccff;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+/* ========== End Arrow Top Base ========== */
+
+
 .pb40 {
   padding-bottom: 40px;
 }

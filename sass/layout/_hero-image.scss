@@ -42,6 +42,7 @@ html, body {
 #hero-image {
 @include outer-container(100%);
 background: #EEF0F1;
+position: relative;
 
 .header-intro {
 	position: absolute !important;
@@ -49,10 +50,10 @@ background: #EEF0F1;
 }
 
 .header-intro-offers {
-	position: absolute !important;
-	top: 100px;
+	position: absolute;
+	top: 0px;
 	left:0;
-	display: none;
+
 	width: 100%;
 	background: rgba(255,255,255,0.8);
 	padding: 2em;
@@ -67,8 +68,8 @@ background: #EEF0F1;
 	}
 
 	@include MQ(M) {
-		top: 252px;
-		width: 75%;
+		top: 0px;
+		width: 100%;
 		display: block;
 
 		h1 {
@@ -81,7 +82,7 @@ background: #EEF0F1;
 	}
 
 	@include MQ(L) {
-		top: 352px;
+		top: 0px;
 		width: 50%;
 
 		h1 {
@@ -139,7 +140,7 @@ background: #EEF0F1;
 
 		#cf img {
 			position: absolute;
-			top: -152px;
+		
 		  left:0;
 		  -webkit-transition: opacity 1s ease-in-out;
 		  -moz-transition: opacity 1s ease-in-out;

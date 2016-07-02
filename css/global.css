@@ -17392,7 +17392,8 @@ html, body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #EEF0F1; }
+  background: #EEF0F1;
+  position: relative; }
   #hero-image:before, #hero-image:after {
     content: " ";
     display: table; }
@@ -17402,10 +17403,9 @@ html, body {
     position: absolute !important;
     top: 152px; }
   #hero-image .header-intro-offers {
-    position: absolute !important;
-    top: 100px;
+    position: absolute;
+    top: 0px;
     left: 0;
-    display: none;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
     padding: 2em; }
@@ -17416,8 +17416,8 @@ html, body {
       font-size: 1.4em; }
     @media only screen and (min-width: 768px) {
       #hero-image .header-intro-offers {
-        top: 252px;
-        width: 75%;
+        top: 0px;
+        width: 100%;
         display: block; }
         #hero-image .header-intro-offers h1 {
           text-align: left; }
@@ -17425,7 +17425,7 @@ html, body {
           text-align: left; } }
     @media only screen and (min-width: 1200px) {
       #hero-image .header-intro-offers {
-        top: 352px;
+        top: 0px;
         width: 50%; }
         #hero-image .header-intro-offers h1 {
           font-size: 3em; }
@@ -17451,7 +17451,6 @@ html, body {
       display: block; }
     #hero-image #cf img {
       position: absolute;
-      top: -152px;
       left: 0;
       -webkit-transition: opacity 1s ease-in-out;
       -moz-transition: opacity 1s ease-in-out;
@@ -19694,6 +19693,22 @@ article.velocity {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+#hero-image {
+  position: relative; }
+
+.layer {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 #hero-image-2 {
   display: block; }
@@ -24533,6 +24548,26 @@ article.velocity {
   margin-left: -26px; }
 
 /* ========== End Arrow Purple ========== */
+/* ========== Arrow Top Base ========== */
+.arrow_box_top_base {
+  position: relative;
+  background: #00ccff; }
+
+.arrow_box_top_base:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 204, 255, 0);
+  border-bottom-color: #00ccff;
+  border-width: 20px;
+  margin-left: -20px; }
+
+/* ========== End Arrow Top Base ========== */
 .pb40 {
   padding-bottom: 40px; }
 
