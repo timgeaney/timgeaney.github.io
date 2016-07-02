@@ -3158,6 +3158,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beachhut\/smart-image-fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58410,
+		"inputAbbreviatedPath": "\/img\/beachhut\/smart-image-fb.png",
+		"outputAbbreviatedPath": "\/img\/beachhut\/smart-image-fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beachhut\/solar-1500x840.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3345,6 +3356,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/content-img\/ac-mu-lrg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182467,
+		"inputAbbreviatedPath": "\/img\/content-img\/ac-mu-lrg.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/ac-mu-lrg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/bg_feedback_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81205,
+		"inputAbbreviatedPath": "\/img\/content-img\/bg_feedback_1.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/bg_feedback_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/bg_oswald_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39941,
+		"inputAbbreviatedPath": "\/img\/content-img\/bg_oswald_1.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/bg_oswald_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/content-img\/ihpone.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3407,6 +3451,17 @@
 		"initialSize": 58436,
 		"inputAbbreviatedPath": "\/img\/content-img\/rv-900x600.jpg",
 		"outputAbbreviatedPath": "\/img\/content-img\/rv-900x600.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/solar-iphone-mu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77404,
+		"inputAbbreviatedPath": "\/img\/content-img\/solar-iphone-mu.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/solar-iphone-mu.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3671,6 +3726,17 @@
 		"initialSize": 666,
 		"inputAbbreviatedPath": "\/img\/icons\/spain.png",
 		"outputAbbreviatedPath": "\/img\/icons\/spain.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/144.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71000,
+		"inputAbbreviatedPath": "\/img\/team\/144.jpg",
+		"outputAbbreviatedPath": "\/img\/team\/144.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
