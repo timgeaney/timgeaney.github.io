@@ -3543,6 +3543,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/content-img\/website-cost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31897,
+		"inputAbbreviatedPath": "\/img\/content-img\/website-cost.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/website-cost.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero-img\/bh-logo-black.png": {
 		"fileType": 32768,
 		"ignore": 0,
