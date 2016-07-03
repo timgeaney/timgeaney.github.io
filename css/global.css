@@ -19396,7 +19396,7 @@ Aside
   .bh-read-more li {
     padding-bottom: 0px; }
   .bh-read-more h3 {
-    font-size: 0.8em; }
+    font-size: 0.6em; }
   .bh-read-more h4 {
     text-align: center;
     padding-top: 1em;
@@ -19404,7 +19404,7 @@ Aside
   .bh-read-more a {
     display: block;
     position: relative;
-    padding: 1.6em 1.1em 1.6em 1.6em; }
+    padding: 1.2em 1em 1.2em 2em; }
     .bh-read-more a::before, .bh-read-more a::after {
       position: absolute; }
     .bh-read-more a::before {
@@ -19578,6 +19578,8 @@ a.link-text:hover {
 .blog-filters {
   padding-top: 4em;
   color: #252525; }
+  .blog-filters li {
+    color: #fff; }
 
 .clients {
   width: 50%;
@@ -22113,6 +22115,9 @@ article.velocity {
 .color-bright-pink {
   color: #FF69B4 !important; }
 
+.color-paper {
+  color: #FCF5D8 !important; }
+
 .color-subtitle {
   color: #606060 !important; }
 
@@ -22247,6 +22252,9 @@ article.velocity {
 
 .bg-color-bright-pink {
   background: #FF69B4 !important; }
+
+.bg-color-paper {
+  background: #FCF5D8 !important; }
 
 .bg-color-white {
   background: #ffffff !important; }

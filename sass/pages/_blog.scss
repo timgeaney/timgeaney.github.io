@@ -146,7 +146,7 @@ Aside
 	}
 
 	h3 {
-		font-size: 0.8em;
+		font-size: 0.6em;
 	}
 
 	h4 {
@@ -158,7 +158,7 @@ Aside
 	a {
 		display: block;
 		position: relative;
-		padding: 1.6em 1.1em 1.6em 1.6em;
+		padding: 1.2em 1em 1.2em 2em;
 
 		&::before, &::after {
 			position: absolute;
@@ -364,6 +364,10 @@ a.link-text:hover {
 .blog-filters {
 	padding-top: 4em;
 	color: $color-dark;
+
+	li {
+		color: #fff;
+	}
 }
 
 

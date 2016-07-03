@@ -3389,6 +3389,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/content-img\/bh-services-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17341,
+		"inputAbbreviatedPath": "\/img\/content-img\/bh-services-2.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/bh-services-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/bh_iphone6_crop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7949,
+		"inputAbbreviatedPath": "\/img\/content-img\/bh_iphone6_crop.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/bh_iphone6_crop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/content-img\/girl-mobile-blue.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
