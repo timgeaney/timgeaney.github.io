@@ -174,6 +174,43 @@
 
 /* ========== Arrow Box ========== */
 
+/* ========== Arrow Box White ========== */
+
+.arrow_box_white {
+  position: relative;
+  background: #fff;
+  border: 4px solid #fff;
+  z-index: 10000;
+  // box-shadow: 0px 15px 55px 27px rgba(52,52,60,.22);
+
+}
+.arrow_box_white:after, .arrow_box_white:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+
+}
+
+.arrow_box_white:after {
+  border-color: rgba(214, 35, 35, 0);
+  border-top-color: #fff;
+  border-width: 20px;
+  margin-left: -20px;
+}
+.arrow_box_white:before {
+  border-color: rgba(214, 35, 35, 0);
+  border-top-color: #fff;
+  border-width: 26px;
+  margin-left: -26px;
+}
+
+/* ========== Arrow Box ========== */
+
 /* ========== Arrow Box Grey ========== */
 
 .arrow_box_grey {
@@ -631,6 +668,10 @@
  }
 
  /* ========== Img Responsive home page========== */
+
+ #bh-fill {
+  margin: 4em;
+ }
 
 
 
