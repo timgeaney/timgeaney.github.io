@@ -18198,7 +18198,7 @@ figure.effect-milo h2 {
 figure.effect-milo p {
   padding: 0 10px 0 0;
   padding-left: 20px;
-  width: 80%;
+  width: 90%;
   border-left: 5px solid #fff;
   text-align: left;
   opacity: 0;
@@ -18206,6 +18206,12 @@ figure.effect-milo p {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(-40px, 0, 0);
   transform: translate3d(-40px, 0, 0); }
+  @media only screen and (min-width: 768px) {
+    figure.effect-milo p {
+      font-size: 1.2em; } }
+  @media only screen and (min-width: 1200px) {
+    figure.effect-milo p {
+      font-size: 1.4em; } }
 
 figure.effect-milo:hover p {
   opacity: 1;
@@ -18474,6 +18480,9 @@ figure.effect-chico:hover p {
     float: left;
     width: 50%; } }
 
+/*---------------*/
+/***** GRID LAYOUT *****/
+/*---------------*/
 .grid figure.bh-full-height {
   max-height: 450px; }
   @media only screen and (min-width: 1200px) {
