@@ -2256,6 +2256,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/hero-img\/casual-female-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317695,
+		"inputAbbreviatedPath": "\/img\/hero-img\/casual-female-2.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-img\/casual-female-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero-img\/casual-female.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
