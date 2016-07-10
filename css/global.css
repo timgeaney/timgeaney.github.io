@@ -18166,7 +18166,7 @@ figure.effect-ruby:hover p {
 /***** Milo *****/
 /*---------------*/
 figure.effect-milo {
-  background: #2e5d5a; }
+  background: #00ccff; }
 
 figure.effect-milo img {
   max-width: none;
@@ -18181,7 +18181,7 @@ figure.effect-milo img {
   backface-visibility: hidden; }
 
 figure.effect-milo:hover img {
-  opacity: 0.3;
+  opacity: 0.15;
   -webkit-transform: translate3d(0, 0, 0) scale(1);
   transform: translate3d(0, 0, 0) scale(1); }
 
