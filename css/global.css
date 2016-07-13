@@ -18485,19 +18485,24 @@ figure.effect-chico:hover p {
 /*---------------*/
 .grid figure.bh-full-height {
   max-height: 450px; }
+  @media only screen and (min-width: 768px) {
+    .grid figure.bh-full-height {
+      display: block;
+      width: 50%; } }
   @media only screen and (min-width: 1200px) {
     .grid figure.bh-full-height {
-      max-height: 600px; } }
+      max-height: 700px; } }
 
 .grid figure.bh-half-height {
   max-height: 225px;
   display: none; }
   @media only screen and (min-width: 768px) {
     .grid figure.bh-half-height {
-      display: block; } }
+      display: block;
+      width: 50%; } }
   @media only screen and (min-width: 1200px) {
     .grid figure.bh-half-height {
-      max-height: 300px; } }
+      max-height: 350px; } }
 
 .grid figure.bh-quater {
   width: 25%;
@@ -18508,7 +18513,7 @@ figure.effect-chico:hover p {
       display: block; } }
   @media only screen and (min-width: 1200px) {
     .grid figure.bh-quater {
-      max-height: 300px; } }
+      max-height: 350px; } }
 
 .hero-grid {
   margin-bottom: 2em; }
