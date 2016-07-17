@@ -148,9 +148,6 @@
 // Blogs
 // =================================================================
 
-@import 'blog/blog-classic'; // Blog Classic
-@import 'blog/blog-grid'; // Blog Grid
-@import 'blog/blog-sidebar'; // Blog Sidebar
 @import 'blog/blog-single-post'; // Blog Single Post
 @import 'blog/blog-teaser'; // Blog Teaser
 @import 'blog/news'; // News
@@ -159,32 +156,16 @@
 // Components
 // =================================================================
 
-@import 'components/accordion'; // Accordion
-@import 'components/alerts'; // Alerts
-@import 'components/blockquotes'; // Blockquotes
-@import 'components/breadcrumbs'; // Breadcrumbs
+
 @import 'components/buttons'; // Buttons
-@import 'components/comment-form'; // Comment Form
-@import 'components/dividers'; // Dividers
-@import 'components/dropcap'; // Dropcap
 @import 'components/heading'; // Heading
 @import 'components/icon-list'; // Icon List
 @import 'components/image-popup'; // Image Popup
 @import 'components/lists'; // Lists
-@import 'components/login-form'; // Login Form
-@import 'components/paginations'; // Paginations
-@import 'components/progress-bar'; // Progress Bar
 @import 'components/scroll-to-section'; // Scroll To Section
-@import 'components/tab'; // Tab
-@import 'components/tables'; // Tables
-@import 'components/table-wrap'; // Table Wrap
 @import 'components/theme-icons'; // Theme Icons
-@import 'components/timeline'; // Timeline
-@import 'components/diamond-layout'; // Timeline
-@import 'components/splash-banner'; // splash banner
 @import 'components/hero-text'; // splash banner
 @import 'components/services-wp'; // 
-@import 'components/quick-signup'; //
 
 
 
@@ -195,62 +176,35 @@
 // Gui
 // =================================================================
 
-@import 'gui/call-to-action'; // Call To Action
-@import 'gui/clients'; // Clients
-@import 'gui/counters'; // Counters
 @import 'gui/diagonal-content'; // Diagonal Content
 @import 'gui/equal-height-block'; // Equal Height Block
 @import 'gui/icon-box'; // Icon Box
 @import 'gui/image-gallery'; // Image Gallery
-@import 'gui/interactive-banner'; // Interactive Banner
-@import 'gui/newsletter'; // Newsletter
-@import 'gui/banner-img'; // Banner Img
-@import 'gui/parallax'; // Parallax
 @import 'gui/piecharts'; // Piecharts
-@import 'gui/pricing-list'; // Pricing List
-@import 'gui/process'; // Process
-@import 'gui/promo-block'; // Promo Block
-@import 'gui/promo-block-1'; // Promo Block
-@import 'gui/services'; // Services
-@import 'gui/slider-block'; // Slider Block
-@import 'gui/team-members'; // Team Members
 @import 'gui/testimonials'; // Testimonials
 @import 'gui/video'; // Video
-@import 'gui/work'; // Work
+
 
 
 // Layout
 // =================================================================
 
-@import 'layout/footer'; // Footer
+
 @import 'layout/footer-v6'; // Footer
 @import 'layout/header'; // Header
 @import 'layout/header-transparent'; // Header
-@import 'layout/language'; // Language
-@import 'layout/language-push'; // Language Push
 @import 'layout/responsive'; // Responsive
-@import 'layout/form-modal'; // Form Modal
-@import 'layout/search'; // Search Default
-@import 'layout/search-classic'; // Search Classic
-@import 'layout/search-fullscreen'; // Search Fullscreen
-@import 'layout/search-on-header'; // Search On Header
-@import 'layout/search-push'; // Search Push
-@import 'layout/sidebar'; // Sidebar
 @import 'layout/topbar-classic'; // Topbar Classic
 @import 'layout/hero-image'; // Hero fade image
 @import 'layout/hero-grid'; // Hero fade image
 
 
 
-
-
 // Pages
 // =================================================================
 
-@import 'pages/coming-soon'; // Coming Soon
 @import 'pages/contact-us'; // Contact Us
 @import 'pages/faq'; // FAQ
-@import 'pages/shopify'; // Shopify
 @import 'pages/service'; // 
 @import 'pages/legal'; //
 @import 'pages/process'; // 
@@ -264,15 +218,10 @@
 
 
 
-
-
-
-
-
 // Plugins
 // =================================================================
 
-@import 'plugins/animated-headline'; // Animated Headline
+
 @import 'plugins/animsition'; // Animsition
 @import 'plugins/back-to-top'; // Back To Top
 @import 'plugins/bootstrap-components'; // Bootstrap Components
@@ -281,8 +230,7 @@
 @import 'plugins/owl-carousel'; // Owl Carousel
 @import 'plugins/portfolio'; // Portfolio
 @import 'plugins/rev-slider'; // Revolution Slider
-@import 'plugins/slick'; // Slick Slider
-@import 'plugins/slick-theme'; // Slick Slider theme
+
 
 
 
