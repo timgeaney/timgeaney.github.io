@@ -1310,17 +1310,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/beachhut\/designer-desk.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 777369,
-		"inputAbbreviatedPath": "\/img\/beachhut\/designer-desk.png",
-		"outputAbbreviatedPath": "\/img\/beachhut\/designer-desk.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/beachhut\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2098,6 +2087,17 @@
 		"initialSize": 63001,
 		"inputAbbreviatedPath": "\/img\/content-img\/designer-desk.jpg",
 		"outputAbbreviatedPath": "\/img\/content-img\/designer-desk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/designer-desk.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 777369,
+		"inputAbbreviatedPath": "\/img\/content-img\/designer-desk.png",
+		"outputAbbreviatedPath": "\/img\/content-img\/designer-desk.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
