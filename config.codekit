@@ -2080,6 +2080,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/content-img\/designer-desk-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 554914,
+		"inputAbbreviatedPath": "\/img\/content-img\/designer-desk-02.jpg",
+		"outputAbbreviatedPath": "\/img\/content-img\/designer-desk-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/content-img\/designer-desk-02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/content-img\/designer-desk-02.png",
+		"outputAbbreviatedPath": "\/img\/content-img\/designer-desk-02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/content-img\/designer-desk.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
