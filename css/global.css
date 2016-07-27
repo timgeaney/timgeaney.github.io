@@ -2590,9 +2590,9 @@ p {
   position: relative;
   display: inline-block;
   line-height: 1.4;
-  color: #ffffff;
+  color: #252525;
   text-align: center;
-  background: transparent;
+  background: #fff;
   background-image: none;
   border-width: 1px;
   border-style: solid;
@@ -16306,6 +16306,26 @@ article.velocity {
   pointer-events: none;
   border-color: rgba(0, 204, 255, 0);
   border-bottom-color: #00ccff;
+  border-width: 20px;
+  margin-left: -20px; }
+
+/* ========== End Arrow Top Base ========== */
+/* ========== Arrow Top Base ========== */
+.arrow_box_top_dark {
+  position: relative;
+  background: #3a3a44; }
+
+.arrow_box_top_dark:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 204, 255, 0);
+  border-bottom-color: #3a3a44;
   border-width: 20px;
   margin-left: -20px; }
 

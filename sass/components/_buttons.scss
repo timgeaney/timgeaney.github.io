@@ -282,7 +282,7 @@
 
 /* Button Base White Color */
 .btn-white-brd {
-    @include buttons($color-white, $color-dark, transparent, $color-white, 1px, $color-white, $color-white);
+    @include buttons($color-dark, $color-dark, #fff, $color-white, 1px, $color-white, $color-white);
 
     .btn-base-element-xs {
         @include buttons-element(transparent, darken($color-white, 6%), 6px 9px);
