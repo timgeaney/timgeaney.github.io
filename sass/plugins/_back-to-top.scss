@@ -3,7 +3,7 @@
 ----------------------------------------------------*/
 
 .back-to-top-theme {
-    @include position(fixed, $bottom: 25px, $right: 25px);
+    @include position(fixed, $bottom: 75px, $right: 45px);
     display: inline-block;
     z-index: 9;
     @include size(60px);

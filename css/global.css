@@ -12003,8 +12003,8 @@ article.velocity {
 ----------------------------------------------------*/
 .back-to-top-theme {
   position: fixed;
-  right: 25px;
-  bottom: 25px;
+  right: 45px;
+  bottom: 75px;
   display: inline-block;
   z-index: 9;
   width: 60px;
