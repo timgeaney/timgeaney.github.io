@@ -1310,6 +1310,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/beachhut\/fb-cover-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61945,
+		"inputAbbreviatedPath": "\/img\/beachhut\/fb-cover-image.jpg",
+		"outputAbbreviatedPath": "\/img\/beachhut\/fb-cover-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/beachhut\/FireShot Capture 39 - beach_hut - http___macbooks-macbook-pro.local_5757_services.html.png": {
 		"fileType": 32768,
 		"ignore": 0,
