@@ -2575,6 +2575,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo\/bh-logo-blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10242,
+		"inputAbbreviatedPath": "\/img\/logo\/bh-logo-blue.jpg",
+		"outputAbbreviatedPath": "\/img\/logo\/bh-logo-blue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/team\/144.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
