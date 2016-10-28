@@ -21,6 +21,8 @@ var EqualHeight = function() {
             $('.l-services-mp-equal-height').responsiveEqualHeightGrid();
             $('.grid-item-eq-height').responsiveEqualHeightGrid();   
             $('.team-equal-height').responsiveEqualHeightGrid();
+            $('.prices-equal-height').responsiveEqualHeightGrid();
+
 
 
         });

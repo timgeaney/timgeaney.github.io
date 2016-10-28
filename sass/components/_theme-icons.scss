@@ -767,7 +767,7 @@
 
 /* Large Size */
 .theme-icons-lg {
-    @include theme-icons-size(55px, 55px, $font-size-24, 1.15, 14px);
+    @include theme-icons-size(65px, 65px, $font-size-34, 1.15, 14px);
 }
 
 
@@ -1117,3 +1117,5 @@
         }
     }
 }
+
+text

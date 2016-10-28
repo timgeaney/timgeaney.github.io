@@ -5,7 +5,7 @@
 .l-services-v2 {
 	text-align: center;
 	background: $color-white;
-	box-shadow: 7px 7px 5px 0 lighten($color-tint-light, 1%);
+	box-shadow: 7px 7px 5px 0 lighten(#222, 45%);
 	padding: 50px 30px;
 
 	.l-services-v2-title {
@@ -15,7 +15,7 @@
 	.l-services-v2-icon-wrap {
 		position: relative;
 		display: inline-block;
-		@include size(120px);
+		@include size(80px);
 		background: $color-sky-light;
 		vertical-align: middle;
 		padding: 20px;
@@ -24,7 +24,7 @@
 
 		&:before {
 			@include position(absolute, $top: -20px, $left: -20px, $right: -20px, $bottom: -20px);
-			@include size(160px);
+			@include size(120px);
 			border: 2px solid rgba(0,150,136,0);
 			@include border-radius(50%);
 			content: " ";
@@ -39,11 +39,11 @@
 
 	&:hover {
 		.l-services-v2-icon-wrap {
-			background: $color-bright-pink;
+			background: $color-grey;
 			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 			
 			&:before {
-				border-color: rgba(255, 105, 180, 0.3);
+				border-color: rgba(0, 0, 0, 0.3);
 				@include transform-scale(1,1);
 				@include cubic-transition($delay: 0, $duration: 200ms, $property: (all));
 			}

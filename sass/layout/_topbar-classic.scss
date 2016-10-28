@@ -14,7 +14,7 @@
 
         .topbar-c-contacts-item {
             position: relative;
-            @include font($size: $font-size-13);
+            @include font($size: $font-size-20);
             font-family: 'brandon_grotesque_boldregular'; 
             color: #fff;
             padding: 15px;
@@ -38,7 +38,7 @@
         }
 
         .topbar-c-contacts-link {
-            @include font($size: $font-size-13);
+            @include font($size: $font-size-20);
             color: $color-dark;
 
             &:focus,
@@ -67,7 +67,7 @@
 
 
         .topbar-c-actions-item {
-            @include font($size: $font-size-13);
+            @include font($size: $font-size-20);
             color: $color-dark;
             padding: 15px 5px;
             margin-left: -4px;
@@ -78,14 +78,14 @@
         }
 
         .topbar-c-actions-item-divider {
-            @include font($size: $font-size-13);
+            @include font($size: $font-size-20);
             color: $color-subtitle;
             padding: 15px 5px 15px 0;
             margin-left: -4px;
         }
 
         .topbar-c-actions-link {
-            @include font($size: $font-size-13);
+            @include font($size: $font-size-20);
             color: $color-dark;
             padding: 5px;
 
@@ -105,7 +105,7 @@
         }
 
         .topbar-c-actions-link-border {
-            @include font($size: $font-size-13);
+            @include font($size: $font-size-20);
             font-family: 'brandon_grotesque_boldregular';
             text-transform: uppercase;
             color: $color-white;
